@@ -11,6 +11,7 @@ public static void main(String[] args) {
 	ResourceBundle r=ResourceBundle.getBundle("dictionary",mylocal);
 	System.out.println(r.getString("goodmorning"));
 	System.out.println(r.getString("fine"));
+	System.out.println(r.getString("Good night"));
 }
 }
 
