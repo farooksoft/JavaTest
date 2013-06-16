@@ -17,30 +17,23 @@ public class DailyAdviceServer {
 	private void go() {
 		
 		try {
-			ServerSocket serverSocket = new ServerSocket(4242);
-			
+			ServerSocket serverSocket = new ServerSocket(4040);
+			System.out.println("Server started..!!");
 			while(true){
-				
 				Socket socket = serverSocket.accept();
 				PrintWriter printWriter = new PrintWriter(socket.getOutputStream());
-
 				String advice = getAdvice();
 				printWriter.println(advice);
 				printWriter.close();
 				System.out.println(advice);
 			}
-			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		
-		
+		}		
 	}
 
 	private String getAdvice() {
 		int random = (int)Math.random() * adviceList.length;
 		return adviceList[random];
 	}
-
 }
