@@ -7,8 +7,7 @@ public class CreateDir {
 
 	public static void main(String[] args) throws IOException {
 	    doCreateDir();
-	    File f;
-	    f=new File("C:/dir1/dir2/dir3/helloworld.txt");
+	    File f=new File("C:/dir1/dir2/dir3/helloworld.txt");
 	
 	    if(!f.exists()){
 	    	f.createNewFile();
