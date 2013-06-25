@@ -1,5 +1,0 @@
-((Input1.1+Input2.3)*34.98)
-(((Input1.3+Input1.1)/78.09)-Input2.4)
-((Input1.4+Input2.2)*34.98)
-(((Input1.4+Input2.1)/78.09)-(Input2.4+Input1.1))
-((Input2.6+Input2.7)-Input2.8)
