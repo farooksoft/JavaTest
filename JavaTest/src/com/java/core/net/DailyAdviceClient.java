@@ -16,7 +16,7 @@ public class DailyAdviceClient {
 	private void go() {
 		
 		try {
-			Socket socket = new Socket("127.0.0.1", 4242);
+			Socket socket = new Socket("127.0.0.1", 4040);
 			InputStreamReader streamReader = new InputStreamReader(socket.getInputStream());
 			BufferedReader bufferedReader = new BufferedReader(streamReader);
 			
