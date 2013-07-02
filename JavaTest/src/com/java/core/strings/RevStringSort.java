@@ -1,4 +1,4 @@
-package com.strings;
+package com.java.core.strings;
 
 import java.util.Arrays;
 import java.util.Comparator;
