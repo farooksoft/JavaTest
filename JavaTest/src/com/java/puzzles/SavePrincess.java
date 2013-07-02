@@ -1,12 +1,13 @@
 package com.java.puzzles;
 
-import java.util.Scanner;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.log4j.Logger;
 
 /**
  * Traverse through the matrix and print the numbers 
- * 
  * Input : 
  * 1**
  * *2*
@@ -26,10 +27,17 @@ public class SavePrincess {
 		
 		log.info("Please enter Input ::");
 		
-		Scanner scanner = new Scanner(System.in);
-		String input = scanner.nextLine();
+//		Scanner scanner = new Scanner(System.in);
+//		String input = scanner.nextLine();
 		
-		log.info("Read : " + input);
+		SimpleDateFormat date = new SimpleDateFormat("ddMMyy");
+		try {
+			Date parsedDate = date.parse("020713");
+			System.out.println(parsedDate);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+//		log.info("Read : " + input);
 	}
 
 }
