@@ -29,21 +29,12 @@ Procedures/Cursors, Functions, PL/SQL blocks.
 1. Know the requirement clearly before starting any. otherwise LET THEM KNOW WHAT YOU ARE DOING!!!
 2. Have an clear and in-depth understanding on what you are doing.
 
-
-
 "No one ever attains very eminent success by simply doing what is required of him; it is the 
 amount and excellence of what is over and above the required that determines the greatness of 
 ultimate distinction." - Charles Kendall Adams
 
 DON'T KNOW SOME THING, ASK AGAIN AND AGAIN. 
-
 DON'T REPEAT AGAIN THE SAME MISTAKES.
----------------------------------------------------------------------------------------------
-
-
-DON'T KNOW SOME THING, ASK AGAIN AND AGAIN. 
-DON'T REPEAT AGAIN THE SAME MISTAKES.
-
 ---------------------------------------------------------------------------------------------
 **PRIDE**
 ---------------------------------------------------------------------------------------------
