@@ -1,12 +1,29 @@
-Ask mahesh for the Ageing perfomance fixes in Drop2?
+Ask mahesh for the Ageing perfomance and Task Progress bar fixes in Drop2?
+
+
+ClassLoader
+Thread memory management
+Writing custom collection data structures
+volatile and transient key words
+Design patterns in depth
+
+More Java puzzles.
+
+
+Conflict files in Patches and Aggregation fix:
+1. AggregationDao.java
+2. InterconnectCore.java
+3. ConfigurableContentAggregationKeyValueHelper.java
 
 
 
+---------------------------------------------------------------------------------------------
+Extn:
+Mani: 3270
+Mahesh: 3265
+Purushotham: 3262
+Sushma : 3369
 
-
-ConfigurableContentAggregationKeyValueHelper.java
-AggregationDao.java
-InterconnectCore.java
 ---------------------------------------------------------------------------------------------
 LEARNING:
 
@@ -300,9 +317,20 @@ oracle
 
 Fedora IDEA DB Machine : 
 10.113.46.150
-
 ideacontenttest
 ideactest01
+
+AIX box :
+Client binaries are shared in \\10.113.57.79\trunk\Client\deploy
+Application log in credentials
+User: Root
+Password: welcome1
+
+Services are running in unix box 10.113.49.78
+Data Director path :  /disk1/ideatest/DATADIR
+Unix box credentials
+User: ideatest
+Password: ideatest
 
 ---------------------------------------------------------------------------------------------
 Connect to Putty::
@@ -506,15 +534,11 @@ AVERAGE- 45.5kmpl
 ////// 58.5 kmpl/////////
 
 ---------------------------------------------------------------------------------------------
-
 Windows 7 Professional (64-Bit)
 H4J3M-X9JGV-FTVXK-W4W33-9XVHD
-
 ---------------------------------------------------------------------------------------------
-
 Swimming classes
 Higher education
-
 Repository creation
 Shortlist the activities
 
@@ -530,3 +554,14 @@ Security Mode = WPA-Personal
 Encryption Method = TKIP
 Encryption Key = 31tSb0t1hQkbZfJ
 F5AMsml
+
+
+INTERVIEW SET:
+
+* Know whatever technologies that you keep in your resume. with good examples.
+
+For Goldman Sachs:
+1. String word with all possible words in clock wise direction.
+2. All design patterns in Resume.
+
+
