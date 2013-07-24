@@ -1,4 +1,7 @@
-Ask mahesh for the Ageing perfomance and Task Progress bar fixes in Drop2?
+
+
+
+
 
 
 ClassLoader
@@ -563,5 +566,5 @@ INTERVIEW SET:
 For Goldman Sachs:
 1. String word with all possible words in clock wise direction.
 2. All design patterns in Resume.
-
+CTC (A+B) 525,000 617,715
 
