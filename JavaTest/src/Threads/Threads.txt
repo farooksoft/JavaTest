@@ -1,0 +1,256 @@
+[Threads]
+U can visualize Java Thread as a Man with so many hands.
+Ex:1
+5 Threads running for one Program.
+Ex2:
+A window having so many features running on it.
+Advertisements,Stock Resutls,Weather report on single window.
+
+
+(Q)What is the difference in a Multithreading support b/w Java  and other Languages?
+Ans:
+In Languages like C++ support for Multithreading is not intrinsic part of Language.
+Programmers have to rely on the O/S specific libraries for support of multithreaded 
+features,as a result the program cannot be shifted to another O/S platform even at the 
+source code level also.i.e if we develop a multithreaded program for VC++,it will not 
+compile on Unix,Solaris based platform.
+The reason being that VC++ thread libraries are different from Solaris VC++ Libraries.
+
+However in Java Multithreading support is an  integral part of Java language,hence 
+a Multithreaded program created in Java is byte code portable b/w windows platform 
+and Unix/Solaris platform.
+
+[States of Thread]
+(1)Doesnt exist state
+(2)Created State
+(3)Ready to Run
+(4)Running
+(5)Suspended
+
+[Doesnot exist State]
+This is the State when the Thread is not defined or created.
+
+[Created State]
+This is State when the Thread is created.
+
+[Ready to Run]
+This is the State when start() is called on the created Thread.
+Their can be so many Threads on this State,and according to the Scheduler(within JVM)
+that particular thread goes to Running State.
+
+[Running State]
+This the state,where the thread executes its code.
+
+[Suspended State]
+From this State,Threads go to the Ready to Run State.
+
+[Note]
+We cannot control the Scheduler,but we can set the priority,i.e indirectly we are 
+controlling the Scheduler.
+[Note]
+Upto now,the programs we have created has only one Thread,which is called the
+main thread.
+
+[Creation of Thread]
+There two methods to create the Thread.
+(1)Implementing Runnable interface.
+(2)Extending Thread Class.
+
+(Q)Why runnable as parameter?
+Ans:
+This parameter tells what to do by the Thread(Implementing the Runnable interface).
+
+[Runnable interface]
+This is part of java.lang package.
+Runnable interface consists only one method run().
+Every one who wants to be runnable must implement Runnable interface.
+
+(Q)What are runnables?
+Ans:
+Instances of classes,which implement Runnable interface.
+Any class which has to run in thread must implement Runnable interface.
+The activity which u want to run in the thread must be mentioned in the run().
+
+[Excution of Thread]
+Based on the time slicing,each thread gets executed and so ur output get changed each
+time u run the program.
+
+(Q)Can we change the time slicing?
+Ans:
+We cannot control the Scheduler,but we can set the priority,i.e indirectly we are
+controlling the Scheduler.
+
+[Steps to create a Thread]
+
+(1)Create a class which implements Runnable interface.
+    The Runnable interface is standard interface,which has one method called run().
+    In the body of run(),we should define the activity,the runnable is supposed to perform.
+
+(2)Create an instance of the runnable class.
+
+(3)Create an instance of the Thread class using the runnable(creates in step2) 
+    as parameter.
+
+(4)Start the thread,by calling start() on Thread Object,this will automatically invoke run()
+of the runnable object associated with the Thread object.
+
+[Thread Class]
+This Class belongs to the package java.lang
+This class implements the Runnable interface,implementing the run() as dummy.
+
+[Second Approach to create the Thread]
+In this approach a derived class is created extending the Thread class.
+As said above Thread class already implements the Runnbale interface and implementing
+the run() as dummy.
+So we need to override this run(),with activity as the body.
+
+[Comparison of two appraoches of creating the Thread]
+The first approach,i.e creating the runnable and then creating Thread Object is better
+than extending from Thread class for the following reasons.
+
+(1)
+    Java allows only single inheritance.
+    Once a class inherits from a Thread class,cannot inherit anyother behavior.
+    Which means the opportunity for getting some additional functionality is not their 
+    in the second approach.
+    However in the first approach as the runnable class only has to implement the Runnable
+    interface,it can choose to extend from any other class and get additional functionality
+
+(2)
+   As the size of derived class object is bigger that its base class,it follows that the
+   Thread objects created using  the second approach will be bigger than the Thread
+   objects created using the first appraoch.
+   First approach is better becoz it conserves less memory.
+
+[Note]
+If u go for Anonymous class for creation of Thread,then u must go for second approach
+as the Anonymous class concept is for derived class only.
+
+[Different Threads]
+There are different Threads in Java
+(1)User Thread.
+(2)Daemon Thread.
+ [Note]
+If user thread perishes then the Daemon thread also perishes.
+ [Note]
+ main() is user thread.
+
+ [Remember]
+ If there are 2 threads in the program,one is main() thread and t1 other thread.
+ If main thread completes its work,JVM doesnt exit,it waits untill the t1 completes its
+ work.
+ 
+
+
+[Daemon Thread]
+Daemon Thread are generally called service threads,becoz they provide certain services
+to the other user threads.
+Daemon Threads are created by setDaemon(true) on the thread Object,before the thread
+is started.
+If Daemon threads are only threads running in the program,the JVM exits 
+as there are no user threads.
+
+[Daemon Thread Usage]
+Generally Daemon Thread is used for background activity.
+Ex:
+GC is itself a Daemon Thread.
+Ex:
+In a program there are so many Threads and all uses the DB,then u create  the Daemon
+thread which gets the connection,rather than each getting its individual connection.
+
+
+
+
+
+
+
+
+[Locking(Synchronization)]
+All the threads in the program share the same address space.
+If the two threads access the same object, now arises the problem.
+
+When two Threads share the same Object then their is every possibility,while the first
+Thread is acting on the object,the second Thread may also act on the same Object.
+Thus leaving the shared Object in inconsistency.
+Inorder to avoid this the methods on the shared Object should be marked as synchronized.
+Once the method is synchronized,a lock will be taken will be taken on the shared Object
+when the method is entered and lock will only be released when the method is exited.
+
+[wait() and notify()]
+wait() and notify() are used to bring the coordination between the threads.This is 
+something like this.
+(1)First thread gives some data.
+(2)Second thread uses the data only after the first thread gives the data.
+
+[Class]
+wait() and notify() these come from the Object class.
+This class belongs to java.lang package.
+
+[wait()]
+This causes the current thread to wait until another thread invokes the notify() or
+notifyall() on the same Object.
+
+
+(Q)What is the use of notify() and wait()?
+Ans:
+A Thread uses the wait() to wait for certain events to happen.
+when the wait() iscalled,the lock is released and the thread enters into Blocked State.
+The thread will remain in the blocked state till some other thread calls notify() or 
+notifyall() on the same Object.
+
+When notify() is called on one of the threads, which are waiting on that Object are 
+transited from Block state to Ready to Run state.
+Here the thread will have to compete with other Ready to Run state threads for the 
+CPU.
+
+The wait() which causes the lock to released can only be called in synchronized 
+methods.
+
+The notify() and its other form notifyall() are called by a thread to awaken the waiting
+threads.
+notify() will awaken only one thread and put that thread into Ready to Run state.
+So only one thread goes to Running state.
+notifyall() will awaken all waiting threads and put them all in Ready to Run state.
+Ultimately only one thread goes to Running state.
+
+notify() also can be called in only the synchronized method.
+
+However notify() releases the lock at the end of the method.
+
+
+
+[sleep()]
+sleeps for the specified amount of time.
+No need to be called by synchronized method.
+
+(Q)What are DeadLocks and how do they occur?
+Ans:
+DeadLock is the situation in which neither of the two threads are able to proceed.
+A DeadLock generally occurs if they are two Objects(O1,O2) involved and thread t1
+and thread t2 
+
+(Q)What are the different packages,interfaces and classes in Threads?
+Ans:
+
+[Packages]
+(1)java.lang package
+
+[Interfaces]
+(1)Runnable interface.
+
+[Note]
+(1)This interface is implemented by the Thread class,run() as dummy.
+(2)This interface is also implemeted by the user's class,this is the best approach to create 
+     Thread.
+
+
+[Class]
+(1)Thread class
+
+[Note]
+(1)This class is extended by the user's class,this is not the best approach to create Thread.
+
+
+
+
+

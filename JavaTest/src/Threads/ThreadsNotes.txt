@@ -1,0 +1,812 @@
+[Threads]
+
+
+(Q)
+What is a Process?
+Ans:
+
+
+Their exists mainly 3 parts for Process
+(1)Stack
+(2)Code
+(3)Data
+
+
+[Stack]
+Stack consists method name,method arguments,return type and local variables.
+This is the area,which is not accessed by other Threads.
+
+
+[Code]
+This consists logic of the method
+
+
+[Data]
+This consists instance varibles data,etc.
+
+[Heap]
+There is only one Heap per JVM,where object is placed,i.e primitives and object references
+are placed here.
+These variables/references are shared by all threads.
+
+
+[Method Area]
+In this area class variables(static variables) are stored.
+These variables are shared by all threads.
+
+
+
+
+[Context of Process]
+Stack+Code+Data+MMU+setofRegisters
+[Note]
+MMU=Memory Management Unit
+
+
+[Memory Management Unit]
+MMU consits Memory Mapping Table,ProgramCounter and StatusRegisters
+
+For i=5,some has to do Virtual Memory to Physical Memory conversion,if 5 has to
+be stored in Physical Location,which is done by the MMU.
+
+MMU is unique to a particular process.
+MMU table maps virtual address to physical address.
+MMU table is very big.
+Without MMU,ProgramCounter a process cannot work.
+
+
+
+
+
+
+
+(Q)
+What is Multitasking?
+Ans:
+Running several activities concurrently is called MultiTasking.
+
+
+[Types of MultiTasking]
+(1)Process based MultiTasking,which is called as MultiProcessing
+Ex:Typing on WordPard and Listening to songs
+
+(2)Thread based MultiTasking,which is called as MultiThreading
+Ex:Adding Songs to player and Listening to songs
+
+
+
+
+
+(Q)
+What is Multiprocessing?
+Ans:
+One process is Context Switched to other Process by the CPU,which informed by 
+the Scheduler.
+
+
+
+
+
+[Java]
+Java supports Thread based MultiTasking,i.e MultiThreading.
+
+
+
+(Q)
+Why Multiprocessing is slower than Multithreading?/Why Multithreading is
+preferred over Multiprocessing?
+
+Ans:
+Time taken to switch the context from one process to another process is large.
+
+Reason:
+MMU tables configuration of one process is not the same as MMU tables configuration of other 
+process.
+
+Amount of time taken to swap-out the MMU of one process out and swap-in 
+MMU of another process takes so much time,where as this is not the case in 
+threads as,MMU of one thread is almost same as that of other threads MMU,
+and so Multiprocessing very slow compared to Multithreading.
+
+This is becoz two process doesnot belong to same address space,whereas different threads has
+same address space.
+
+
+
+[Disadvantages of MultiThreading]
+No isolation becoz memory of one thread is visible to other.
+
+[Remedy for Multithreading]
+Use Seamophores
+
+
+[Java and Threads]
+When .java file is compiled .class file is generated,which is always in Virtual Address space.
+When program runs the virtual address is mapped to Physical memory.
+
+
+
+[Virtual Memory Size]
+Virtual Memory size of Windows is 2 power 64
+
+
+
+(Q)
+What is the difference in a  Multithreading support b/w Java and other languages?
+Ans:
+In languages like C++ support for Multithreading is not the integral part of the language
+Programmers have to rely on the O/S specific libraries for support of Multithreaded features
+and so the program cannot be shifted to anothe O/S platform.
+
+If we develop multithreaded program in VC++ on Windows,it will not compile on Linux etc.
+The reason is that VC++ thread libraries of Windows are different from Linux thread libraries.
+
+However in Java Multithreading is integral part of the language.Hence a Multithreaded program
+created in Java is byte code portable b/w Windows platform and Unix/Solaris platform.
+
+
+
+
+
+[Thread Safety]
+Thread Safety describes the design of class that ensures that the state of their object is
+always consistent,even when the object is being accessed by multiple threads concurrently.
+
+
+
+
+
+
+[LightWeight Thread]
+At runtime,threads exist in same memory space and so they share both Code and Data,Therefore
+threads are lightweight
+
+
+
+
+[Asynchronous]
+Threads,runtime environment is asynchronous,and so concurrency is possible.
+
+
+
+
+[Thread Scheduler]
+Thread Scheduler is part of JVM,that decides which thread should be running.
+         When a thread completes its time slicing,this thread goes into the Queue,pushing
+other thread to Running State.But this behavior is not gauranteed.
+
+Scheduler cannot be controlled by us,but we can influence it by some methods.
+
+
+(1)public final void setPriority(int newPriority)
+(2)public static void sleep(long millisec) throws InterruptedException
+(3)public static void yield()
+(4)public final void join()throws InterruptedException
+
+
+
+(19)What is the difference TimeSlicing Scheduling and Preemptive Slicing?
+Ans:
+TimeSliced scheduling is also known as Round Robin Scheduling.
+  In this type of scheduling each thread is executed upto some time and then goes to Runnable
+  State.
+  
+  In Pre-emptive Scheduling,if there is high priority thread in Runnable state,it goes to
+  Running State,by moving current thread to Runnable state,which is not the case in 
+  TimeSliced Scheduling.
+
+
+
+
+
+
+
+
+[Thread States]
+The following are Thread States
+(1)New State
+(2)Runnable/Ready to Run State
+(3)Running State
+(4)Waiting/Blocked and Sleeping State
+
+
+
+
+
+
+[New State]
+When Thread t=new Thread(a),Thread object is created,Thread is in New State and 
+so it is not Alive
+
+Ex:Check this from AliveThreadDemo.java,TestAliveThreadDemo.java
+
+
+[Runnable State]
+Thread t=new Thread(a);
+t.start(),at this position thread is eligible to run and it has not got permission from the
+Scheduler to run and so it is in Ready to Run State.Thread is placed in the Queue/Runnable pool
+At this position thread is Alive.
+
+Thread can also come to this state in so many possible ways
+
+         t.start()     
+Thread--------------------------->Runnable
+         TimeSlicing is finished  
+Running-------------------------->Runnable
+         t.notify()
+Blocked-------------------------->Runnable
+         SleepTime is finished 
+sleep---------------------------->Runnable
+
+
+At this position thread is Alive.
+Ex:Check this from AliveThreadDemo.java,TestAliveThreadDemo.java
+
+
+
+[Running State]
+In this State the run() gets executed.
+
+At this position thread is Alive.
+Ex:Check this from AliveThreadDemo.java,TestAliveThreadDemo.java
+
+
+
+[Waiting/Blocked/Sleeping State]
+In all these thread is Alive,but it is not eligible for Running,i.e it is not in the
+Runnable State/Runnable pool.
+
+
+
+[Dead State]
+
+
+(Q)
+What is a thread
+What is  Multithreading
+
+What is Process
+What is Multiprocessing
+
+Why sleep() throws InterruptedException
+
+Can a static method can be final
+
+
+
+
+(Q)
+What are the approaches to create Thread?
+Ans
+There two methods to create Thread
+(1)Implementing Thread
+(2)Extending Thread
+
+
+[Implementing Thread]
+The thing which u want to run as Thread,must become runnable.Inorder to make it runnable,u must
+implement Runnable interface and implement the run method with activity u want.Now instantiate
+it and it will become runnable.
+
+[Steps]
+(1)
+Create a class which implements Runnable interface.
+Runnable interface has only one method called run().
+Implement this method with the activity u want.
+
+(2)
+Create the instance of runnable class 
+
+(3)
+Create instance of Thread Class with runnable class as parameter.
+
+(4)
+Start the Thread instance by calling start() on it.
+Now the Thread object will go to Ready to Run State,i.e it will be in the Queue.
+When Scheduler gives time slicing to this Thread object,this object will automatically call
+run method of runnable object.
+
+
+
+
+[Extending Thread]
+Thread class internally implements the Runnable interface.
+As in first method u must create the runnable class,here this class inherits from Thread Class.
+Write ur activity in the run().
+
+[Steps]
+(1)
+Create a class which extends Thread Class
+Implement run() with the activity u want.
+
+(2)
+Create object of runnable class
+
+(3)
+Start the runnable class.
+Now the runnable object/Thread object will go to Ready to Run State,i.e it will be in the Queue.
+When Scheduler gives time slicing to this runnable object/Thread object,this object
+will automatically call run method of runnable object.
+
+
+
+
+(Q)
+Which method is better among the two?
+Ans:
+Java allows only single inheritance.
+Once a class inheritance from Thread Class,it loosely the ability to inherit extra functionality
+when required.
+Where as the first approach has the oppurtunity of inheriting extra functionality when required.
+
+The second disadvantage of going to second approach is that always a derived class object is 
+larger than the normal class object.
+Therefore Thread object created using second approach consumes larger memory than the first 
+approach.
+
+
+(Q)
+When to go for second approach?
+Ans:
+When u go for Anonymous class approach,u go for second approach
+
+See AnonymousThreadDemo.java
+
+
+
+
+
+[Thread class]
+Thread class implements Runnable interface,but provides dummy implementation for run()
+
+
+
+
+[Thread Constructor]
+
+Thread(Runnable a)
+This construtor creates Thread object,with its own name.
+
+
+Thread(Runnable a,String ThreadName)
+This construtor creates Thread object,with user given  name.
+
+
+
+
+[Thread object Name]
+
+public final String getName(),returns currentThread Name
+
+public final void setName(String ThreadName),sets Thread Name
+
+
+
+
+[Thread reference]
+
+Current Thread reference can be obtained from
+
+public static Thread currentThread()
+
+Thread.currentThread()
+
+
+
+[Thread Starting]
+
+public void start()
+
+
+
+[Thread Status]
+
+public final void setDaemon(boolean flag)
+
+If flag=true,then the thread is Daemon thread
+If flag=false,then the thread is user thread
+[Note]
+This method should be called before the thread is started,otherwise IlegalthreadStateException
+arises.
+
+
+public final boolean isDaemon()
+
+If returns,true then that thread is Daemon thread.
+
+
+
+
+
+[Locking(Synchronization)]
+
+When two Threads share same object,then there is every possibility,while the first thread 
+is acting on the object,the second thread may also act on the same object,leaving the object
+in inconsistency.
+
+Check Common.java and TestCommon.java
+
+[Remedy]
+Inorder to avoid this,the methods on the shared object must be declared as synchronized.
+Once the method is synchronized and first thread tries to execute method,thread takes lock
+on entire object so that no thread can access any method or variable of that class.
+The lock is released only when the method is completely executed.
+
+
+
+(Q)
+What is the use of Synchronized Block?
+Ans:
+For methods which run for long time,it is not good programming practice to use synchronized
+keyword.
+The effect is that the object remains locked for too longer time,thus reducing concurrency
+and performance of the application.
+
+Inorder to avoid this Java introduced synchronized blocks,which holds lock on the object for
+only certain portions of the code.These portions are called critical regions.
+
+
+[Types of Synchronize Blocks]
+(1)Locks on object
+(2)Locks on class
+Priority of these two types locks depends on the O/S.
+
+
+(Q)
+What is the difference between Static Locks and Instance Locks?
+Ans:
+Both Instance methods as well as Static methods can be marked Synchronized.
+
+If Instance method is marked as synchronized,then object is locked.
+If Static method is marked as synchronized,then lock is locked.
+
+
+
+
+In Synchronization there is no concept of TimeSlicing.
+
+W/O Synchronization,there is data inconsistency.This is becoz,In MultiThreading, Data 
+is common,i.e shared by all Threads
+Ex:
+Ch
+
+
+
+Instance Locks--multiple
+Static Locks--Single
+
+
+[Thread Alive]
+public final boolean Alive()
+
+This method returns true when the thread is Ready to Run State or Running State.
+[Note]
+When Thread t=new Thread(a),Thread object is created,Thread is in New State and 
+so it is not Alive
+
+
+Ex:
+Check functionality from AliveThreadDemo.java,TestAliveThreadDemo.java
+
+
+[Pririoties]
+Priorities range from 1 to 10
+A Thread gets default priority,i.e the priority of the thread of execution that creates it.
+
+Ex:Check this from (1)ThreadPriorityDemo.java,TestThreadPriorityDemo.java
+                   (2)SetThreadPriorityDemo.java,TestSetThreadPriorityDemo.java                       
+ 
+
+
+     JVM never changes the set priorities.All JVM's doesnot support all 1 to 10 priorities,they
+support only 1 to 5.
+Default thread priority is 5.
+
+Thread Class has 3 static final variables,that define the thread priorites.
+MIN_PRIORITY----->1
+NORM_PRIORITY---->5
+MAX_PRIORITY----->10
+
+[Usage of three static variables]
+
+Thread t=new Thread()
+t.setPriority(Thread.MIN_PRIORITY)
+t.setPriority(Thread.MAX_PRIORITY)
+t.setPriority(Thread.NORM_PRIORITY)
+
+
+[Note]
+Priority should be set before the Thread is started.
+Thread t =new Thread(a);
+t.setPriority(5);
+t.start();
+t.getPriority();
+
+
+
+
+[Yielding]
+Yielding=to give oppurtunity
+
+yield() is static method.
+
+(Q)
+When do u use yield?
+Ans:
+For long running program.
+
+Suppose there two threads with priority 7 and 5,so high priority thread runs for long time
+as it is long program and so inorder to avoid this,the high priority thread must yield,
+i.e taking break and going to Ready to Run state,i.e giving chance to another thread.
+
+
+[Note]
+yield() is not the gaurantee function on certain H/W's.
+This will definately work on Solaris,as Java is developed on Solaris O/S.
+
+
+
+[Notifying]
+Sometimes we require co-ordination between two threads like,
+First thread gives some data and second thread uses that data.
+
+Java Threads can be notified in two ways
+(1)notify()
+(2)notifyall()
+
+
+wait(),notify,notifyall() belong to Object class.
+
+
+[Wait State]
+wait(),releases the lock.
+This method can be called only from synchronized method/synchronized block
+This method throws CheckedException.
+
+	      wait()    
+Running State------->Blocked State
+
+
+
+[Notifying Single Thread]
+This method can be called only from synchronized method/synchronized block
+
+             notify()   
+Blocked State------->Ready to Run State
+
+
+
+[Notifying All Threads]
+All the threads which are in Blocked State come to Ready to Run State,but only one will be
+running.
+
+             notify()   
+Blocked State------->Ready to Run State
+
+
+
+
+
+[Summary on wait(),notify() and notifyall()]
+
+wait(),notify() and notifyall() are final methods.
+
+A Thread uses the wait() to wait for certain events to happen.
+When wait() is called lock is released and thread enters the Blocked State.
+                    Thread will remain in Blocked state till some other thread calls notify()
+notifyall() on the same object
+
+
+
+
+
+
+
+[Sleeping]
+public static void sleep(long millisec) throws InterruptedException
+
+When this method is called on the Thread,thread goes into sleeping state.In this
+State the Thread doesnot loose any Locks,if it is previously holding any lock.
+
+	 Thread.sleep()
+Running----------------->Sleeping State
+
+
+(Q)
+When the thread is in sleeping State,how u will make it to come out of sleeping State
+before its sleep duration?
+Ans:
+This method throws InterruptedException when another thread calls interrupt() on this method
+Generally interrupt() is called by other thread on currentThread if it is in sleep or waiting
+
+
+
+[Note]
+Their is no need to be called from synchronized method/synchronized block
+
+
+
+
+
+
+
+
+[Daemon Thread]
+
+(Q)
+What are Daemon Threads?
+Ans:
+Daemon Threads runs in the background and provide certain services to the other user Threads.
+
+Daemon Thread is also called Service Thread.
+Daemon Thread is also called Helper Thread.
+
+
+
+
+
+
+[Creating DaemonThread]
+Daemon Thread is created by calling setDaemon(true) on Thread object,before the
+Thread is started.
+
+
+
+[Note]
+(1)main() Thread is User Thread.
+
+(2)In a program u can never have only DaemonThread.
+
+(3)Garbage Collector is DaemonThread.
+
+
+(Q)
+What happens to DaemonThread if user Thread perishes or completes it work.
+Ans:
+Suppose there are two threads,one is main() and other is user created thread
+
+If main()Thread completes its work,program doesnot get exited until the userThread completes
+it work.
+
+
+
+Suppose there are two threads,one is main() and other is DaemonThread
+
+If main()Thread completes its work,program  gets exited ,becoz the DaemonThread also perishes
+as soon as main()Thread is completed.
+
+
+
+
+
+
+
+[Interrupting a Thread]
+
+
+
+
+
+(Q)
+In how many ways a Thread can interuppted?
+Ans:
+wait()
+sleep()
+join()
+
+
+
+(Q)
+What is the use of join
+Ans:
+In many application there are multiple phases.
+
+In each phase there are so many activities and unless all the activities are completed,
+application cannot transistion from one phase to other phase.
+
+To provide this architecture,Java introduced join() concept.
+Each Activity is performed by a separate thread.At the end of each phase the mainThread does
+join with each of activity threads.
+Thus ensuring all activities of a given phase are completed before going to next phase.
+
+
+Check Operation1.java,Operation2.java,TestJoin.java for checking join functionality.
+
+Execute TestJoin.java program twice,once by commenting join statements and other time by
+uncommenting the join statement,so that u can see differnce of having join() and not having 
+join().
+
+
+
+
+
+
+[stop(),suspend(),resume()]
+stop(),suspend(),resume() methods are depricated.
+
+
+
+
+(Q)
+How to calculate object size,and so try to find the sizes of first approach Thread object and
+second approach Thread object .
+
+
+
+
+
+
+
+[Object Lock and Class Lock]
+We know that there two areas which are shared by the Threads
+(1)Heap area.
+(2)Method area.
+
+So the data in the two areas should be managed properly so that their will be no 
+unpredictable behavior.
+For this, JVM came locks concept(1)Object Lock
+                                (2)Class Lock
+
+[Lock]
+Lock is like privilege, that only one thread can possess at any time.
+If a thread wants object lock or class lock,it asks the JVM.
+
+Threads neednot obtain lock to access shared data.If a thread obtains a lock,no other can
+access that data,unless it releases the lock.
+
+
+[Class Lock]
+Class locks are implemented as object lock.
+When the .class file is loaded into the memory an object of type java.lang.Class is created.
+When u lock a class, u r actually locking the object of java.lang.Class.
+
+
+
+
+[Monitors]
+
+
+
+
+[Multiple Object Locks]
+A single thread is allowed to lock the same object multiple times.
+JVM maintains a counter,which has the no.of times the object has been locked.
+
+An unlocked object has count as zero.
+When a thread acquires the lock for the first time,the count is incremented to one.
+Each time the thread acquires a lock the count is incremented and each time the thread
+releases the lock,the count is decremented.
+When the count is zero,the lock is released and the lock is made available for other threads.
+
+
+
+
+[Synchronization]
+The coordination of multiple threads that must access shared data is called synchronization.
+
+
+
+
+
+
+
+
+
+[Doubts]
+Learn abt break and continue
+
+
+
+Local is being used in Inner class and it should be declared as final,Why so,Read Inner classes
+
+Try a program on yield.
+
+Try differnt programs on Common,taking static counter,two objects and WellFormedCommon.
+
+Why wait() throws CheckedException,recapture the essence of CheckedException
+
+java.lang.Class.
+
+
+What is the difference between lock and monitor
+
