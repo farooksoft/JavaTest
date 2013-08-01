@@ -1,9 +1,6 @@
 
 
 
-
-
-
 ClassLoader
 Thread memory management
 Writing custom collection data structures
@@ -24,9 +21,10 @@ Conflict files in Patches and Aggregation fix:
 Extn:
 Mani: 3270
 Mahesh: 3265
-Purushotham: 3262
+Purushotham : 080 6659 8780
 Sushma : 3369
-
+Subhash : 3146
+MJ : 3269
 ---------------------------------------------------------------------------------------------
 LEARNING:
 
@@ -412,6 +410,9 @@ vishaldk/vishaldk
 
 For IDEA Drop2: Interconnect Final Release::
 svn://10.113.32.127/Calculus/tags/V9.9
+
+8th July Merged Changes:
+svn://10.113.32.127/Calculus/rocps_trunk
 
 CDR's on Naveen machine::
 \\10.113.57.79\Idea CDR\one day XDRs\10
