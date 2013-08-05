@@ -10,6 +10,9 @@ Design patterns in depth
 More Java puzzles.
 
 
+http://stackoverflow.com/questions/4612386/what-is-the-difference-between-new-operator-and-class-forname
+http://stackoverflow.com/questions/5484227/jdbc-class-forname-vs-drivermanager-registerdriver
+
 Conflict files in Patches and Aggregation fix:
 1. AggregationDao.java
 2. InterconnectCore.java
