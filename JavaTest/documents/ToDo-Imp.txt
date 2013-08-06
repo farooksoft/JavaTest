@@ -1,4 +1,8 @@
 
+ps -ef | grep ideadev
+
+
+
 
 
 ClassLoader
@@ -191,7 +195,7 @@ Username: idea_databuild
 Password: welcome
 
 --Usg
-Username: idea_databuild_usg               
+Username: idea_databuild_usg
 Password: welcome
 
 Client Username/Password: Root/welcome2
@@ -335,6 +339,7 @@ Application log in credentials
 User: Root
 Password: welcome1
 
+Current AIX Box :
 Services are running in unix box 10.113.49.78
 Data Director path :  /disk1/ideatest/DATADIR
 Unix box credentials
