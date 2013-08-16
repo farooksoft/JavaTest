@@ -1,9 +1,30 @@
+Observer Pattern:
+--------------------------------
+Defn:: The Observer pattern is a software design pattern in which an object, called the subject, maintains a list of dependents,
+called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
+
+1. When you need many other objects to receive an update when another object changes.
+Ex: Stock market with thousands of stocks needs to send updates to objecrs representing individual stocks.
+The subject(Publisher) sends many stocks to the Observers
+The Observers(Subscribers) takes the ones they want and use them.
+
+2. Loose coupling is a benefit
+2.1 The subject(publisher) doesnt need to know anything about the Observers(subscriber)
+Negative: The subject(publisher) may send updates that don't matter to the Observer(subscriber)
+
+
+
+
+
+
+
+
+
+
+
+
 
 ps -ef | grep ideadev
-
-
-
-
 
 ClassLoader
 Thread memory management
@@ -27,7 +48,7 @@ Conflict files in Patches and Aggregation fix:
 ---------------------------------------------------------------------------------------------
 Extn:
 Mani: 3270
-Mahesh: 3265
+Mahesh: 3262 ; 3265
 Purushotham : 080 6659 8780
 Sushma : 3369
 Subhash : 3146
