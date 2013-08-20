@@ -12,16 +12,7 @@ The Observers(Subscribers) takes the ones they want and use them.
 2.1 The subject(publisher) doesnt need to know anything about the Observers(subscriber)
 Negative: The subject(publisher) may send updates that don't matter to the Observer(subscriber)
 
-
-
-
-
-
-
-
-
-
-
+---------------------------------------------------------------------------------------------
 
 
 ps -ef | grep ideadev
@@ -602,4 +593,19 @@ For Goldman Sachs:
 1. String word with all possible words in clock wise direction.
 2. All design patterns in Resume.
 CTC (A+B) 525,000 617,715
+---------------------------------------------------------------------------------------------
+Hi Ruchi Jobanputra,
 
+With respect to your mail below, Here i'm sending my profile as an attachment to this mail. I have 3.5 years of good hands
+on experience in Core Java including Data Structures with Multi-Threading and JEE applications such as JSP, JDBC, Struts,
+Spring with Hibernate. Have good exposure to Agile and XP programming.
+
+Current CTC: 6.2 LPA
+Expected CTC: 10 LPA
+Notice Period: 2 months(Currently in notice period)
+
+Please process it and update me further. Thank you.
+
+Regards,
+Srinath R
+9916149606
