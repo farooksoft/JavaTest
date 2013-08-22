@@ -1,18 +1,4 @@
-Observer Pattern:
---------------------------------
-Defn:: The Observer pattern is a software design pattern in which an object, called the subject, maintains a list of dependents,
-called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 
-1. When you need many other objects to receive an update when another object changes.
-Ex: Stock market with thousands of stocks needs to send updates to objecrs representing individual stocks.
-The subject(Publisher) sends many stocks to the Observers
-The Observers(Subscribers) takes the ones they want and use them.
-
-2. Loose coupling is a benefit
-2.1 The subject(publisher) doesnt need to know anything about the Observers(subscriber)
-Negative: The subject(publisher) may send updates that don't matter to the Observer(subscriber)
-
----------------------------------------------------------------------------------------------
 
 
 ps -ef | grep ideadev
@@ -594,6 +580,29 @@ For Goldman Sachs:
 2. All design patterns in Resume.
 CTC (A+B) 525,000 617,715
 ---------------------------------------------------------------------------------------------
+
+Why you go for an Abstract class and why for an Interface.
+Thread interconnection
+
+Puzzles!!!!!!!!!!!!!!!!!!!
+
+---------------------------------------------------------------------------------------------
+
+Observer Pattern:
+--------------------------------
+Defn:: The Observer pattern is a software design pattern in which an object, called the subject, maintains a list of dependents,
+called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
+
+1. When you need many other objects to receive an update when another object changes.
+Ex: Stock market with thousands of stocks needs to send updates to objecrs representing individual stocks.
+The subject(Publisher) sends many stocks to the Observers
+The Observers(Subscribers) takes the ones they want and use them.
+
+2. Loose coupling is a benefit
+2.1 The subject(publisher) doesnt need to know anything about the Observers(subscriber)
+Negative: The subject(publisher) may send updates that don't matter to the Observer(subscriber)
+
+---------------------------------------------------------------------------------------------
 Hi Ruchi Jobanputra,
 
 With respect to your mail below, Here i'm sending my profile as an attachment to this mail. I have 3.5 years of good hands
@@ -609,3 +618,12 @@ Please process it and update me further. Thank you.
 Regards,
 Srinath R
 9916149606
+
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
