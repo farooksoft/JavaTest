@@ -1,42 +1,24 @@
-/home/srikanthm/Java/jdk1.6.0_24/bin
 
 
 
 
 
-Observer Pattern:
---------------------------------
-Defn:: The Observer pattern is a software design pattern in which an object, called the subject, maintains a list of dependents,
-called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 
-1. When you need many other objects to receive an update when another object changes.
-Ex: Stock market with thousands of stocks needs to send updates to objecrs representing individual stocks.
-The subject(Publisher) sends many stocks to the Observers
-The Observers(Subscribers) takes the ones they want and use them.
 
-2. Loose coupling is a benefit
-2.1 The subject(publisher) doesnt need to know anything about the Observers(subscriber)
-Negative: The subject(publisher) may send updates that don't matter to the Observer(subscriber)
+Check with Sajith about increment salary
+---------------------------------------------------------------------------------------------
+Transfer money to Venu!!
+1800/-
+
 
 ---------------------------------------------------------------------------------------------
-
-Why no private and protected classes in Java?
-
-
-ps -ef | grep ideadev
-
-ClassLoader
-Thread memory management
-Writing custom collection data structures
-volatile and transient key words
-Design patterns in depth
-
-More Java puzzles.
-
-
+You don't want Success as much as you want to Sleep!!
+---------------------------------------------------------------------------------------------
 http://stackoverflow.com/questions/4612386/what-is-the-difference-between-new-operator-and-class-forname
 http://stackoverflow.com/questions/5484227/jdbc-class-forname-vs-drivermanager-registerdriver
 
+
+---------------------------------------------------------------------------------------------
 Conflict files in Patches and Aggregation fix:
 1. AggregationDao.java
 2. InterconnectCore.java
@@ -52,23 +34,6 @@ Subhash : 3146
 MJ : 3269 / 3271
 ---------------------------------------------------------------------------------------------
 LEARNING:
-
-Java::
-1. java.util.concurrent.ExecutorService
-Ex: ExecutorService extractCDRExecutorService = Executors.newFixedThreadPool( 3 );
-2. java.util.concurrent.Future<Boolean>
-Necessety if 'this' keywaord
-Algorithmism::~
-Polynomial Complexity
-Back tracking
-Brute Force
-
-Oracle::
-1. Oracle partitions
-2. Indexes on tables
-1. Oracle SQL/PLSQL
-Procedures/Cursors, Functions, PL/SQL blocks.
-
 1. Know the requirement clearly before starting any. otherwise LET THEM KNOW WHAT YOU ARE DOING!!!
 2. Have an clear and in-depth understanding on what you are doing.
 
@@ -78,6 +43,8 @@ ultimate distinction." - Charles Kendall Adams
 
 DON'T KNOW SOME THING, ASK AGAIN AND AGAIN. 
 DON'T REPEAT AGAIN THE SAME MISTAKES.
+
+
 ---------------------------------------------------------------------------------------------
 **PRIDE**
 ---------------------------------------------------------------------------------------------
@@ -106,35 +73,8 @@ Acknowledgment for 2013-14 :
 28052013
 ---------------------------------------------------------------------------------------------
 > netstat -tupln
-8790 : Server services
-7779 : TC
-7770 : SC
-7777 
 
 jstack <Process ID> >> /illinois71/rocps/<Dirctory>/<Filename>
----------------------------------------------------------------------------------------------
-Linux : Unix Settings::
-
-1. Setting Environment Variables and starting Databse: On Bangalore Machine
-
-export ORACLE_HOME=/disk1/oracle/app/oracle/product/11.2.0/dbhome_1
-export ORACLE_SID=ora11g
-export PATH=$ORACLE_HOME/bin:$PATH
-
--- Setting Path in Unix
-export PATH=/usr/java/jdk1.5.0_19/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/disk2/ORACLE11G/product/11.2.0/db_1/bin
-export ORACLE_HOME=/disk2/ORACLE11G/product/11.2.0/db_1
-export ORACLE_SID=ora11g
-
-2. Start SQL*Plus without connecting to the database using the following command:
-sqlplus /nolog
-
-3. Connect to the database as SYSDBA using the following command:
-SQL> CONNECT username as sysdba
-
---## If any problem persists with NLS_LANG then issue this
-unset NLS_LANG
-
 ---------------------------------------------------------------------------------------------
 Suhas machine DB: 
 idea_ref / idea_ref
@@ -182,7 +122,6 @@ Gaurav,HR - 3070
 Sreedhanya(FBP) - 3892
 Sajith(FBP) - 3047
 
-
 Yogesh- 3368
 Ratnesh - 3291
 Subhas Bhat - 3146
@@ -210,11 +149,12 @@ Place	Hyderabad
 Date Of Issue 	7/5/2008
 Date of Expiry	6/5/2018
 
+PAN No (Mandatory): CSBPS6004B
 
 Home :~
 Srinath Rayabarapu
 S/O Bhasker Rao, #5-94, NH Road, Main Road, Rampur, Po. Pasara,
-Md. Govindarao Pet, Dt. Warangal, Andhra Pradesh - 506347.
+Md. Govindarao Pet, Dt. Warangal, Andhra Pradesh - 506347
 ---------------------------------------------------------------------------------------------
 Mahesh Sent::
 --Ref
@@ -227,7 +167,6 @@ Password: welcome
 
 Client Username/Password: Root/welcome2
 
-
 Set up machine details:
 Machine Details: 
 10.113.49.190
@@ -237,66 +176,23 @@ rhel5.x#
 orcl11g
 concilia/concilia
 
-
 ---------------------------------------------------------------------------------------------
 Bangalore File Server path::
 \\blrfs01\plutorep\InterconnectV9\Customers\StarHub
----------------------------------------------------------------------------------------------
-To install a font in Unix machine:
-
-1) Create the follwing path if it doesn't exist already: /usr/X11R6/lib/X11/fonts/ttf
-3) Run 'chmod -R 777 *' at the '/usr' path.
-2) Copy the font file (ttf files) to this path.
-3) Go to this path and run the following commands:
-	chmod 777 *
-	mkfontdir /usr/X11R6/lib/X11/fonts/ttf
-	fc-cache -s -v
-
-The font is installed.
-
----------------------------------------------------------------------------------------------
-1. IN CASE OF OUT OF MEMORY: PERM GEN SPACE ERROR, ADD THIS LINE IN '.SH' FILE AFTER 'java' (UNIX BOX)::
-
--XX:PermSize=256M -Xms100M -Xmx700M
-
-2. IN CASE OF OUT OF MEMORY: PERM GEN SPACE ERROR, ADD THIS LINE IN '.CONF' FILE AFTER 'java' (WINDOWS BOX)::
-
-wrapper.java.maxmemory=500
-wrapper.java.additional.1=-XX:MaxPermSize=500M
-
-3. FOR REMOTE DEBUGGING,  ADD THIS LINE IN '.CONF' FILE AFTER 'java' (WINDOWS BOX)::
-
-wrapper.java.additional.2=-Xdebug
-wrapper.java.additional.3=-Xnoagent
-wrapper.java.additional.4=-Djava.compiler=NONE
-wrapper.java.additional.5=-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
----------------------------------------------------------------------------------------------
-You don't want Success as much as you want to Sleep!!
 
 ----------------------------------------------------------------------------------------------------
 *****When you have eliminated the impossible whatever remains, however improbable, is the truth. -S.H*****
 ----------------------------------------------------------------------------------------------------
-WorkFlow:
-Call Data Records's -> Diamond parser -> Concilia Database -> Match and Rate -> Settlements and Bill Generation
--> Reconciliation -> Dispute management -> Birt Reports
-
-https://docs.google.com/forms/d/1XfLSABc9JUhyAFQvD5Pj3kjePhQ64OImfbe5OF2GJdY/viewform
-https://docs.google.com/forms/d/1XfLSABc9JUhyAFQvD5Pj3kjePhQ64OImfbe5OF2GJdY/viewform?edit=ChM2MzEzNzM4NzI3NDgwNjMxMDA2EM7uxPOVqviECg
-
 1Welcome@
 
 mstsc -v 10.113.58.146
 
+Dad AAdhar number:
 2022 90115 02111
 12/11/2012 10:57:03
 
 Android Internals Google Group at 
 http://groups.google.com/group/android-internals
-
----------------------------------------------------------------------------------------------
-LEARN:
-Oracle partitions
-Indexes on tables
 
 ---------------------------------------------------------------------------------------------
 SUBEX Contact Numbers:
@@ -337,28 +233,6 @@ rocps_usage/rocps_usage
 starhub_ref/starhub_ref
 starhub_usg/starhub_usg
 SID for both Ref and Usg:: ora11g
-
-SH UAT :
-App Server :: 10.90.70.98
-Client password : subex2
-DB :: 10.90.70.97
-rocps_ref/rocps_ref
-rocps_usage/rocps_usage
-SID for Ref:: SHREFUAT
-SID for Usg:: SHUSGUAT
-
-/illinois71/rocps/
-
-SH PRD :
-App Server :: 10.199.9.168
-Client password : subex2
-Databse :: 10.199.9.167
-rocps_ref/rocps_ref
-rocps_usage/rocps_usage
-SID for Ref:: SHREFPRD
-SID for Usg:: SHUSGPRD
-
-/illinois81/rocps_data1/rocps_datadir
 
 Connect to Putty:: Login Credentials:
 10.113.49.168
@@ -406,20 +280,7 @@ starhub_ps
 star_ref
 star_ps
 welcome
----------------------------------------------------------------------------------------------
-ORACLE UNIX COMMANDS :: 
-Setting Environment Variables and starting Databse: On Bangalore Machine
 
-export ORACLE_HOME=/disk1/oracle/app/oracle/product/11.2.0/dbhome_1
-export ORACLE_SID=ora11g
-export PATH=$ORACLE_HOME/bin:$PATH
---## Start SQL*Plus without connecting to the database using the following command:
-sqlplus /nolog
---## Connect to the database as SYSDBA using the following command:
-SQL> CONNECT username as sysdba
-
---## If any problem persists with NLS_LANG then issue this
-unset NLS_LANG
 ---------------------------------------------------------------------------------------------
 License Key:
 Operator: 
@@ -470,19 +331,9 @@ contest
 concilia
 Target Directory : /disk3/PROJECTS/STARHUB
 
-
 root / welcome1
 administrator / welcome1
-
 ---------------------------------------------------------------------------------------------
-Subex written test programs::
-
-Files handling with threads
-Binary tree
-Stack implementation
-Linked list
-Producer Consumer problem
-Java Iterator 
 
 PERSONAL**************************************************************************************
 
@@ -506,8 +357,8 @@ bhaskerrao.r / bhasker9
 LAPPY ORACLE DATABASE::
 system as sysdba
 password
-
 appuser/appuser
+
 ---------------------------------------------------------------------------------------------
 To Block Cards:
 Axis : +91 22 67987700 (1-800-233-5577 / 1-800-209-5577 / 1-800-103-5577)
@@ -555,7 +406,6 @@ TTK Healthcare services :: 080 26281900
 ---------------------------------------------------------------------------------------------
 LIC :: No: 688898310
 Amount :: 20129
-
 ---------------------------------------------------------------------------------------------
 ON IOS from Deepak ::
 iOS has 3 parts.
@@ -587,45 +437,19 @@ AVERAGE- 45.5kmpl
 
 /////////////////////Overall Fuel Average//////////////////////////
 ////// 58.5 kmpl/////////
+---------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------
-Windows 7 Professional (64-Bit)
-H4J3M-X9JGV-FTVXK-W4W33-9XVHD
----------------------------------------------------------------------------------------------
 Swimming classes
 Higher education
 Repository creation
 Shortlist the activities
-
-
-GIT COMMANDS::
-cd /d/Git-Workspace/TEST_JAVA_PROJ
-git remote add origin git@github.com:srinath4ever/TEST_JAVA_PROJ.git
-
-
+---------------------------------------------------------------------------------------------
 [------------------------ Your Wireless Settings ------------------------]
 Wireless Name (SSID) = Max_Wireless
 Security Mode = WPA-Personal
 Encryption Method = TKIP
 Encryption Key = 31tSb0t1hQkbZfJ
 F5AMsml
-
-
-INTERVIEW SET:
-
-* Know whatever technologies that you keep in your resume. with good examples.
-
-For Goldman Sachs:
-1. String word with all possible words in clock wise direction.
-2. All design patterns in Resume.
-CTC (A+B) 525,000 617,715
----------------------------------------------------------------------------------------------
-
-Why you go for an Abstract class and why for an Interface.
-Thread interconnection
-
-Puzzles!!!!!!!!!!!!!!!!!!!
-
 ---------------------------------------------------------------------------------------------
 
 National Skills Registry Portal:
@@ -636,21 +460,6 @@ pwd
 Srinath4Pwd
 tpwd
 Srinath4PwdTxn
----------------------------------------------------------------------------------------------
-
-Observer Pattern:
---------------------------------
-Defn:: The Observer pattern is a software design pattern in which an object, called the subject, maintains a list of dependents,
-called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
-
-1. When you need many other objects to receive an update when another object changes.
-Ex: Stock market with thousands of stocks needs to send updates to objecrs representing individual stocks.
-The subject(Publisher) sends many stocks to the Observers
-The Observers(Subscribers) takes the ones they want and use them.
-
-2. Loose coupling is a benefit
-2.1 The subject(publisher) doesnt need to know anything about the Observers(subscriber)
-Negative: The subject(publisher) may send updates that don't matter to the Observer(subscriber)
 
 ---------------------------------------------------------------------------------------------
 Hi Lingaraj,
@@ -673,5 +482,3 @@ Please process it and update me further. Thank you.
 Regards,
 Srinath R
 9916149606
-
----------------------------------------------------------------------------------------------
