@@ -1,4 +1,26 @@
+/home/srikanthm/Java/jdk1.6.0_24/bin
 
+
+
+
+
+Observer Pattern:
+--------------------------------
+Defn:: The Observer pattern is a software design pattern in which an object, called the subject, maintains a list of dependents,
+called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
+
+1. When you need many other objects to receive an update when another object changes.
+Ex: Stock market with thousands of stocks needs to send updates to objecrs representing individual stocks.
+The subject(Publisher) sends many stocks to the Observers
+The Observers(Subscribers) takes the ones they want and use them.
+
+2. Loose coupling is a benefit
+2.1 The subject(publisher) doesnt need to know anything about the Observers(subscriber)
+Negative: The subject(publisher) may send updates that don't matter to the Observer(subscriber)
+
+---------------------------------------------------------------------------------------------
+
+Why no private and protected classes in Java?
 
 
 ps -ef | grep ideadev
@@ -20,16 +42,14 @@ Conflict files in Patches and Aggregation fix:
 2. InterconnectCore.java
 3. ConfigurableContentAggregationKeyValueHelper.java
 
-
-
 ---------------------------------------------------------------------------------------------
 Extn:
 Mani: 3270
-Mahesh: 3262 ; 3265
+Mahesh: 3262 / 3265 / 3259
 Purushotham : 080 6659 8780
 Sushma : 3369
 Subhash : 3146
-MJ : 3269
+MJ : 3269 / 3271
 ---------------------------------------------------------------------------------------------
 LEARNING:
 
@@ -121,6 +141,7 @@ idea_ref / idea_ref
 
 10.113.58.244
 oracle
+Root/welcome1
 ---------------------------------------------------------------------------------------------
 BOOK PERCEPTS:
 
@@ -146,6 +167,7 @@ cansecure pin : axis bank id
 Dad:
 2022/90115/02111
 12/11/2012 10:57:03
+BHASKER RAO RAYABARAPU
 
 Sarojana: EAdhar is generated
 2022/90115/02112
@@ -182,6 +204,13 @@ Srinath Rayabarapu
 Flat: 302, Serene Homes, Green Glen Layout, Bellandur
 Bangalore, Karnataka-560103
 
+Passport Info:
+Number 	G8627914
+Place	Hyderabad
+Date Of Issue 	7/5/2008
+Date of Expiry	6/5/2018
+
+
 Home :~
 Srinath Rayabarapu
 S/O Bhasker Rao, #5-94, NH Road, Main Road, Rampur, Po. Pasara,
@@ -197,6 +226,17 @@ Username: idea_databuild_usg
 Password: welcome
 
 Client Username/Password: Root/welcome2
+
+
+Set up machine details:
+Machine Details: 
+10.113.49.190
+Unix username/password: srikanthm
+rhel5.x#
+
+orcl11g
+concilia/concilia
+
 
 ---------------------------------------------------------------------------------------------
 Bangalore File Server path::
@@ -588,6 +628,16 @@ Puzzles!!!!!!!!!!!!!!!!!!!
 
 ---------------------------------------------------------------------------------------------
 
+National Skills Registry Portal:
+Welcome  Srinath Rayabarapu, Your Acknowledgement Number is 113850522G Please Note the same. 
+login
+S8901234
+pwd
+Srinath4Pwd
+tpwd
+Srinath4PwdTxn
+---------------------------------------------------------------------------------------------
+
 Observer Pattern:
 --------------------------------
 Defn:: The Observer pattern is a software design pattern in which an object, called the subject, maintains a list of dependents,
@@ -603,15 +653,20 @@ The Observers(Subscribers) takes the ones they want and use them.
 Negative: The subject(publisher) may send updates that don't matter to the Observer(subscriber)
 
 ---------------------------------------------------------------------------------------------
-Hi Ruchi Jobanputra,
+Hi Lingaraj,
 
 With respect to your mail below, Here i'm sending my profile as an attachment to this mail. I have 3.5 years of good hands
 on experience in Core Java including Data Structures with Multi-Threading and JEE applications such as JSP, JDBC, Struts,
 Spring with Hibernate. Have good exposure to Agile and XP programming.
 
-Current CTC: 6.2 LPA
-Expected CTC: 10 LPA
-Notice Period: 2 months(Currently in notice period)
+
+Total Exp: 3.5 Years
+Relevant Exp: 3.5 Years
+CTC: 6.2 LPA
+ECTC: 10 LPA
+Notice Period : 2 Months
+Date of Birth: 28-12-1985
+PAN No (Mandatory): CSBPS6004B
 
 Please process it and update me further. Thank you.
 
@@ -620,10 +675,3 @@ Srinath R
 9916149606
 
 ---------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
