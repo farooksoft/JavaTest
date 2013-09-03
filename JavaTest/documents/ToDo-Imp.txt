@@ -1,7 +1,10 @@
 
+http://www.shopclues.com/index.php?category_id=1346&features_hash%5B%5D=125.42333&dispatch=categories.view&sort_by=price&sort_order=asc
 
 
 
+Best used of volatile variables? and methods also?
+Find tutorial or examples to JVisualVM?
 
 
 
@@ -482,3 +485,18 @@ Please process it and update me further. Thank you.
 Regards,
 Srinath R
 9916149606
+
+
+
+(Strong analytical & communication skill
+·  Excellent communication skill . Good experience in SQL server. 
+·  This is a new team hence most of the interaction will be with the French counter part  
+·  Hands on experience in Java/J2EE coding
+·  Strong experience in JBoss
+·  Strong experience in Apache & Tomcat is required 
+·  Experience in any of the MVC frame work will be required, 
+·  Experience in HTML & JS
+·  Having experience in Python & Shell scripting would be an added advantage 
+
+
+
