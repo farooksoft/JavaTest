@@ -179,6 +179,18 @@ rhel5.x#
 orcl11g
 concilia/concilia
 
+My Drop2 Database:
+ideacontent_ref/ideacontent_ref@10.113.49.168:ora11g
+ict_drp2_usg1/ict_drp2_usg1@Fedora box
+ict_drp2_usg2/ict_drp2_usg2@Fedora box
+
+On Fedora:
+rocps_ref/rocps_ref
+idea_content_usg1/idea_content_usg1
+idea_content_usg2/idea_content_usg2
+
+rocps_usage/rocps_usage
+
 ---------------------------------------------------------------------------------------------
 Bangalore File Server path::
 \\blrfs01\plutorep\InterconnectV9\Customers\StarHub
@@ -286,13 +298,12 @@ welcome
 
 ---------------------------------------------------------------------------------------------
 License Key:
-Operator: 
-Concilia-Roadmap
-Expiry: 31Dec2012
+Operator: Concilia-Roadmap
+Expiry: 31Dec2013
 Parsers: 10
-Load: 1M/day average
+Load: 15M/day average
 Key:
-kgBETDLMwfDHCElY0t1vHWmI64ToSo/47lf4J4WguiGCwva5/ZoP/xtV69dMoZRQXsMp66OYIsdb3MTjfzUOJE4C6ctqZUqA9uDnhHHVJVdrgQtps+9z5fEf6ubJidjAZLBREJm0Hm/zkW+Tt/KXW6ITIuzP5mT5eqAW05JLhpA=
+fF99F6/ANa1g6h5fb6ztR4YWtVw8mJ1w6lcAH3bF9rkBNpLLkWPkXKTf+XnmMpQyy5IXUf+KNlOyTUcf+8zIWgDQ/YJJWoqTuSgp9n++994nIRn8jzZSg5C/bc6gp965trNV0J38nq/U72IqxwJTPu7ih2EfEXc2AwVw5pVP1Aw=
 
 ---------------------------------------------------------------------------------------------
 STARHUB ::
