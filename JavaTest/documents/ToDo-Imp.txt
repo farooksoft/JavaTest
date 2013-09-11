@@ -379,13 +379,13 @@ Account Number : 910010020784697
 Account Name : SRINATH RAYABARAPU
 Branch : Bangalore Main Branch
 Account Type : SBA/SAPPM
-IIFC Code : UTIB0000009
+IFC Code : UTIB0000009
 MICR Code : 560211002
 Statement: SRIN835090433
 
 Canara Bank::
 Savings: 2433101029102
-IIFC COde: CNRB0002433
+IFC COde: CNRB0002433
 
 Dad's Canara Bank::
 Savings : 1923101002025
