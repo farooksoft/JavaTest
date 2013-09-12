@@ -44,7 +44,6 @@ DON'T REPEAT AGAIN THE SAME MISTAKES.
 **PRIDE**
 ---------------------------------------------------------------------------------------------
 INCOME TAX DETAILS ::~
-
 PAN : CSBPS6004B
 csbps6004b28121985
 
@@ -471,20 +470,15 @@ tpwd
 Srinath4PwdTxn
 
 ---------------------------------------------------------------------------------------------
-Hi Lingaraj,
+Hi Priyanka Patil,
 
-With respect to your mail below, Here i'm sending my profile as an attachment to this mail. I have 3.5 years of good hands
-on experience in Core Java including Data Structures with Multi-Threading and JEE applications such as JSP, JDBC, Struts,
-Spring with Hibernate. Have good exposure to Agile and XP programming.
+Hope you are doing Great! With respect to your mail below, Here i'm sending my profile as an attachment to this mail. I have 3.5 
+years of good hands on experience in Core Java including Data Structures with Multi-Threading and JEE applications such as JSP, 
+JDBC, Struts, Spring with Hibernate. Have good exposure to Agile and XP programming.
 
-
-Total Exp: 3.5 Years
-Relevant Exp: 3.5 Years
 CTC: 6.2 LPA
-ECTC: 10 LPA
-Notice Period : 2 Months
-Date of Birth: 28-12-1985
-PAN No (Mandatory): CSBPS6004B
+Exp CTC: 9.5 LPA
+Notice Period: 1 month
 
 Please process it and update me further. Thank you.
 
@@ -494,15 +488,15 @@ Srinath R
 
 
 
-(Strong analytical & communication skill
-·  Excellent communication skill . Good experience in SQL server. 
-·  This is a new team hence most of the interaction will be with the French counter part  
-·  Hands on experience in Java/J2EE coding
-·  Strong experience in JBoss
-·  Strong experience in Apache & Tomcat is required 
-·  Experience in any of the MVC frame work will be required, 
-·  Experience in HTML & JS
-·  Having experience in Python & Shell scripting would be an added advantage 
 
-
-
+IT Returns : last 3 years
+Employee ID Card
+SSC Memo
+Voter ID
+Ration Card
+Adhar Card
+Passport
+Driving License
+Form 16
+1 Photo
+PAN Card
