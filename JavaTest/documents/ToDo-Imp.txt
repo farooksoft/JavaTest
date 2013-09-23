@@ -1,6 +1,33 @@
 
 
 ---------------------------------------------------------------------------------------------
+Jeevan Anand Plan: LIC of India, Warangal Branch 1
+Started Dated:31-05-2010
+Policy Number: 688898310
+Agent Code: 03304650
+Total policy Value: 5,00,000
+Policy No Years: 25 years
+Policy Premium Amt: 20,129
+Nominee Name: Rayabarapu Sarojana
+Final Premium payment date: 28-05-2034
+Policy matured date: 28-05-2035
+
+Final Amount to be received: 5 Lakh + 5 Lakh + Bonus
+---------------------------------------------------------------------------------------------
+
+
+
+Subex:
+KN/BN/19966/2189
+
+Valtech:
+KN/25096/1160
+
+
+
+Hi, Srinath here. I'm interested in your add. Let me know when can we talk about this. I'm from AP.
+
+---------------------------------------------------------------------------------------------
 Transfer money to Venu!!
 1800/-
 
@@ -12,6 +39,34 @@ You don't want Success as much as you want to Sleep!!
 http://stackoverflow.com/questions/4612386/what-is-the-difference-between-new-operator-and-class-forname
 http://stackoverflow.com/questions/5484227/jdbc-class-forname-vs-drivermanager-registerdriver
 
+
+VPN Details:
+https://secureweb.iclconnect.com/dana-na/auth/url_26/welcome.cgi
+bp_sushant
+may_2013
+
+bp_niraj
+support789
+
+
+VPN Details				
+https://secureweb.iclconnect.com/dana-na/auth/url_26/welcome.cgi
+				
+Username	bp_sushant	bp_subex3	bp_subex2	bp_niraj
+Password	welcome10	welcome123	jun_2013	support789
+				
+Client Login Details				
+IP Address	172.24.162.105			
+PORT	9001			
+Username	Root	subexltd	subex_ose	subex_team
+Password	contentkt@05	welcome08	welcome09	welcome09
+				
+System Logins	Machine 1	Machine 2		
+IP Address	Machine 1	172.24.162.106		
+Username	ibsubex	ibsubex		
+Password	welcome11	MjUn5PqJ		
+				
+DB Logins	subex_supp/Wxttd1-a
 
 ---------------------------------------------------------------------------------------------
 Conflict files in Patches and Aggregation fix:
