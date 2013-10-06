@@ -1,4 +1,6 @@
 
+Mayank
+99167 05725
 
 ---------------------------------------------------------------------------------------------
 Jeevan Anand Plan: LIC of India, Warangal Branch 1
@@ -14,74 +16,16 @@ Policy matured date: 28-05-2035
 
 Final Amount to be received: 5 Lakh + 5 Lakh + Bonus
 ---------------------------------------------------------------------------------------------
-
-
-
 Subex:
 KN/BN/19966/2189
 
 Valtech:
 KN/25096/1160
-
-
-
-Hi, Srinath here. I'm interested in your add. Let me know when can we talk about this. I'm from AP.
-
----------------------------------------------------------------------------------------------
-Transfer money to Venu!!
-1800/-
-
-
-
 ---------------------------------------------------------------------------------------------
 You don't want Success as much as you want to Sleep!!
 ---------------------------------------------------------------------------------------------
 http://stackoverflow.com/questions/4612386/what-is-the-difference-between-new-operator-and-class-forname
 http://stackoverflow.com/questions/5484227/jdbc-class-forname-vs-drivermanager-registerdriver
-
-
-VPN Details:
-https://secureweb.iclconnect.com/dana-na/auth/url_26/welcome.cgi
-bp_sushant
-may_2013
-
-bp_niraj
-support789
-
-
-VPN Details				
-https://secureweb.iclconnect.com/dana-na/auth/url_26/welcome.cgi
-				
-Username	bp_sushant	bp_subex3	bp_subex2	bp_niraj
-Password	welcome10	welcome123	jun_2013	support789
-				
-Client Login Details				
-IP Address	172.24.162.105			
-PORT	9001			
-Username	Root	subexltd	subex_ose	subex_team
-Password	contentkt@05	welcome08	welcome09	welcome09
-				
-System Logins	Machine 1	Machine 2		
-IP Address	Machine 1	172.24.162.106		
-Username	ibsubex	ibsubex		
-Password	welcome11	MjUn5PqJ		
-				
-DB Logins	subex_supp/Wxttd1-a
-
----------------------------------------------------------------------------------------------
-Conflict files in Patches and Aggregation fix:
-1. AggregationDao.java
-2. InterconnectCore.java
-3. ConfigurableContentAggregationKeyValueHelper.java
-
----------------------------------------------------------------------------------------------
-Extn:
-Mani: 3270
-Mahesh: 3262 / 3265 / 3259
-Purushotham : 080 6659 8780
-Sushma : 3369
-Subhash : 3146
-MJ : 3269 / 3271
 ---------------------------------------------------------------------------------------------
 LEARNING:
 1. Know the requirement clearly before starting any. otherwise LET THEM KNOW WHAT YOU ARE DOING!!!
@@ -125,13 +69,6 @@ Acknowledgment for 2013-14 :
 
 jstack <Process ID> >> /illinois71/rocps/<Dirctory>/<Filename>
 ---------------------------------------------------------------------------------------------
-Suhas machine DB: 
-idea_ref / idea_ref
-
-10.113.58.244
-oracle
-Root/welcome1
----------------------------------------------------------------------------------------------
 BOOK PERCEPTS:
 
 Programmer :
@@ -166,30 +103,6 @@ Driving License:
 KA0520120020851
 
 ---------------------------------------------------------------------------------------------
-SUBEX Contact Numbers:
-Mydesk: +9180 6696 3361
-Security desk: 3777
-Sujatha Chitti: 3891
-Gaurav,HR - 3070
-Sreedhanya(FBP) - 3892
-Sajith(FBP) - 3047
-
-Yogesh- 3368
-Ratnesh - 3291
-Subhas Bhat - 3146
-Samudrala Mani Kanta - 3270
-Atul Kumar - 3867
-
-ADDRESS : ----------------------------------------------------------------------------------
-Office :~
-Subex Limited
-RMZ Ecoworld
-Devarabisanahalli
-Outer Ring Road
-Bangalore – 560037, India
-Tel: +91 80 6659 8700
-Fax: +91 80 6696 3333
-
 Flat :~
 Srinath Rayabarapu
 Flat: 302, Home No:145, Serene Homes, Green Glen Layout, Bellandur
@@ -207,43 +120,6 @@ Home :~
 Srinath Rayabarapu
 S/O Bhasker Rao, #5-94, NH Road, Main Road, Rampur, Po. Pasara,
 Md. Govindarao Pet, Dt. Warangal, Andhra Pradesh - 506347
----------------------------------------------------------------------------------------------
-Mahesh Sent::
---Ref
-Username: idea_databuild
-Password: welcome
-
---Usg
-Username: idea_databuild_usg
-Password: welcome
-
-Client Username/Password: Root/welcome2
-
-Set up machine details:
-Machine Details: 
-10.113.49.190
-Unix username/password: srikanthm
-rhel5.x#
-
-orcl11g
-concilia/concilia
-
-My Drop2 Database:
-ideacontent_ref/ideacontent_ref@10.113.49.168:ora11g
-ict_drp2_usg1/ict_drp2_usg1@Fedora box
-ict_drp2_usg2/ict_drp2_usg2@Fedora box
-
-On Fedora:
-rocps_ref/rocps_ref
-idea_content_usg1/idea_content_usg1
-idea_content_usg2/idea_content_usg2
-
-rocps_usage/rocps_usage
-
----------------------------------------------------------------------------------------------
-Bangalore File Server path::
-\\blrfs01\plutorep\InterconnectV9\Customers\StarHub
-
 ----------------------------------------------------------------------------------------------------
 *****When you have eliminated the impossible whatever remains, however improbable, is the truth. -S.H*****
 ----------------------------------------------------------------------------------------------------
@@ -251,152 +127,13 @@ Bangalore File Server path::
 
 mstsc -v 10.113.58.146
 
-Dad AAdhar number:
+Dad Adhar number:
 2022 90115 02111
 12/11/2012 10:57:03
 
+---------------------------------------------------------------------------------------------
 Android Internals Google Group at 
 http://groups.google.com/group/android-internals
-
----------------------------------------------------------------------------------------------
-SUBEX Contact Numbers:
-Mydesk: +9180 6696 3361
-Security desk: 3777
-Sujatha Chitti: 3891
-Gaurav,HR - 3070
-Sreedhanya(FBP) - 3892
-Sajith(FBP) - 3047
-
-Aruna - 3144
-Yogesh- 3368
-
----------------------------------------------------------------------------------------------
-VPN Login Details:
-https://stargate.starhub.com/dana/home/index.cgi
-sbx-akumar
-Start123
-
-sbx-agandhi
-Start123
-
-https://anywhere.exchserver.com
-arunkumar.ks@subex.com
-dineshks
-
-amarnath.g@subex.com
-10p@ss!
-
-SQC :: https://sqc.subexworld.com/
-srinath.rayabarapu@subex.com/srinath45
----------------------------------------------------------------------------------------------
-Bangalore DB Server :
-10.113.49.168
-client password: welcome@
-rocps_ref/rocps_ref
-rocps_usage/rocps_usage
-starhub_ref/starhub_ref
-starhub_usg/starhub_usg
-SID for both Ref and Usg:: ora11g
-
-Connect to Putty:: Login Credentials:
-10.113.49.168
-starhub_ps / welcome
-su - oracle
-oracle
-
-Fedora IDEA DB Machine : 
-10.113.46.150
-ideacontenttest
-ideactest01
-
-AIX box :
-Client binaries are shared in \\10.113.57.79\trunk\Client\deploy
-Application log in credentials
-User: Root
-Password: welcome1
-
-Current AIX Box :
-Services are running in unix box 10.113.49.78
-Data Director path :  /disk1/ideatest/DATADIR
-Unix box credentials
-User: ideatest
-Password: ideatest
-
----------------------------------------------------------------------------------------------
-Connect to Putty::
-
-BNG Server:
-10.113.49.168
-starhub_ps
-welcome
-
-su - oracle
-oracle
-
-SH UAT ::
-10.90.70.98
-rocps/password
-
-rocps
-rocps
-
-starhub_ps
-star_ref
-star_ps
-welcome
-
----------------------------------------------------------------------------------------------
-License Key:
-Operator: Concilia-Roadmap
-Expiry: 31Dec2013
-Parsers: 10
-Load: 15M/day average
-Key:
-fF99F6/ANa1g6h5fb6ztR4YWtVw8mJ1w6lcAH3bF9rkBNpLLkWPkXKTf+XnmMpQyy5IXUf+KNlOyTUcf+8zIWgDQ/YJJWoqTuSgp9n++994nIRn8jzZSg5C/bc6gp965trNV0J38nq/U72IqxwJTPu7ih2EfEXc2AwVw5pVP1Aw=
-
----------------------------------------------------------------------------------------------
-STARHUB ::
-svn://10.113.32.127/StarHubPS/trunk
-srinathr/srinath
-
-Interconnect ::
-svn://10.113.32.127/Calculus/tags/SystemTestRelease/Trunk_V9.7_Build25
-sandhyaranic / sandhyaranic
-
-Spark ::
-svn://10.113.32.127/Spark/tags/branches/QFEs/1.0.0 SP7/QFE552
-jahnavik / jahnavik
-
-IDEAContent ::
-svn://10.113.32.127/IDEAContent/trunk
-srinath.rayabarapu/srinath890
-
-Drop1:  svn://10.113.32.127/IDEAContent/trunk
-Drop2:  svn://10.113.32.127/IDEAContent/branches/IdeaContent-Drop2
-
-For IDEA Drop1: Interconnect ::
-svn://10.113.32.127/Calculus/tags/9.9/Drp2
-vishaldk/vishaldk
-
-For IDEA Drop2: Interconnect Final Release::
-svn://10.113.32.127/Calculus/tags/V9.9
-
-8th July Merged Changes:
-svn://10.113.32.127/Calculus/rocps_trunk
-
-CDR's on Naveen machine::
-\\10.113.57.79\Idea CDR\one day XDRs\10
-
----------------------------------------------------------------------------------------------
-Local FTP Server ::
-10.113.47.190
-contest
-concilia
-Target Directory : /disk3/PROJECTS/STARHUB
-
-root / welcome1
-administrator / welcome1
----------------------------------------------------------------------------------------------
 
 PERSONAL**************************************************************************************
 
@@ -454,13 +191,6 @@ Alternately, you can pay your card outstanding through cheque. Please draw the c
 your “HDFC Bank credit Card No. xxxx xxxx xxxx xxxx” (16-digit card number).
 Write your name and telephone/Mobile No. at the reverse of the cheque and drop it in an HDFC Bank drop box 
 placed at your nearest HDFC Bank Branch.
-
----------------------------------------------------------------------------------------------
-Access mails outside subex : https://anywhere.exchserver.com
-Change Mail password : http://cc.ceryx.com
-srinath.rayabarapu@subex.com
-10p@ss!
-
 ---------------------------------------------------------------------------------------------
 Sreekanth Dubai :: 0097 1528351289
 SKG Dad : 9242701370
@@ -514,7 +244,6 @@ Encryption Method = TKIP
 Encryption Key = 31tSb0t1hQkbZfJ
 F5AMsml
 ---------------------------------------------------------------------------------------------
-
 National Skills Registry Portal:
 Welcome  Srinath Rayabarapu, Your Acknowledgement Number is 113850522G Please Note the same. 
 login
@@ -525,15 +254,11 @@ tpwd
 Srinath4PwdTxn
 
 ---------------------------------------------------------------------------------------------
-Hi Priyanka Patil,
+Hi,
 
 Hope you are doing Great! With respect to your mail below, Here i'm sending my profile as an attachment to this mail. I have 3.5 
 years of good hands on experience in Core Java including Data Structures with Multi-Threading and JEE applications such as JSP, 
 JDBC, Struts, Spring with Hibernate. Have good exposure to Agile and XP programming.
-
-CTC: 6.2 LPA
-Exp CTC: 9.5 LPA
-Notice Period: 1 month
 
 Please process it and update me further. Thank you.
 
