@@ -1,6 +1,44 @@
 
+PLSQL Developer
+
+---------------------------------------------------------------------------------------------
+Srinath_Rayabarapu@bmc.com
+
+Srinath4
+
+Employee Name		
+Srinath Rayabarapu
+Employee Number		
+72489
 
 
+
+Job Title
+Product Developer
+Organization
+3011-39736-BPPM R AND D
+
+dad
+16-8-1961
+mom
+4-9-1965
+
+
+http://bmc.kpoint.com/frontpage
+srinath_rayabarapu@bmc.com
+srinath45
+
+---------------------------------------------------------------------------------------------
+BMC Proactive Performance Management (BPPM)
+
+
+\\vm-w28-rds2001\Share\NewJoineeDocs
+ui/ui
+administrator/bmcAdm1n
+
+
+
+---------------------------------------------------------------------------------------------
 
 Room WIFI:
 harics
