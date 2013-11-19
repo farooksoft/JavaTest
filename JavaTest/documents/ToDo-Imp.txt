@@ -1,28 +1,24 @@
 
-PLSQL Developer
+
+
+
+
+
 
 ---------------------------------------------------------------------------------------------
-Srinath_Rayabarapu@bmc.com
 
-Srinath4
 
-Employee Name		
 Srinath Rayabarapu
-Employee Number		
 72489
-
-
-
-Job Title
+Srinath_Rayabarapu@bmc.com
 Product Developer
-Organization
 3011-39736-BPPM R AND D
+08030914312
 
-dad
+Dad:
 16-8-1961
-mom
+Mom:
 4-9-1965
-
 
 http://bmc.kpoint.com/frontpage
 srinath_rayabarapu@bmc.com
@@ -31,11 +27,18 @@ srinath45
 ---------------------------------------------------------------------------------------------
 BMC Proactive Performance Management (BPPM)
 
-
 \\vm-w28-rds2001\Share\NewJoineeDocs
 ui/ui
 administrator/bmcAdm1n
 
+
+BMC Software India Pvt. Ltd.
+#1, Nagarjuna Castle
+Wood Street/Castle Street, Ashoknagar, Richmond Town
+Bangalore, 560025
+Land Mark: Brigade Towers/Show Off shop
+Telephone: +91-080-30914000
+Fax: +91-080-25578986
 
 
 ---------------------------------------------------------------------------------------------
@@ -67,6 +70,7 @@ You don't want Success as much as you want to Sleep!!
 ---------------------------------------------------------------------------------------------
 http://stackoverflow.com/questions/4612386/what-is-the-difference-between-new-operator-and-class-forname
 http://stackoverflow.com/questions/5484227/jdbc-class-forname-vs-drivermanager-registerdriver
+
 ---------------------------------------------------------------------------------------------
 LEARNING:
 1. Know the requirement clearly before starting any. otherwise LET THEM KNOW WHAT YOU ARE DOING!!!
@@ -144,7 +148,7 @@ Driving License:
 KA0520120020851
 
 ---------------------------------------------------------------------------------------------
-Flat :~
+Old Flat :~
 Srinath Rayabarapu
 Flat: 302, Home No:145, Serene Homes, Green Glen Layout, Bellandur
 Bangalore, Karnataka-560103
@@ -164,9 +168,10 @@ Md. Govindarao Pet, Dt. Warangal, Andhra Pradesh - 506347
 ----------------------------------------------------------------------------------------------------
 *****When you have eliminated the impossible whatever remains, however improbable, is the truth. -S.H*****
 ----------------------------------------------------------------------------------------------------
+
 1Welcome@
 
-mstsc -v 10.113.58.146
+
 
 Dad Adhar number:
 2022 90115 02111
@@ -285,16 +290,6 @@ Encryption Method = TKIP
 Encryption Key = 31tSb0t1hQkbZfJ
 F5AMsml
 ---------------------------------------------------------------------------------------------
-National Skills Registry Portal:
-Welcome  Srinath Rayabarapu, Your Acknowledgement Number is 113850522G Please Note the same. 
-login
-S8901234
-pwd
-Srinath4Pwd
-tpwd
-Srinath4PwdTxn
-
----------------------------------------------------------------------------------------------
 Git repo URL:
 https://github.com/srinath4ever/JavaTest/trunk/JavaTest
 
@@ -310,18 +305,3 @@ Please process it and update me further. Thank you.
 Regards,
 Srinath R
 9916149606
-
-
-
-
-IT Returns : last 3 years
-Employee ID Card
-SSC Memo
-Voter ID
-Ration Card
-Adhar Card
-Passport
-Driving License
-Form 16
-1 Photo
-PAN Card
