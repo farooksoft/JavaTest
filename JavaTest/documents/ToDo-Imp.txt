@@ -1,12 +1,14 @@
 
 
-
-With Draw money for Guitar?
-
-
+Career management bmc site
+HTML5 and Flex coaching
 
 
 
+
+Node.js
+Ruby on Rails
+Python
 
 
 HR Works way:
@@ -15,12 +17,6 @@ Srinath4
 
 ---------------------------------------------------------------------------------------------
 
-Srinath Rayabarapu
-72489
-Srinath_Rayabarapu@bmc.com
-Product Developer
-3011-39736-BPPM R AND D
-08030914312
 
 Dad:
 16-8-1961
@@ -32,13 +28,20 @@ srinath_rayabarapu@bmc.com
 srinath45
 
 ---------------------------------------------------------------------------------------------
-BMC Proactive Performance Management (BPPM)
 
 \\vm-w28-rds2001\Share\NewJoineeDocs
 ui/ui
 administrator/bmcAdm1n
 
+Srinath Rayabarapu
+72489
+Srinath_Rayabarapu@bmc.com
+Product Developer
+3011-39736-BPPM R AND D
+08030914312
++91-80-3091-4312
 
+BMC Address:
 BMC Software India Pvt. Ltd.
 #1, Nagarjuna Castle
 Wood Street/Castle Street, Ashoknagar, Richmond Town
@@ -46,7 +49,6 @@ Bangalore, 560025
 Land Mark: Brigade Towers/Show Off shop
 Telephone: +91-080-30914000
 Fax: +91-080-25578986
-
 
 Subex Limited
 Adarsh Tech Park, Devarabisanahalli, 
@@ -221,9 +223,15 @@ appuser/appuser
 
 ---------------------------------------------------------------------------------------------
 To Block Cards:
+CITI: 080 2227 2484
 Axis : +91 22 67987700 (1-800-233-5577 / 1-800-209-5577 / 1-800-103-5577)
 Canara : 18004256000 / 18004257000
-HDFC :  080 66224332
+HDFC :  080 6622 4332
+
+CITI Bank::
+Account No: 5297198817
+CITIBANK N.A., Bangalore
+IFSC Code: CITI0000004
 
 Axis Bank ::
 Account Number : 910010020784697
@@ -308,47 +316,8 @@ Git repo URL:
 https://github.com/srinath4ever/JavaTest/trunk/JavaTest
 
 ---------------------------------------------------------------------------------------------
-Hi,
-
-Hope you are doing Great! With respect to your mail below, Here i'm sending my profile as an attachment to this mail. I have 3.5 
-years of good hands on experience in Core Java including Data Structures with Multi-Threading and JEE applications such as JSP, 
-JDBC, Struts, Spring with Hibernate. Have good exposure to Agile and XP programming.
-
-Please process it and update me further. Thank you.
-
-Regards,
-Srinath R
-9916149606
 
 
 
 
 
-
-
-11/11/2013 ATM WITHDRAWAL SUBJECT: EURONT 11NOV2055Card
-no.: 5497XXX0XXXX7604 Ref: 7420 HDFC BANK LTD.
- TAVERKERE RD KA IN Ref No :- 11NOV2055
-2000.00 15922.00
-
-18/11/2013 PURCHASE SUBJECT: MCUPOS 17NOV0748Card no.:
-5497XXX0XXXX7604 17NOV DECATHLON SPORTS
-BANGALO Ref: 111700014340 Ref No :- 17NOV0748
-1472.00 14450.00
-
-18/11/2013 EFT TO UTR#CITINXXXXXXXX858 -BHASKAR CANARA -SA
--1923101002025 -CANARA BANK -ANDHRA PRADESH -
-KATAPUR -WARANGA Ref No :- 0985695514
-10000.00 4450.00
-
-18/11/2013 PURCHASE SUBJECT: MCUPOS 18NOV0813Card no.:
-5497XXX0XXXX7604 18NOV MEGHANA FOODS
-BANGALO Ref: 111800017109 Ref No :- 18NOV0813
-320.00 4130.00
-
-19/11/2013 ATM WITHDRAWAL SUBJECT: NFSATM 19NOV0800Card
-no.: 5497XXX0XXXX7604 Ref: 450175 BRINDAVAN
-NAGR TAVARK BANGALORE KAIN Ref No :- 19NOV0800
-1500.00 2630.00
-
-DECATHLON store manager: 95387 12550 - Raj Kumar
