@@ -1,11 +1,22 @@
 
 
+
+
+Build Machine::
+\\pun-ngp-bld02
+
+
+---------------------------------------------------------------------------------------------
+Week 2 Dec - 6 Dec:
+Monday: Uninstalling and Upgrading BPPM server to latest build.
+
+
+
+---------------------------------------------------------------------------------------------
+
+
 Career management bmc site
 HTML5 and Flex coaching
-
-
-
-
 
 Flash Builder 4.5:
 1424-4230-7016-1625-0982-9742
