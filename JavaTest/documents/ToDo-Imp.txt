@@ -1,5 +1,15 @@
 
 
+IndGraphJSPGenerator.java
+7579
+title='Right click for more options'
+
+
+
+'<%= newFormattedOnlyDateFromat %>'+' '+'<%= newFormattedOnlyTimeFormat %>'
+'<%= serverTime %>'
+
+year,month,day,hour,minutes,seconds));
 
 
 Build Machine::
@@ -26,7 +36,7 @@ Ruby on Rails
 Python
 
 
-HR Works way:
+HRWorks way:
 0074458122
 Srinath4
 
@@ -331,6 +341,33 @@ Git repo URL:
 https://github.com/srinath4ever/JavaTest/trunk/JavaTest
 
 ---------------------------------------------------------------------------------------------
+
+
+
+
+Best of Gary OldMan::
+The Fifth Element
+The Dark Knight Trilogy
+The Contender
+Sid and Nancy
+Prick up your Ears
+Leon: The Professional
+Bram Sroker's Drakula
+Rosencrantz and Guildenstern Are Dead
+JFK
+True Romance
+
+Al Pacino::
+Scarface
+Scent of a Women
+Carlito's way
+Heat
+The Devil's Advocate
+The GodFather
+Glengarry Glen Ross
+Dog Day Afternoon
+The GodFather 2
+Serpico
 
 
 
