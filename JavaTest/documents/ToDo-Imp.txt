@@ -1,8 +1,24 @@
 
 
+Valve
+Facebook
+MicroSoft
+Google
+Code.org
+
+
+Don't just wait for the 
+BIG idea, start learning with small ideas/hacks. When the BIG idea 
+happens, you will be ready to implement it better. 
+
+
+Career management bmc site
+HTML5 and Flex coaching
+
 IndGraphJSPGenerator.java
 7579
 title='Right click for more options'
+
 
 
 
