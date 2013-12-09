@@ -20,12 +20,24 @@ IndGraphJSPGenerator.java
 title='Right click for more options'
 
 
-
-
 '<%= newFormattedOnlyDateFromat %>'+' '+'<%= newFormattedOnlyTimeFormat %>'
 '<%= serverTime %>'
 
-year,month,day,hour,minutes,seconds));
+
+SBI Internet Banking credentials check
+SBI General Insurance policy
+Check istitutes for HTML5 and Flex coaching
+
+Career management bmc site
+
+Understand the percentage difference between PPF and LIC or any Fixed deposits which has IT excemptions.
+
+
+
+
+IndGraphJSPGenerator.java
+7579
+title='Right click for more options'
 
 
 Build Machine::
@@ -33,16 +45,7 @@ Build Machine::
 
 
 ---------------------------------------------------------------------------------------------
-Week 2 Dec - 6 Dec:
-Monday: Uninstalling and Upgrading BPPM server to latest build.
 
-
-
----------------------------------------------------------------------------------------------
-
-
-Career management bmc site
-HTML5 and Flex coaching
 
 Flash Builder 4.5:
 1424-4230-7016-1625-0982-9742
@@ -361,7 +364,7 @@ https://github.com/srinath4ever/JavaTest/trunk/JavaTest
 
 
 
-Best of Gary OldMan::
+Best of Gary OldMan::--------
 The Fifth Element
 The Dark Knight Trilogy
 The Contender
@@ -373,7 +376,7 @@ Rosencrantz and Guildenstern Are Dead
 JFK
 True Romance
 
-Al Pacino::
+Al Pacino::--------
 Scarface
 Scent of a Women
 Carlito's way
@@ -384,7 +387,6 @@ Glengarry Glen Ross
 Dog Day Afternoon
 The GodFather 2
 Serpico
-
 
 
 
