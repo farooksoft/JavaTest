@@ -1,5 +1,8 @@
 
 
+INCOME TAX SUBMISSION ????????????????
+
+
 Valve
 Facebook
 MicroSoft
@@ -15,67 +18,87 @@ happens, you will be ready to implement it better.
 Career management bmc site
 HTML5 and Flex coaching
 
-IndGraphJSPGenerator.java
-7579
-title='Right click for more options'
-
-
-'<%= newFormattedOnlyDateFromat %>'+' '+'<%= newFormattedOnlyTimeFormat %>'
-'<%= serverTime %>'
-
-
-SBI Internet Banking credentials check
-SBI General Insurance policy
-Check istitutes for HTML5 and Flex coaching
-
-Career management bmc site
-
-Understand the percentage difference between PPF and LIC or any Fixed deposits which has IT excemptions.
-
-
-
-
-IndGraphJSPGenerator.java
-7579
-title='Right click for more options'
-
-
-Build Machine::
-\\pun-ngp-bld02
-
-
----------------------------------------------------------------------------------------------
-
-
-Flash Builder 4.5:
-1424-4230-7016-1625-0982-9742
-
 Node.js
 Ruby on Rails
 Python
 
 
-HRWorks way:
-0074458122
-Srinath4
 
+Emulating devices for IOS applications??
+
+
+
+
+
+SBI Internet Banking credentials check
+SBI General Insurance policy
+Check istitutes for HTML5 and Flex coaching
+HDFC Card payment followup
+
+Career management bmc site
+
+Understand the percentage difference between PPF and LIC or any Fixed deposits which has IT excemptions.
+=============================================================================================
+URGENT CONTACTS::
+
+To Block Cards:
 ---------------------------------------------------------------------------------------------
+CITI: 080 2227 2484
+Axis : +91 22 67987700 (1-800-233-5577 / 1-800-209-5577 / 1-800-103-5577)
+Canara : 18004256000 / 18004257000
+HDFC :  080 6622 4332
 
+CITI Bank::
+Account No: 5297198817
+CITIBANK N.A., Bangalore
+IFSC Code: CITI0000004
 
-Dad:
-16-8-1961
-Mom:
-4-9-1965
+Axis Bank ::
+Account Number : 910010020784697
+Account Name : SRINATH RAYABARAPU
+Branch : Bangalore Main Branch
+Account Type : SBA/SAPPM
+IFC Code : UTIB0000009
+MICR Code : 560211002
+Statement: SRIN835090433
 
-http://bmc.kpoint.com/frontpage
-srinath_rayabarapu@bmc.com
-srinath45
+Canara Bank::
+Savings: 2433101029102
+IFC COde: CNRB0002433
+cansecuresupport@canarabank.com
+cansecure pin : axis bank id
 
+Dad's Canara Bank::
+Savings : 1923101002025
+IIFC Code: CNRB0001923
+
+HDFC Statement Open:
+SRIN8854
+
+FHPL: Medical Insurance::
 ---------------------------------------------------------------------------------------------
+Bangalore Office:
+Suresh : 09243044053
 
+FHPL representative – Mr. Sushant Kulkarni 
+ Tel No. - 9225522007
+ Email : :S
+ Ask HR – AskHR@bmc.com
+Tel No – (020) 3987 6275 	 	 
+
+Aon representative – Ms. Neha Sarnobat
+No. - 9820924043. 
+Email : neha.sarnobat@aon.com
+=============================================================================================
 \\vm-w28-rds2001\Share\NewJoineeDocs
 ui/ui
 administrator/bmcAdm1n
+
+---------------------------------------------------------------------------------------------
+HRWorks way:
+0074458122
+Srinath4
+---------------------------------------------------------------------------------------------
 
 Srinath Rayabarapu
 72489
@@ -99,6 +122,11 @@ Adarsh Tech Park, Devarabisanahalli,
 Off Outer Ring Road, RMZ Eco World Rd, 
 Adarsh Palm Retreat, Bellandur, Bangalore, KA 560037
 Phone:080 66 598700
+
+http://bmc.kpoint.com/frontpage
+srinath_rayabarapu@bmc.com
+srinath45
+
 
 ---------------------------------------------------------------------------------------------
 
@@ -185,15 +213,16 @@ LIC Details::~
 LIC No: 688898310
 Yearly Pay : 20129/-
 
-CANARA BANK Details::~
-cansecuresupport@canarabank.com
-cansecure pin : axis bank id
-
 ---------------------------------------------------------------------------------------------
-
 9Srinath@
+1Welcome@
 .My body is Cage.
-
+---------------------------------------------------------------------------------------------
+Date Of Birth::
+Dad:
+16-8-1961
+Mom:
+4-9-1965
 
 Dad Aadhar:
 2022/90115/02111
@@ -207,19 +236,18 @@ Sarojana: EAdhar is generated
 Srinath Driving License:
 KA0520120020851
 
----------------------------------------------------------------------------------------------
-Old Flat :~
-Srinath Rayabarapu
-Flat: 302, Home No:145, Serene Homes, Green Glen Layout, Bellandur
-Bangalore, Karnataka-560103
-
-Passport Info:
+Srinath Passport Info:
 Number 	G8627914
 Place	Hyderabad
 Date Of Issue 	7/5/2008
 Date of Expiry	6/5/2018
 
-PAN No (Mandatory): CSBPS6004B
+Srinath PAN No (Mandatory): CSBPS6004B
+---------------------------------------------------------------------------------------------
+Old Flat :~
+Srinath Rayabarapu
+Flat: 302, Home No:145, Serene Homes, Green Glen Layout, Bellandur
+Bangalore, Karnataka-560103
 
 Home :~
 Srinath Rayabarapu
@@ -229,15 +257,6 @@ Md. Govindarao Pet, Dt. Warangal, Andhra Pradesh - 506347
 *****When you have eliminated the impossible whatever remains, however improbable, is the truth. -S.H*****
 ----------------------------------------------------------------------------------------------------
 
-1Welcome@
-
-
-
-Dad Adhar number:
-2022 90115 02111
-12/11/2012 10:57:03
-
----------------------------------------------------------------------------------------------
 Android Internals Google Group at 
 http://groups.google.com/group/android-internals
 
@@ -266,47 +285,8 @@ password
 appuser/appuser
 
 ---------------------------------------------------------------------------------------------
-To Block Cards:
-CITI: 080 2227 2484
-Axis : +91 22 67987700 (1-800-233-5577 / 1-800-209-5577 / 1-800-103-5577)
-Canara : 18004256000 / 18004257000
-HDFC :  080 6622 4332
-
-CITI Bank::
-Account No: 5297198817
-CITIBANK N.A., Bangalore
-IFSC Code: CITI0000004
-
-Axis Bank ::
-Account Number : 910010020784697
-Account Name : SRINATH RAYABARAPU
-Branch : Bangalore Main Branch
-Account Type : SBA/SAPPM
-IFC Code : UTIB0000009
-MICR Code : 560211002
-Statement: SRIN835090433
-
-Canara Bank::
-Savings: 2433101029102
-IFC COde: CNRB0002433
-
-Dad's Canara Bank::
-Savings : 1923101002025
-IIFC Code: CNRB0001923
-
-HDFC Statement:
-SRIN8854
-
-If you do not hold an account with HDFC Bank, you can pay your Card outstanding through NEFT 
-(Use IFSC code HDFC0000128)/ Visa Money Transfer
-Alternately, you can pay your card outstanding through cheque. Please draw the cheque favoring 
-your “HDFC Bank credit Card No. xxxx xxxx xxxx xxxx” (16-digit card number).
-Write your name and telephone/Mobile No. at the reverse of the cheque and drop it in an HDFC Bank drop box 
-placed at your nearest HDFC Bank Branch.
----------------------------------------------------------------------------------------------
 Sreekanth Dubai :: 0097 1528351289
 SKG Dad : 9242701370
-TTK Healthcare services :: 080 26281900
 
 ---------------------------------------------------------------------------------------------
 LIC :: No: 688898310
@@ -361,9 +341,6 @@ https://github.com/srinath4ever/JavaTest/trunk/JavaTest
 
 ---------------------------------------------------------------------------------------------
 
-
-
-
 Best of Gary OldMan::--------
 The Fifth Element
 The Dark Knight Trilogy
@@ -387,7 +364,6 @@ Glengarry Glen Ross
 Dog Day Afternoon
 The GodFather 2
 Serpico
-
 
 
 
