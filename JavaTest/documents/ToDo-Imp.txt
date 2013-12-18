@@ -15,19 +15,12 @@ BIG idea, start learning with small ideas/hacks. When the BIG idea
 happens, you will be ready to implement it better. 
 
 
-Career management bmc site
-HTML5 and Flex coaching
-
 Node.js
 Ruby on Rails
 Python
 
 
-
 Emulating devices for IOS applications??
-
-
-
 
 
 SBI Internet Banking credentials check
@@ -36,6 +29,9 @@ Check istitutes for HTML5 and Flex coaching
 HDFC Card payment followup
 
 Career management bmc site
+HTML5 and Flex coaching
+Deactivate HDFC Creditcard.
+
 
 Understand the percentage difference between PPF and LIC or any Fixed deposits which has IT excemptions.
 =============================================================================================
@@ -99,6 +95,20 @@ HRWorks way:
 0074458122
 Srinath4
 ---------------------------------------------------------------------------------------------
+Dad:
+16-8-1961
+Mom:
+4-9-1965
+
+http://bmc.kpoint.com/frontpage
+srinath_rayabarapu@bmc.com
+srinath45
+
+---------------------------------------------------------------------------------------------
+
+\\vm-w28-rds2001\Share\NewJoineeDocs
+ui/ui
+administrator/bmcAdm1n
 
 Srinath Rayabarapu
 72489
@@ -167,7 +177,7 @@ LEARNING:
 amount and excellence of what is over and above the required that determines the greatness of 
 ultimate distinction." - Charles Kendall Adams
 
-DON'T KNOW SOME THING, ASK AGAIN AND AGAIN. 
+DON'T KNOW SOME THING, ASK AGAIN AND AGAIN.
 DON'T REPEAT AGAIN THE SAME MISTAKES.
 
 
