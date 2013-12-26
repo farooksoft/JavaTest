@@ -1,4 +1,35 @@
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
 
+
+
+--------------------------------------------------------------------------------------------------------
+App on Bribes/Corriuption::
+---------------------------
+Able to capture voice
+Able to capture video
+Able to capture photoes
+
+Able to organize them based on bribe incident
+
+Able to store ACB/Media contacts(Phone number + email ids)
+Able to suggest the user ACB/Media contacts based on user location
+Able to create a customized group from a group of ACB/Media contacts
+
+Able to send Voice/Video/Photoes to the ACB/Media contacts
+Able to broadcast the Voice/Video
+
+Able to show the information about the common violations to fight against bribe
+
+Able to post the incident to Social networking sites
+Able to conduct an opinion Poll
+
+Able to detect other auido/video devices connected to mobile to share the files
+
+--------------------------------------------------------------------------------------------------------
 
 INCOME TAX SUBMISSION ????????????????
 
@@ -136,10 +167,14 @@ Off Outer Ring Road, RMZ Eco World Rd,
 Adarsh Palm Retreat, Bellandur, Bangalore, KA 560037
 Phone:080 66 598700
 
+Srinath Rayabarapu
+C/O Sarojamma, Building No. 55, Flat P8
+8th Cross End, Maruthinagar, Madiwala
+Bangalore, Karnataka, 560068
+
 http://bmc.kpoint.com/frontpage
 srinath_rayabarapu@bmc.com
 srinath45
-
 
 ---------------------------------------------------------------------------------------------
 
@@ -148,7 +183,7 @@ harics
 1635667255
 ---------------------------------------------------------------------------------------------
 Jeevan Anand Plan: LIC of India, Warangal Branch 1
-Started Dated:31-05-2010
+Policy Started Dated:31-05-2010
 Policy Number: 688898310
 Agent Code: 03304650
 Total policy Value: 5,00,000
