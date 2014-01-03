@@ -28,12 +28,7 @@ Able to post the incident to Social networking sites
 Able to conduct an opinion Poll
 
 Able to detect other auido/video devices connected to mobile to share the files
-
 --------------------------------------------------------------------------------------------------------
-
-INCOME TAX SUBMISSION ????????????????
-
-
 Valve
 Facebook
 MicroSoft
@@ -52,6 +47,7 @@ Python
 
 
 Emulating devices for IOS applications??
+
 
 Sreekanth driving license ID Proof:
 DLFAP036262462005
@@ -160,6 +156,8 @@ Bangalore, 560025
 Land Mark: Brigade Towers/Show Off shop
 Telephone: +91-080-30914000
 Fax: +91-080-25578986
+Basement : 4101
+
 
 Subex Limited
 Adarsh Tech Park, Devarabisanahalli, 
