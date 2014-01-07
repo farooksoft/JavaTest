@@ -6,6 +6,10 @@
 
 
 
+
+Understanding Google App Engine for a request, response flow. Preferably with Android.
+
+
 --------------------------------------------------------------------------------------------------------
 App on Bribes/Corriuption::
 ---------------------------
@@ -116,11 +120,6 @@ Aon representative – Ms. Neha Sarnobat
 No. - 9820924043. 
 Email : neha.sarnobat@aon.com
 =============================================================================================
-\\vm-w28-rds2001\Share\NewJoineeDocs
-ui/ui
-administrator/bmcAdm1n
-
----------------------------------------------------------------------------------------------
 HRWorks way:
 0074458122
 Srinath4
@@ -135,6 +134,13 @@ srinath_rayabarapu@bmc.com
 srinath45
 
 ---------------------------------------------------------------------------------------------
+
+vm-w28-rds1036
+administrator/bmcAdm1n
+
+SyBase Database: vm-w28-rds1036:2638?ServiceName=storm_vm-w28-rds1036
+dba/pronet
+
 
 \\vm-w28-rds2001\Share\NewJoineeDocs
 ui/ui
