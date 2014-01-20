@@ -1,3 +1,4 @@
+Ridley Scott 
 
 
 
@@ -153,15 +154,34 @@ srinath45
 ---------------------------------------------------------------------------------------------
 
 vm-w28-rds1036
-administrator/bmcAdm1n
+administrator
+bmcAdm1n
 
 SyBase Database: vm-w28-rds1036:2638?ServiceName=storm_vm-w28-rds1036
 dba/pronet
 
 
+Perforce Details::
+Server: blr-rnd-scm01.bmc.com:16842
+User: srayabar
+Password: Srinath4
+
+
 \\vm-w28-rds2001\Share\NewJoineeDocs
 ui/ui
 administrator/bmcAdm1n
+
+
+MY CLM VM:
+IP: 10.129.151.16
+System Name: CLM-PUN-002617
+administrator
+bmcAdm1n
+
+
+Meeting Numbers:
+08030914312
+9916149606
 
 Srinath Rayabarapu
 72489
@@ -171,7 +191,9 @@ Product Developer
 08030914312
 +91-80-3091-4312
 
-BMC Address:
+\\W-SRAYABAR-07
+
+Office Address:
 BMC Software India Pvt. Ltd.
 #1, Nagarjuna Castle
 Wood Street/Castle Street, Ashoknagar, Richmond Town
@@ -394,6 +416,15 @@ AVERAGE- 45.5kmpl
 
 /////////////////////Overall Fuel Average//////////////////////////
 ////// 58.5 kmpl/////////
+
+Documents to be kept in the bike always::
+
+1. Xerox Copy of your Driving License - Done
+2. Xerox Copy of RC Book - Done
+3. Xerox Copy of Insurance Policy/Cover - Not Sure
+4. Pollution Control Certificate - Not Sure
+5. LT certificate (lifetime road tax) -Not Sure
+
 ---------------------------------------------------------------------------------------------
 
 Swimming classes
