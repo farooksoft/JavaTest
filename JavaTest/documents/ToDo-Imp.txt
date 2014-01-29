@@ -1,3 +1,6 @@
+First half, exploring html5 geo location
+Second half, jquery and java integration
+
 Ridley Scott 
 
 
@@ -6,7 +9,8 @@ Louice : Matrix TVS Showroom
 9739 66 8055
 
 
-Inter process communication
+
+
 
 
 1 2 3 4 5
@@ -23,7 +27,13 @@ exercises:
 > get the user location
 
 --------------------------------------------------------------------------------------------------------
-App on Bribes/Corriuption::
+TASKS::
+Java::
+1. Inter process communication
+2. Writing a video player using Swings and java media api
+
+Android Apps::
+1. App on Bribes/Corriuption::
 ---------------------------
 Able to capture voice
 Able to capture video
@@ -79,11 +89,11 @@ HTML5 and Flex coaching
 Deactivate HDFC Creditcard.
 
 NEXUS 5:
-Purchased On:
+Purchased On: Jan 4th 2014
 IMEI: 352136060249592
 IMEI SV: 05
 Warranty: 1 year
-
+cop@vsnl.net
 
 Understand the percentage difference between PPF and LIC or any Fixed deposits which has IT excemptions.
 =============================================================================================
@@ -138,33 +148,37 @@ Aon representative – Ms. Neha Sarnobat
 No. - 9820924043. 
 Email : neha.sarnobat@aon.com
 =============================================================================================
-HRWorks way:
-0074458122
-Srinath4
----------------------------------------------------------------------------------------------
 Dad:
 16-8-1961
 Mom:
 4-9-1965
 
+---------------------------------------------------------------------------------------------
+Adprod Domain: srayabar / Rayabar9
+Srinath4
+
+Rayabar9
+
+HRWorks way:
+0074458122
+Srinath4
+
 http://bmc.kpoint.com/frontpage
 srinath_rayabarapu@bmc.com
 srinath45
 
----------------------------------------------------------------------------------------------
-
-vm-w28-rds1036
-administrator
-bmcAdm1n
-
 SyBase Database: vm-w28-rds1036:2638?ServiceName=storm_vm-w28-rds1036
 dba/pronet
-
 
 Perforce Details::
 Server: blr-rnd-scm01.bmc.com:16842
 User: srayabar
 Password: Srinath4
+---------------------------------------------------------------------------------------------
+
+vm-w28-rds1036
+administrator
+bmcAdm1n
 
 
 \\vm-w28-rds2001\Share\NewJoineeDocs
@@ -190,6 +204,8 @@ Product Developer
 3011-39736-BPPM R AND D
 08030914312
 +91-80-3091-4312
+Joining Date:: 10th October 2013
+
 
 \\W-SRAYABAR-07
 
