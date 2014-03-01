@@ -1,18 +1,79 @@
+Verified with Build251201238. The property file from which the table header text is picked is in mix of Chinese and English letters currently, hence you will see english text in the header.
+
+If the present text is not correct then please update the file with proper text and on restart of the jserver you can see the changes.
+
+
+
+
+
+
+
+1. Create GitHub repo for the Shub project and prepare the document for the same to follow.
+2. Prepare and idea to work new shub proj
+3. Go thru the Praveen's google group and comment respectively
+4. Try out the example that Praveen shared
+5. Refactor the Shishir's Ninja club code
+6. Work on the Android project
+7. Working on Appetizer
+
+Withdaw money for the PG
+1. HDFC bank credit card closure
+2. SBI online account opening
+3. Withdraw PF amount from Subex and Valtech
+
+--------------------------------------------------------------------------------------------------------
+
+**** MOVE ALL CLs TO MAIN BRANCH
+
+QM001802180 - [I18N][Win2k8R2SP1 SCH][Ops][GridView] Unlocalized strings in Agent Status page for patrol agent
+AgentStatus.java
+
+QM001803890 - [I18N][Win2k8 R2 SCH][Ops] Unlocalized strings 'Collection State' in grid header from Show Monitor page
+AlarmSummary.java
+C:\BPPM\Main-WorkSpace\dev\ngp\9.5\core\web\java\conf\resources\i18nData\en_US\jsp\monitorView.properties
+
+QM001815393 - [I18N][Linux SCH][Ops][Device at a glance]unlocalized strings on Device at a glance page.
+IndGraphJSPGenerator.java
+PWStyle.java
+C:\BPPM\Main-WorkSpace\dev\ngp\9.5\core\web\java\conf\resources\i18nData\en_US\jsp\showGraphView.properties
+
+QM001807510	- [I18N][Win2k8R2SP1 SCH][Ops][IntelligentEventHistory][PCA]Loading message from clicking PCA icon in intelligent event history page
+C:\BPPM\Main-WorkSpace\dev\ngp\9.5\core\web\java\com\proactivenet\servlet\PWHttpServlet.java
+
+QM001798878	[I18N][Win2k8R2SP1 SCH][Ops][Graph&View]"No Data Available" is not localized in Zoom/PDF/GotoProbableCause page
+QM001816810	[I18N] # displayed for Simplified Chinese characters in PDF file generated from graph view at Operator Console
+QM001814299	[Win2K8 R2 SCH][Ops][Reset baseline]Time Frame radio box cannot be checked automatically.
+QM001815879	[Ops][Views&Graphs]X-Y graph title creation using monitor type  Abnormality Index is shown as null
+QM001769991	[I18N][Win2K8R2SP1 SCH][Operation Console][Firefox 15.0.1]Characters beyond the display box in Show Configuration Change page.
+QM001802741	[I18N][Win2k8R2 SCH][Ops][Monitors Gird View] Frame of the PATROL Agent date got a little overlap when drag the frame column
+QM001816053	[Ops][Views&Graphs]date/time in graph title is inconsistent with the time range if select time range and then click forward/backward icon directly
+QM001819981 :: Closed
+
+QM001801915	[I18N][Win2k8R2SP1 SCH][Ops][GraphDisplay] Inconsistent icons display between graph legend and graph data plotting
+
+
+**** MERGING INTO MAIN IS PENDING ****
+
+--------------------------------------------------------------------------------------------------------
+Important Notes:
+?	All relevant check-ins (post GA) to the 9.5_GA branch must also be propagated to 9.5 and main branches by the developer
+?	All relevant check-ins to the 9.5 branch (for SP) must also be propagated to the main branch by the developer
+?	Before forward propagation, please discuss with your respective managers if you have questions regarding the relevance of the above check-ins 
+--------------------------------------------------------------------------------------------------------
+
+
 First half, exploring html5 geo location
 Second half, jquery and java integration
 
 Ridley Scott 
 
 
-
-Louice : Matrix TVS Showroom
-9739 66 8055
+sathiya@mobignosis.com
 
 
+Javascript to IOS/Android
 
-
-
-
+--------------------------------------------------------------------------------------------------------
 1 2 3 4 5
 6 7 8 9 10
 11 12 13 14 15
@@ -157,7 +218,10 @@ Mom:
 Adprod Domain: srayabar / Rayabar9
 Srinath4
 
-Rayabar9
+Linux System::
+vl-pun-ngp-dv07
+root/bmcAdm1n
+
 
 HRWorks way:
 0074458122
@@ -167,6 +231,9 @@ http://bmc.kpoint.com/frontpage
 srinath_rayabarapu@bmc.com
 srinath45
 
+https://webmail.bmc.com
+
+
 SyBase Database: vm-w28-rds1036:2638?ServiceName=storm_vm-w28-rds1036
 dba/pronet
 
@@ -175,27 +242,42 @@ Server: blr-rnd-scm01.bmc.com:16842
 User: srayabar
 Password: Srinath4
 ---------------------------------------------------------------------------------------------
-
+My Bangalore machine::
 vm-w28-rds1036
 administrator
 bmcAdm1n
-
-
-\\vm-w28-rds2001\Share\NewJoineeDocs
-ui/ui
-administrator/bmcAdm1n
-
 
 MY CLM VM:
 IP: 10.129.151.16
 System Name: CLM-PUN-002617
 administrator
 bmcAdm1n
+---------------------------------------------------------------------------------------------
 
+Fresher Docs about BPPM::
+\\vm-w28-rds2001\Share\NewJoineeDocs
+ui/ui
+administrator/bmcAdm1n
+blrAdm1n
+---------------------------------------------------------------------------------------------
 
-Meeting Numbers:
-08030914312
+WEBEX Meeting Numbers:
+8030914312
 9916149606
+
+Work Flow Timesheets ::
+For Malibu: use this ID. Given by Anuj Mundi by mail
+RD-DRZQZ.9.6.00 
+
+For Camry:
+RD-DRZQZ.9.5.00.CAP
+BMC ProactiveNet Performance M	1.02 CODING	CODING	LABOR	India General
+
+For Leaves:
+RD-PL P&A	
+PL P&A	1.0 ADMIN	ADMIN	LABOR	PTO
+
+---------------------------------------------------------------------------------------------
 
 Srinath Rayabarapu
 72489
@@ -206,6 +288,13 @@ Product Developer
 +91-80-3091-4312
 Joining Date:: 10th October 2013
 
+
+Rally Login ::
+https://rally1.rallydev.com
+srayabar@bmc.com
+Srinath9
+
+psexec \\clm-pun-002617 "C:\Program Files\BMC Software\ProactiveNet\pwcmd.bat" pw sys status
 
 \\W-SRAYABAR-07
 
@@ -234,6 +323,10 @@ Bangalore, Karnataka, 560068
 http://bmc.kpoint.com/frontpage
 srinath_rayabarapu@bmc.com
 srinath45
+
+Kwench Library Services:
+srinath_rayabarapu@bmc.com
+Srinath09@
 
 ---------------------------------------------------------------------------------------------
 
@@ -434,12 +527,11 @@ AVERAGE- 45.5kmpl
 ////// 58.5 kmpl/////////
 
 Documents to be kept in the bike always::
-
 1. Xerox Copy of your Driving License - Done
 2. Xerox Copy of RC Book - Done
-3. Xerox Copy of Insurance Policy/Cover - Not Sure
-4. Pollution Control Certificate - Not Sure
-5. LT certificate (lifetime road tax) -Not Sure
+3. Xerox Copy of Insurance Policy/Cover - Done
+4. Pollution Control Certificate - Done
+5. LT certificate (lifetime road tax) -Not required
 
 ---------------------------------------------------------------------------------------------
 
@@ -483,3 +575,7 @@ Glengarry Glen Ross
 Dog Day Afternoon
 The GodFather 2
 Serpico
+
+
+Louice : Matrix TVS Showroom
+9739 66 8055
