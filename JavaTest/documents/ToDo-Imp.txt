@@ -1,101 +1,67 @@
-Verified with Build251201238. The property file from which the table header text is picked is in mix of Chinese and English letters currently, hence you will see english text in the header.
-
-If the present text is not correct then please update the file with proper text and on restart of the jserver you can see the changes.
 
 
 
 
+<<=====>>|| JQWidgets POC :: Having POC with Hierarchical lazy loading data and implementation of Pagination ||<<=====>>
+--------------------------------------------------------------------------------------------------------
+TARGETS FOR THE DAY::
 
+* COMPLETE LAZY LOADING PAGINATION IN JQXTreeGrid
+* TRY THEMING IN JQWIDGETS
 
+Points prove:: 
+IF
+1. Whether JQXGrid has support for Tree structure with any properties or functions ??
+<A> : Looks like no support and that is the birth reason for JQXTreeGrid!? But, Grouping is available, though it's not exactly same as Tree hierarchy.
 
-1. Create GitHub repo for the Shub project and prepare the document for the same to follow.
-2. Prepare and idea to work new shub proj
-3. Go thru the Praveen's google group and comment respectively
-4. Try out the example that Praveen shared
-5. Refactor the Shishir's Ninja club code
-6. Work on the Android project
-7. Working on Appetizer
-
-Withdaw money for the PG
-1. HDFC bank credit card closure
-2. SBI online account opening
-3. Withdraw PF amount from Subex and Valtech
+ELSE
+2. Whether JQXTreeGrid has support for Lazy loading Pagination like JQXGrid has!!??
 
 --------------------------------------------------------------------------------------------------------
-
-**** MOVE ALL CLs TO MAIN BRANCH
-
-QM001802180 - [I18N][Win2k8R2SP1 SCH][Ops][GridView] Unlocalized strings in Agent Status page for patrol agent
-AgentStatus.java
-
-QM001803890 - [I18N][Win2k8 R2 SCH][Ops] Unlocalized strings 'Collection State' in grid header from Show Monitor page
-AlarmSummary.java
-C:\BPPM\Main-WorkSpace\dev\ngp\9.5\core\web\java\conf\resources\i18nData\en_US\jsp\monitorView.properties
-
-QM001815393 - [I18N][Linux SCH][Ops][Device at a glance]unlocalized strings on Device at a glance page.
-IndGraphJSPGenerator.java
-PWStyle.java
-C:\BPPM\Main-WorkSpace\dev\ngp\9.5\core\web\java\conf\resources\i18nData\en_US\jsp\showGraphView.properties
-
-QM001807510	- [I18N][Win2k8R2SP1 SCH][Ops][IntelligentEventHistory][PCA]Loading message from clicking PCA icon in intelligent event history page
-C:\BPPM\Main-WorkSpace\dev\ngp\9.5\core\web\java\com\proactivenet\servlet\PWHttpServlet.java
-
-QM001798878	[I18N][Win2k8R2SP1 SCH][Ops][Graph&View]"No Data Available" is not localized in Zoom/PDF/GotoProbableCause page
-QM001816810	[I18N] # displayed for Simplified Chinese characters in PDF file generated from graph view at Operator Console
-QM001814299	[Win2K8 R2 SCH][Ops][Reset baseline]Time Frame radio box cannot be checked automatically.
-QM001815879	[Ops][Views&Graphs]X-Y graph title creation using monitor type  Abnormality Index is shown as null
-QM001769991	[I18N][Win2K8R2SP1 SCH][Operation Console][Firefox 15.0.1]Characters beyond the display box in Show Configuration Change page.
-QM001802741	[I18N][Win2k8R2 SCH][Ops][Monitors Gird View] Frame of the PATROL Agent date got a little overlap when drag the frame column
-QM001816053	[Ops][Views&Graphs]date/time in graph title is inconsistent with the time range if select time range and then click forward/backward icon directly
-QM001819981 :: Closed
-
-QM001801915	[I18N][Win2k8R2SP1 SCH][Ops][GraphDisplay] Inconsistent icons display between graph legend and graph data plotting
-
-
-**** MERGING INTO MAIN IS PENDING ****
-
---------------------------------------------------------------------------------------------------------
-Important Notes:
-?	All relevant check-ins (post GA) to the 9.5_GA branch must also be propagated to 9.5 and main branches by the developer
-?	All relevant check-ins to the 9.5 branch (for SP) must also be propagated to the main branch by the developer
-?	Before forward propagation, please discuss with your respective managers if you have questions regarding the relevance of the above check-ins 
---------------------------------------------------------------------------------------------------------
-
-
-First half, exploring html5 geo location
-Second half, jquery and java integration
-
-Ridley Scott 
-
-
-sathiya@mobignosis.com
-
+RANDOM EXERCISES :: 
 
 Javascript to IOS/Android
+Understanding Google App Engine for a request, response flow. Preferably with Android.
 
---------------------------------------------------------------------------------------------------------
+AMAZON EXERCISES::
 1 2 3 4 5
 6 7 8 9 10
 11 12 13 14 15
 16 17 18 19 20
 21 22 23 24 25
 
-Understanding Google App Engine for a request, response flow. Preferably with Android.
 
-App for Car pooling::
+--------------------------------------------------------------------------------------------------------
+MOVIES Central Location ::
+\\v3-w28-rds2070.bmc.com\shared\mov
+blrAdm1n
+
+--------------------------------------------------------------------------------------------------------
+TASKS::
+
+Java:
+1. Inter process communication
+2. Writing a video player using Swings and java media api
+
+IDEAS :
+Don't just wait for the 
+BIG idea, start learning with small ideas/hacks. When the BIG idea 
+happens, you will be ready to implement it better. 
+
+ANDROID Apps::
+
+
+Android Internals Google Group at 
+http://groups.google.com/group/android-internals
+
+
+::App for Car pooling::
 
 exercises:
 > get the user location
 
---------------------------------------------------------------------------------------------------------
-TASKS::
-Java::
-1. Inter process communication
-2. Writing a video player using Swings and java media api
-
-Android Apps::
 1. App on Bribes/Corriuption::
----------------------------
+------------------------------
 Able to capture voice
 Able to capture video
 Able to capture photoes
@@ -115,59 +81,62 @@ Able to post the incident to Social networking sites
 Able to conduct an opinion Poll
 
 Able to detect other auido/video devices connected to mobile to share the files
+
+
+2. APPLE IOS Apps::
+------------------------------
+* Emulating devices for IOS applications??
+
+
 --------------------------------------------------------------------------------------------------------
+LOOK AT THESE COMPANIES::
 Valve
 Facebook
 MicroSoft
 Google
 Code.org
 
-
-Don't just wait for the 
-BIG idea, start learning with small ideas/hacks. When the BIG idea 
-happens, you will be ready to implement it better. 
-
-
+LOOK AT THESE TECHNOLOGIES::
 Node.js
 Ruby on Rails
 Python
+Angular JS
 
+--------------------------------------------------------------------------------------------------------
+WEEKEND TAKS::
 
-Emulating devices for IOS applications??
+5. Check all IT documents and validate the Salary
+1. Go thru the Praveen's google group and comment respectively
+2. Try out the example that Praveen shared
+3. Work on the Android project
+4. Working on Appetizer
 
-
-Sreekanth driving license ID Proof:
-DLFAP036262462005
-
-
-SBI Internet Banking credentials check
+1. HDFC bank credit card closure
+2. SBI online account opening
 SBI General Insurance policy
-Check istitutes for HTML5 and Flex coaching
+3. Withdraw PF amount from Subex and Valtech
 
 
-Career management bmc site
-HTML5 and Flex coaching
-Deactivate HDFC Creditcard.
+1. Create GitHub repo for the Shub project and prepare the document for the same to follow.
+2. Prepare and idea to work new shub proj
+3. Go thru the Praveen's google group and comment respectively
+4. Try out the example that Praveen shared
+5. Refactor the Shishir's Ninja club code
+6. Work on the Android project
+7. Working on Appetizer
 
-NEXUS 5:
-Purchased On: Jan 4th 2014
-IMEI: 352136060249592
-IMEI SV: 05
-Warranty: 1 year
-cop@vsnl.net
 
-Understand the percentage difference between PPF and LIC or any Fixed deposits which has IT excemptions.
-=============================================================================================
-URGENT CONTACTS::
+--------------------------------------------------------------------------------------------------------
+::URGENT CONTACTS::
 
 To Block Cards:
 ---------------------------------------------------------------------------------------------
-CITI: 080 2227 2484
+CITI : 080 2227 2484
 Axis : +91 22 67987700 (1-800-233-5577 / 1-800-209-5577 / 1-800-103-5577)
 Canara : 18004256000 / 18004257000
 HDFC :  080 6622 4332
 
-CITI Bank::
+CITI Bank Account Details::
 Account No: 5297198817
 CITIBANK N.A., Bangalore
 IFSC Code: CITI0000004
@@ -187,15 +156,16 @@ IFC COde: CNRB0002433
 cansecuresupport@canarabank.com
 cansecure pin : axis bank id
 
-Dad's Canara Bank::
+Dad's Canara Bank Details::
 Savings : 1923101002025
 IIFC Code: CNRB0001923
 
 HDFC Statement Open:
 SRIN8854
 
-FHPL: Medical Insurance::
 ---------------------------------------------------------------------------------------------
+FHPL: Medical Insurance::
+
 Bangalore Office:
 Suresh : 09243044053
 
@@ -218,11 +188,6 @@ Mom:
 Adprod Domain: srayabar / Rayabar9
 Srinath4
 
-Linux System::
-vl-pun-ngp-dv07
-root/bmcAdm1n
-
-
 HRWorks way:
 0074458122
 Srinath4
@@ -233,51 +198,13 @@ srinath45
 
 https://webmail.bmc.com
 
-
-SyBase Database: vm-w28-rds1036:2638?ServiceName=storm_vm-w28-rds1036
-dba/pronet
-
 Perforce Details::
 Server: blr-rnd-scm01.bmc.com:16842
 User: srayabar
 Password: Srinath4
----------------------------------------------------------------------------------------------
-My Bangalore machine::
-vm-w28-rds1036
-administrator
-bmcAdm1n
-
-MY CLM VM:
-IP: 10.129.151.16
-System Name: CLM-PUN-002617
-administrator
-bmcAdm1n
----------------------------------------------------------------------------------------------
-
-Fresher Docs about BPPM::
-\\vm-w28-rds2001\Share\NewJoineeDocs
-ui/ui
-administrator/bmcAdm1n
-blrAdm1n
----------------------------------------------------------------------------------------------
-
-WEBEX Meeting Numbers:
-8030914312
-9916149606
-
-Work Flow Timesheets ::
-For Malibu: use this ID. Given by Anuj Mundi by mail
-RD-DRZQZ.9.6.00 
-
-For Camry:
-RD-DRZQZ.9.5.00.CAP
-BMC ProactiveNet Performance M	1.02 CODING	CODING	LABOR	India General
-
-For Leaves:
-RD-PL P&A	
-PL P&A	1.0 ADMIN	ADMIN	LABOR	PTO
 
 ---------------------------------------------------------------------------------------------
+OFFICE DETAILS ::
 
 Srinath Rayabarapu
 72489
@@ -288,6 +215,14 @@ Product Developer
 +91-80-3091-4312
 Joining Date:: 10th October 2013
 
+PUNE CONF number::
+9 - 020 3987 6630
+
+Facilities : Santosh G
+4208
+
+Office BlueDart Courier:: 
+Prasad - 96865 77800
 
 Rally Login ::
 https://rally1.rallydev.com
@@ -329,12 +264,7 @@ srinath_rayabarapu@bmc.com
 Srinath09@
 
 ---------------------------------------------------------------------------------------------
-
-Room WIFI:
-harics
-1635667255
----------------------------------------------------------------------------------------------
-Jeevan Anand Plan: LIC of India, Warangal Branch 1
+LIC PLAN : Jeevan Anand, LIC OFFICE : LIC of India, Warangal Branch 1
 Policy Started Dated: 31-05-2010
 Policy Number: 688898310
 Agent Code: 03304650
@@ -345,7 +275,7 @@ Nominee Name: Rayabarapu Sarojana
 Final Premium payment date: 28-05-2034
 Policy matured date: 28-05-2035
 
-Final Amount to be received: 5 Lakh + 5 Lakh + Bonus
+Final Amount to be received after 25 years: 5 Lakh + 5 Lakh + Bonus
 ---------------------------------------------------------------------------------------------
 BMC PF Number:
 MH/PUN/34324/003504
@@ -373,6 +303,14 @@ ultimate distinction." - Charles Kendall Adams
 DON'T KNOW SOME THING, ASK AGAIN AND AGAIN.
 DON'T REPEAT AGAIN THE SAME MISTAKES.
 
+::BOOK PERCEPTS::
+
+Programmer :
+I tell her this: I am a non-accredited, overly logical psychologist,therapist, mechanic, diplomat, businessman, 
+and teacher working in an industry that is still defining itself each and every day.
+
+Software isn’t designed in an IDE or other tool. It’s imagined and created in our heads.
+
 
 ---------------------------------------------------------------------------------------------
 **PRIDE**
@@ -396,78 +334,71 @@ Karnataka
 Acknowledgment for 2013-14 : 
 644282110050713
 
-688898310
-20129
-28052013
----------------------------------------------------------------------------------------------
-> netstat -tupln
-
-jstack <Process ID> >> /illinois71/rocps/<Dirctory>/<Filename>
----------------------------------------------------------------------------------------------
-BOOK PERCEPTS:
-
-Programmer :
-I tell her this: I am a non-accredited, overly logical psychologist,therapist, mechanic, diplomat, businessman, 
-and teacher working in an industry that is still defining itself each and every day.
-
-Software isn’t designed in an IDE or other tool. It’s imagined and created in our heads.
----------------------------------------------------------------------------------------------
-LIC Details::~
-LIC No: 688898310
-Yearly Pay : 20129/-
-
 ---------------------------------------------------------------------------------------------
 9Srinath@
 1Welcome@
 .My body is Cage.
 ---------------------------------------------------------------------------------------------
-Date Of Birth::
+Date Of Birth:: APPROXIMATES
 Dad:
 16-8-1961
 Mom:
 4-9-1965
 
-Dad Aadhar:
-2022/90115/02111
-12/11/2012 10:57:03
-BHASKER RAO RAYABARAPU
+My Driving License:
+Name : SRINATH R
+Number : KA0520120020851
+DOI : 29/09/2012
+B.G : A+
+VALID TILL : 28/09/2032
 
-Sarojana: EAdhar is generated
-2022/90115/02112
-12/11/2012 11:03:33
+MY Passport Info:
+Number : G8627914
+Place : Hyderabad
+Date Of Issue : 7/5/2008
+Date of Expiry : 6/5/2018
 
-Srinath Driving License:
-KA0520120020851
+My PAN No : CSBPS6004B
 
-Srinath Passport Info:
-Number 	G8627914
-Place	Hyderabad
-Date Of Issue 	7/5/2008
-Date of Expiry	6/5/2018
+MY VOTER ID CARD : URH0193821
 
-Srinath PAN No (Mandatory): CSBPS6004B
 ---------------------------------------------------------------------------------------------
-Old Flat :~
+Old Flat Address :~
 Srinath Rayabarapu
 Flat: 302, Home No:145, Serene Homes, Green Glen Layout, Bellandur
 Bangalore, Karnataka-560103
 
-Home :~
+Home Address :~
 Srinath Rayabarapu
 S/O Bhasker Rao, #5-94, NH Road, Main Road, Rampur, Po. Pasara,
 Md. Govindarao Pet, Dt. Warangal, Andhra Pradesh - 506347
-----------------------------------------------------------------------------------------------------
-*****When you have eliminated the impossible whatever remains, however improbable, is the truth. -S.H*****
-----------------------------------------------------------------------------------------------------
 
-Android Internals Google Group at 
-http://groups.google.com/group/android-internals
 
 PERSONAL**************************************************************************************
 
-Find ways to earn money in your free time. That inturn helps as investment to other activities.
-Weekends time is very precious. Thumb rule: Don't be in the room in weekends, go out and wear your passion.
+NEXUS 5 BUY DETAILS:
+Purchased From: E-Bay.in
+Purchased On: Jan 4th 2014
+IMEI: 352136060249592
+IMEI SV: 05
+Warranty: 1 year
 
+---------------------------------------------------------------------------------------------
+IRCTC BOOKING DETAILS::
+
+Sreekanth driving license ID Proof:
+DLFAP036262462005
+
+
+
+---------------------------------------------------------------------------------------------
+=====>> FINANCE <<=====
+* Find ways to earn money in your free time. That in turn helps for investment to other activities.
+* Weekends time is very precious. 
+
+THUMB RULE: Don't be in the room in weekends, go out and wear your passion.
+
+---------------------------------------------------------------------------------------------
 Move on..buddy!
 Have faith and go slow.
 
@@ -482,7 +413,7 @@ Dad's Skype ID::
 bhaskerrao.r / bhasker9
 
 ---------------------------------------------------------------------------------------------
-LAPPY ORACLE DATABASE::
+HP LAPPY ORACLE DATABASE::
 system as sysdba
 password
 appuser/appuser
@@ -492,10 +423,8 @@ Sreekanth Dubai :: 0097 1528351289
 SKG Dad : 9242701370
 
 ---------------------------------------------------------------------------------------------
-LIC :: No: 688898310
-Amount :: 20129
----------------------------------------------------------------------------------------------
-ON IOS from Deepak ::
+=====>> ON IOS from Deepak <<=====
+
 iOS has 3 parts.
 native app- objective C
 web app - HTML5, css js etc
@@ -514,8 +443,13 @@ web app—here u may find competion…already skills are vaialbel in the market…manl
 demand too.
 
 ---------------------------------------------------------------------------------------------
-FUEL CONSUMPTION TEST ON TVS APACHE::
+=====>>TVS APACHE RTR 160 - ALL DETAILS AT ONCE<<=====
 
+REGULAR MATRIX TVS SHOWROOM DETAILS ::
+Louice (Feedback Person) : 9739 66 8055
+
+
+FUEL CONSUMPTION TEST ON TVS APACHE::
 1. Speeds up to 55 kmpH. Much brakings and crawlings in heavy traffik in 1st and 2nd gears.
 AVERAGE- 47.7 kmpl
 2. slow moving at 45 kmpH 
@@ -533,24 +467,27 @@ Documents to be kept in the bike always::
 4. Pollution Control Certificate - Done
 5. LT certificate (lifetime road tax) -Not required
 
----------------------------------------------------------------------------------------------
 
-Swimming classes
-Higher education
-Repository creation
-Shortlist the activities
 ---------------------------------------------------------------------------------------------
+=====>>THINK TANK :: TO DO<<=====
+
+* Update APACHE Bike section with all documents details
+* Update Appetizer with GitHub details 
+* Swimming on Sunday's
+* Higher education
+
+---------------------------------------------------------------------------------------------
+=====>>BTM ROOM WIFI DETAILS - JUST FOR THE SAKE OF FUTURE USE <<=====
+
 [------------------------ Your Wireless Settings ------------------------]
 Wireless Name (SSID) = Max_Wireless
 Security Mode = WPA-Personal
 Encryption Method = TKIP
 Encryption Key = 31tSb0t1hQkbZfJ
 F5AMsml
----------------------------------------------------------------------------------------------
-Git repo URL:
-https://github.com/srinath4ever/JavaTest/trunk/JavaTest
 
 ---------------------------------------------------------------------------------------------
+=====>>MOVIES TO BE WATCHED - DOWNLOAD WHENEVER POSSIBLE<<=====
 
 Best of Gary OldMan::--------
 The Fifth Element
@@ -564,7 +501,7 @@ Rosencrantz and Guildenstern Are Dead
 JFK
 True Romance
 
-Al Pacino::--------
+Al Pacino ::--------
 Scarface
 Scent of a Women
 Carlito's way
@@ -576,6 +513,9 @@ Dog Day Afternoon
 The GodFather 2
 Serpico
 
+FAVOURITE DIRECTORS ::--------
 
-Louice : Matrix TVS Showroom
-9739 66 8055
+Ridley Scott
+
+---------------------------------------------------------------------------------------------
+*****When you have eliminated the impossible whatever remains, however improbable, is the truth. -S.H*****
