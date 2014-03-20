@@ -1,21 +1,13 @@
 
 
+D3 Graph to be worked upon :
+http://bl.ocks.org/benjchristensen/2657838
 
 
-<<=====>>|| JQWidgets POC :: Having POC with Hierarchical lazy loading data and implementation of Pagination ||<<=====>>
---------------------------------------------------------------------------------------------------------
-TARGETS FOR THE DAY::
 
-* COMPLETE LAZY LOADING PAGINATION IN JQXTreeGrid
-* TRY THEMING IN JQWIDGETS
-
-Points prove:: 
-IF
-1. Whether JQXGrid has support for Tree structure with any properties or functions ??
-<A> : Looks like no support and that is the birth reason for JQXTreeGrid!? But, Grouping is available, though it's not exactly same as Tree hierarchy.
-
-ELSE
-2. Whether JQXTreeGrid has support for Lazy loading Pagination like JQXGrid has!!??
+user1pwd
+user2pwd
+user3pwd
 
 --------------------------------------------------------------------------------------------------------
 RANDOM EXERCISES :: 
@@ -40,25 +32,21 @@ blrAdm1n
 TASKS::
 
 Java:
-1. Inter process communication
+1. Do a good example on Inter process communication in Threads
 2. Writing a video player using Swings and java media api
 
-IDEAS :
+IDEAS::
 Don't just wait for the 
 BIG idea, start learning with small ideas/hacks. When the BIG idea 
 happens, you will be ready to implement it better. 
 
 ANDROID Apps::
-
+> App for Car pooling
+> A simple to get the user location
 
 Android Internals Google Group at 
 http://groups.google.com/group/android-internals
 
-
-::App for Car pooling::
-
-exercises:
-> get the user location
 
 1. App on Bribes/Corriuption::
 ------------------------------
@@ -130,7 +118,7 @@ SBI General Insurance policy
 ::URGENT CONTACTS::
 
 To Block Cards:
----------------------------------------------------------------------------------------------
+---------------
 CITI : 080 2227 2484
 Axis : +91 22 67987700 (1-800-233-5577 / 1-800-209-5577 / 1-800-103-5577)
 Canara : 18004256000 / 18004257000
@@ -163,6 +151,9 @@ IIFC Code: CNRB0001923
 HDFC Statement Open:
 SRIN8854
 
+CITI Bank reward point transaction number ::
+TRN33787
+
 ---------------------------------------------------------------------------------------------
 FHPL: Medical Insurance::
 
@@ -170,21 +161,17 @@ Bangalore Office:
 Suresh : 09243044053
 
 FHPL representative – Mr. Sushant Kulkarni 
- Tel No. - 9225522007
- Email : :S
- Ask HR – AskHR@bmc.com
+Tel No. - 9225522007
+Ask HR – AskHR@bmc.com
 Tel No – (020) 3987 6275 	 	 
 
 Aon representative – Ms. Neha Sarnobat
 No. - 9820924043. 
 Email : neha.sarnobat@aon.com
-=============================================================================================
-Dad:
-16-8-1961
-Mom:
-4-9-1965
 
 ---------------------------------------------------------------------------------------------
+OFFICE DETAILS ::
+
 Adprod Domain: srayabar / Rayabar9
 Srinath4
 
@@ -203,17 +190,18 @@ Server: blr-rnd-scm01.bmc.com:16842
 User: srayabar
 Password: Srinath4
 
----------------------------------------------------------------------------------------------
-OFFICE DETAILS ::
-
 Srinath Rayabarapu
 72489
 Srinath_Rayabarapu@bmc.com
 Product Developer
 3011-39736-BPPM R AND D
-08030914312
+8030914312
 +91-80-3091-4312
 Joining Date:: 10th October 2013
+
+Webex meeting Number:
+8030914312
+9916149606
 
 PUNE CONF number::
 9 - 020 3987 6630
@@ -305,12 +293,11 @@ DON'T REPEAT AGAIN THE SAME MISTAKES.
 
 ::BOOK PERCEPTS::
 
-Programmer :
-I tell her this: I am a non-accredited, overly logical psychologist,therapist, mechanic, diplomat, businessman, 
+Programmer:
+I tell her this: I am a non-accredited, overly logical psychologist, therapist, mechanic, diplomat, businessman, 
 and teacher working in an industry that is still defining itself each and every day.
 
 Software isn’t designed in an IDE or other tool. It’s imagined and created in our heads.
-
 
 ---------------------------------------------------------------------------------------------
 **PRIDE**
@@ -340,6 +327,7 @@ Acknowledgment for 2013-14 :
 .My body is Cage.
 ---------------------------------------------------------------------------------------------
 Date Of Birth:: APPROXIMATES
+----------------------------
 Dad:
 16-8-1961
 Mom:
@@ -359,7 +347,6 @@ Date Of Issue : 7/5/2008
 Date of Expiry : 6/5/2018
 
 My PAN No : CSBPS6004B
-
 MY VOTER ID CARD : URH0193821
 
 ---------------------------------------------------------------------------------------------
@@ -420,7 +407,7 @@ appuser/appuser
 
 ---------------------------------------------------------------------------------------------
 Sreekanth Dubai :: 0097 1528351289
-SKG Dad : 9242701370
+Shubha Kadirisani Gopinath : Dad : 9242701370
 
 ---------------------------------------------------------------------------------------------
 =====>> ON IOS from Deepak <<=====
@@ -513,8 +500,7 @@ Dog Day Afternoon
 The GodFather 2
 Serpico
 
-FAVOURITE DIRECTORS ::--------
-
+DIRECTORS ::--------
 Ridley Scott
 
 ---------------------------------------------------------------------------------------------
