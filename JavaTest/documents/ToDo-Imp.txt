@@ -1,17 +1,39 @@
 
 
 
-45896131 
-9SBIpwd@
+
+
+
+var d = this.dataview.totalrecords;
+var g = this.dataview.pagenum;
+var c = Math.ceil(d / this.pagesize); 
+
+
+jqxdatatable
+jqxscrollbar
+jqxtreegrid
+
+
+JQXGrid - dataBind
+success: function (aj, ag, am) { : jqxdata.js 699
+
+JQXGrid - Ajax call
+Y.send(U, S) : jqxdata.js 3479
+
+--------------------------------------------------------------------------------------------------------
+New in Java 8:
+React effects
+Java effects
+Lambda feature
+Java self flight recorder
+javascript engine
+JavaFX in action
+
 
 Your Temporary Username is 45896131 and PPK Number is U000093340. 
-
-
 Set a date and try until you were there!!
 
-
 CNN IBN desai interview ::
-
 
 9.0 SP3 Setup from Aditya ::
 vw-pun-rem-dv1r
@@ -68,6 +90,12 @@ BIG idea, start learning with small ideas/hacks. When the BIG idea
 happens, you will be ready to implement it better. 
 
 ANDROID Apps::
+
+Tasks :: 
+1. Configure Log to the application
+
+> Identifying user location.
+> Interacting with Facebook and pulling friends information.
 > App for Car pooling
 > A simple to get the user location
 
@@ -291,8 +319,13 @@ srinath_rayabarapu@bmc.com
 srinath45
 
 Kwench Library Services:
-srinath_rayabarapu@bmc.com
+
+URL : http://www.kwench.in/kwench/newHome.do
+
+BMC :: srinath_rayabarapu@bmc.com
 Srinath09@
+
+Valtech :: srinath.rayabarapu@valtech.co.in/srinath45
 
 ---------------------------------------------------------------------------------------------
 LIC PLAN : Jeevan Anand, LIC OFFICE : LIC of India, Warangal Branch 1
@@ -546,4 +579,9 @@ DIRECTORS ::--------
 Ridley Scott
 
 ---------------------------------------------------------------------------------------------
-*****When you have eliminated the impossible whatever remains, however improbable, is the truth. -S.H*****
+When you have eliminated the impossible whatever remains, however improbable, is the truth.
+-S.H
+---------------------------------------------------------------------------------------------
+
+
+
