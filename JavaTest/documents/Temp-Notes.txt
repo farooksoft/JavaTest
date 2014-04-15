@@ -2,6 +2,21 @@
 
 
 
+K = Q.pagenum * Q.pagesize;
+M = K + Q.pagesize;
+if (M > Q.totalrecords) {
+M = Q.totalrecords
+
+
+
+
+Examples on ::
+Canvas, Lines and Shapes
+Feature detect, Drag and Drop
+Audio and Video
+Geo Location
+Web Storgae
+
 
 
 var d = this.dataview.totalrecords;
