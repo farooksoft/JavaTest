@@ -1,4 +1,0 @@
-WhyTGroups	-- show why we have to use thread groups
-
-WhyLocal        -- shows why we need to use local data per thread
-
