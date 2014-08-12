@@ -1,3 +1,0 @@
-Java threads by Scott oaks from o'reilly press is 
-easy to understand and one of the best books on 
-Thread programmming in Java.
