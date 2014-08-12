@@ -2,38 +2,46 @@
 
 
 
-K = Q.pagenum * Q.pagesize;
-M = K + Q.pagesize;
-if (M > Q.totalrecords) {
-M = Q.totalrecords
+Loginme9
+Srayabar@
+
+
+230 rupees to Ashok
+300 rupees to Srikanth
+Check Aditya wether he has to give any!?
+
+
+
+Configuring a Patrol Agent::
+vm-w28-rds1153
+@ Kataka Sudhakara
+
+
+Ashok's machine to manage VM machine snapshots::
+
+vw-pun-ngp-dv05
+administrator
+bmcAdm1n
 
 
 
 
-Examples on ::
-Canvas, Lines and Shapes
-Feature detect, Drag and Drop
-Audio and Video
-Geo Location
-Web Storgae
+concrete examples math problem
+
+
+Creating a chrome app : List down your thoughts here
+1. Music analyser and controller
 
 
 
-var d = this.dataview.totalrecords;
-var g = this.dataview.pagenum;
-var c = Math.ceil(d / this.pagesize); 
+Exploring Angular JS and coming up with a POC on the following:
+1. Highlighting Data binding capabilities.
+2. Showing capabilities of MVC architecture
+3. Exploring it's dynamic nature to show the content from the model(back end data), hence capable of making a "Single page application".
+4. A comparison document between Angular and other well known data binding frameworks.
 
-
-jqxdatatable
-jqxscrollbar
-jqxtreegrid
-
-
-JQXGrid - dataBind
-success: function (aj, ag, am) { : jqxdata.js 699
-
-JQXGrid - Ajax call
-Y.send(U, S) : jqxdata.js 3479
+Acceptance Criteria:
+A POC which acknowledges all above points.
 
 --------------------------------------------------------------------------------------------------------
 New in Java 8:
@@ -45,7 +53,6 @@ javascript engine
 JavaFX in action
 
 
-Your Temporary Username is 45896131 and PPK Number is U000093340. 
 Set a date and try until you were there!!
 
 CNN IBN desai interview ::
@@ -54,21 +61,6 @@ CNN IBN desai interview ::
 vw-pun-rem-dv1r
 
 --------------------------------------------------------------------------------------------------------
-Malibu - Iteration 3 ::
-
-1. Complete POC for lazy loading and pagination in grid with jqWidgets
-2. Multi column sorting, default sorting, using custom sort functions and sorting indicators
-
-Carried Out Task:
-3. Play with color themes to get more attractive theme than default one
-
-Demo POC
-
-
-D3 Graph to be worked upon :
-http://bl.ocks.org/benjchristensen/2657838
---------------------------------------------------------------------------------------------------------
-
 user1pwd
 user2pwd
 user3pwd
@@ -598,5 +590,54 @@ When you have eliminated the impossible whatever remains, however improbable, is
 -S.H
 ---------------------------------------------------------------------------------------------
 
+Android Text for PPT:
+
+What is Android?
+1.x and 2.x are primarily for smart phones, from 3.x onwards started supporting Tablets.
+The Android platform was originally unveiled in November 2007.
+In October 2008, Android was released under the Apache 2.0 open-source license
+
+Installing the Android SDK
+
+
+
+
+
+Apache installed @
+/opt/apache-tomcat-7.0.53
+
+
+To ckeck the status use the below command
+/etc/init.d/mysql status
+to start my sql server use the below command
+/etc/init.d/mysql start
+to stop the server use the below command
+/etc/init.d/mysql stop
+
+mysql> CREATE USER 'testuser'@'localhost' IDENTIFIED BY 'testuser';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'testuser'@'localhost' WITH GRANT OPTION;
+mysql> CREATE USER 'testuser'@'%' IDENTIFIED BY 'testuser';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'testuser'@'%' WITH GRANT OPTION;
+
+jdbc:mysql://clm-pun-004382:3306/test
+
+> mysql -u testuser -p
+> root/root
+
+
+
+1. I will be sending you... 
+parameters : 
+the pattern
+time
+hit or miss
+
+Angular.js
+
+
+MVC Frameworks:
+Backbone.js
+
+Node.js
 
 
