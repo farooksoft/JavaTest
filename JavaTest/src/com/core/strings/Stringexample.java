@@ -14,11 +14,24 @@ public class Stringexample {
 		System.out.println(s1.compareTo(s2));*/
 		
 		
-		String string = "<p>HiHi";
+		/*String string = "<p>HiHi";
 		string = string.substring(string.indexOf(">")+1, string.length());
-		System.out.println(string);
+		System.out.println(string);*/
 		
 		
+		String[] name = {"one","two"};
+		
+		String newName = "";
+		for(String nam : name){
+			if(newName == ""){
+				newName = nam ;
+			}else{
+				newName = newName + "," + nam ;				
+			}
+			
+		}
+			 
+		System.out.println(newName);
 		
 	}
 }
