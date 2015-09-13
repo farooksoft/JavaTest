@@ -28,8 +28,7 @@ public class Main {
 					.println("Succesfully read the input file and populated values");
 		}
 
-		System.out.println("Number of No Century countries : "
-				+ (countrySet.size() - scoreCard.size()));
+		System.out.println("Number of No Century countries : " + (countrySet.size() - scoreCard.size()));
 
 		boolMessage = mainObj.writeOutputDatatoFile();
 		if (boolMessage) {
