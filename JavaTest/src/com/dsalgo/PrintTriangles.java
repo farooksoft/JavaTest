@@ -1,4 +1,4 @@
-package com.datastructures;
+package com.dsalgo;
 
 public class PrintTriangles {
 

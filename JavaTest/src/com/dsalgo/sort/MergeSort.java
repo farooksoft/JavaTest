@@ -1,4 +1,4 @@
-package com.datastructures.sort;
+package com.dsalgo.sort;
 /*
  * Copyright (c) 2011, Oracle and/or its affiliates. All rights reserved.
  *
