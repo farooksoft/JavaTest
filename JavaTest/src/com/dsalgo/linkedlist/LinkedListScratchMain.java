@@ -14,7 +14,7 @@ public class LinkedListScratchMain {
 		custom.remove(2);
 		System.out.println(custom.toString());
 		
-		custom.add(40,1);
+		custom.add(40,10);
 		System.out.println(custom.toString());
 		
 		System.out.println(custom.get(3));
@@ -166,7 +166,7 @@ class Node {
 
 	/**
 	 * @param next
-	 *            the next to set
+	 * the next to set
 	 */
 	public void setNext(Node next) {
 		this.next = next;
@@ -181,7 +181,7 @@ class Node {
 
 	/**
 	 * @param data
-	 *            the data to set
+	 * the data to set
 	 */
 	public void setData(Object data) {
 		this.data = data;
