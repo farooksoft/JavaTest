@@ -5,15 +5,5 @@
 	<classpathentry kind="lib" path="lib/classes12.jar"/>
 	<classpathentry kind="lib" path="lib/commons-codec-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/ojdbc14_g.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/hibernate3.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/javassist-3.12.0.GA.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/javax.persistence.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/jta-1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/log4j.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/mysql-connector-java-5.1.12-bin.jar"/>
-	<classpathentry kind="lib" path="D:/Workspaces/GeekSpace/Ext-Libraries/Hibernate/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
