@@ -7,6 +7,5 @@ public class TextBatchProcessor extends BatchProcessor {
 		System.out.println("Text Batch processor : " + string); 
 		return new TextParser();
 	}
-	
 
 }
