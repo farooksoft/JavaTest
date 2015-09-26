@@ -3,11 +3,10 @@ package com.dsalgo;
 public class PrintTriangles {
 
 	public static void main(String[] args) {
-		PrintTriangles dsMain = new PrintTriangles();
-		dsMain.printTestTriangle(10);
+		PrintTriangles.printTestTriangle(10);
 	}
 
-	public void printFullTriangle(int number) {
+	public static void printFullTriangle(int number) {
 
 		for (int i = 0; i < number; i++) {
 			for (int k = number; k > i; k--) {
@@ -20,7 +19,7 @@ public class PrintTriangles {
 		}
 	}
 
-	public void printInvertedFullTriangle(int number) {
+	public static void printInvertedFullTriangle(int number) {
 
 		for (int i = number; i > 0; i--) {
 			for (int j = number; j > i; j--) {
@@ -33,7 +32,7 @@ public class PrintTriangles {
 		}
 	}
 
-	public void printTwoInvertedTriangle(int number) {
+	public static void printTwoInvertedTriangle(int number) {
 
 		for (int i = 0; i < number; i++) {
 			for (int j = 0; j <= i; j++) {
@@ -50,7 +49,7 @@ public class PrintTriangles {
 
 	}
 
-	public void printTestTriangle(int number) {
+	public static void printTestTriangle(int number) {
 
 		for (int i = number; i > 0; i--) {
 			for (int j = number; j > i; j--) {

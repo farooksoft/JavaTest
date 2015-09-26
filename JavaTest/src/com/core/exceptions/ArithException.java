@@ -15,8 +15,13 @@ class Except1 {
 				count++;
 			}
 
-			catch (ArithmeticException e) {
-
+			catch (Exception ex) {
+				
+				//Class<? extends Exception> class1 = ex.getClass();
+				
+				
+				System.out.println(ex.getMessage());
+				System.out.println(ex.getClass().getName());
 			}
 		}
 	}
