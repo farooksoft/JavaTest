@@ -1,4 +1,4 @@
-package com.core.arrays;
+package com.dsalgo;
 
 /* 15.	Set up an array of 10 String variables each containing an arbitrary string of the form month/day/year, for example 10/29/99. Analyze each element in the array and output date represented in the form 29th October 1999. */
 

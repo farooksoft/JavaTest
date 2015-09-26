@@ -1,11 +1,11 @@
-package com.core.arrays;
+package com.dsalgo;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
 /**
- * checking two arrays wether equal or not with equals() method
+ * checking two arrays whether equal or not with equals() method
  * 
  * @author Sreekanth
  */

@@ -1,4 +1,4 @@
-package com.core.arrays;
+package com.dsalgo;
 
 public class SorArrayAsc {
 	public static void main(String args[]) {

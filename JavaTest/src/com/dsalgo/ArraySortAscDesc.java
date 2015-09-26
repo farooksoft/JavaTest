@@ -1,4 +1,4 @@
-package com.core.arrays;
+package com.dsalgo;
 
 public class ArraySortAscDesc {
 	public static void main(String[] args) {

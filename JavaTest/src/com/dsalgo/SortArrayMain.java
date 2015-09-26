@@ -1,4 +1,4 @@
-package com.core.arrays;
+package com.dsalgo;
 
 /**
  * class to sort an array of integers - each element of array will compare with all other elements and swaps its positions
