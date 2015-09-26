@@ -9,6 +9,7 @@ public class MergeTwoArraysMain {
 
 		// start from the end of the larger array;
 		int idx = 8;
+				
 		// we also need the indices of the largest elements in both arrays
 		int idx_a = 3, idx_b = 4;
 
@@ -28,8 +29,7 @@ public class MergeTwoArraysMain {
 			int j = B[i];
 			System.out.println(j);
 		}
-		
-		
+				
 	}
 
 }
