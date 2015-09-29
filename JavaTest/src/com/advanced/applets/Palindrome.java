@@ -2,10 +2,15 @@ package com.advanced.applets;
 
 /* 16.	A palindrome is a number or text phrase that reads the same backward. Write an applet that reads in a five-digit integer and determines whether or not it is a palindrome. If the number is not of five digits, display an error message dialog indicating the problem to the user. When the user dismisses the error dialog, allow the user to enter a new value. */
 
-import java.awt.*;
-import java.awt.event.*;
-import java.applet.*;
-import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JApplet;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 public class Palindrome extends JApplet implements ActionListener {
 
