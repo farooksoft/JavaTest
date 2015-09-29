@@ -25,7 +25,7 @@ public class CloneScenariosMain {
 		System.out.println("Child1 again : " + child1Sheep); //Shallow copy - direct object assignments
 		System.out.println("Mother : " + motherSheep);
 		
-		System.out.println();
+		System.out.println("---------------------------------");
 		
 		Sheep child2Sheep = new Sheep(); //deep copy - explicit object creation and copying properties
 		//child2Sheep = motherSheep;
@@ -34,18 +34,18 @@ public class CloneScenariosMain {
 		
 		child2Sheep.setColor("red");
 		
-		System.out.println("Child2 again : " + child2Sheep); //child is black now - Shallow cloning
-		System.out.println("Mother : " + motherSheep);
+		System.out.println("Child2 again : " + child2Sheep); //child is red 
+		System.out.println("Mother : " + motherSheep); // mother is still black
 		
-		System.out.println();
+		System.out.println("---------------------------------");
 		
 		Sheep child3Sheep = (Sheep)motherSheep.getClone(); //cloning - as same as deep copy but no manual copying properties
 		System.out.println("child3Sheep : " + child3Sheep);
 		
 		child3Sheep.setColor("blue");
 		
-		System.out.println("child3Sheep : " + child3Sheep);
-		System.out.println("Mother : " + motherSheep);
+		System.out.println("child3Sheep : " + child3Sheep); //child is blue 
+		System.out.println("Mother : " + motherSheep);// mother is still black - deep copy here as well
 		
 		
 	} //main ends

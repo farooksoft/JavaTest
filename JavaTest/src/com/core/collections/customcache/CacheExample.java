@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.Map.Entry;
 
 /**
- * Create Simple Cache object with the help of HashMap...
+ * Create Simple Cache object with the help of HashMap
  * 
  * @author srayabar
  *
