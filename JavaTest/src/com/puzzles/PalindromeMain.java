@@ -2,12 +2,9 @@ package com.puzzles;
 
 /**
  * class to check if a given number is a palindrome or not
- * 
  * ex: 12221 89898 343343343 etc
- * 
  *  
  * Algo 1:
-
 	Steps: Its a brute force method
 
 	1. Have 2 for loops
@@ -21,34 +18,51 @@ package com.puzzles;
 	
 	Issues: 1. This algo runs in O(n^2) time.
  * 
- * 
- * 
  * @author srayabar
  *
  */
 public class PalindromeMain {
 
 	public static void main(String[] args) {
-		isPalindromeOrNotInteger(12221);
-		testStringPalindrome();
+		findBiggestPalindrome();
+		//System.out.println(checkStringPalindromeOrNot("madam"));
 	}
 
-	private static void testStringPalindrome() {
+	private static void findBiggestPalindrome() {
 		
 		String inputString = "ssdhsabccbakssdsd";
+		String bigOne = "";
 		
-		
-		
-		
+		for(int i=0; i< inputString.length(); i++){			
+			for(int j=i+1; j<inputString.length(); j++){				
+				String subString = inputString.substring(i, j);
+				if(checkStringPalindromeOrNot(subString)){
+					if(bigOne.length() < subString.length()){
+						bigOne = subString;
+					}
+				}
+			}
+		}
+		System.out.println("Big One : " + bigOne);		
 	}
-
-	private static void isPalindromeOrNotInteger(int inputNumber) {
-		
-		System.out.println(inputNumber%10);
-		
+	
+	/**
+	 * simple method to check whether a string a palindrome or not
+	 * 
+	 * @param string
+	 * @return
+	 */
+	static boolean checkStringPalindromeOrNot(String string){
+		int i = 0;
+		int j = string.length()-1;
+		while(j>i){
+			if(string.charAt(i) != string.charAt(j)){
+				return false;
+			}
+			i++;
+			j--;
+		}
+		return true;
 	}
-	
-	
-	
 	
 }
