@@ -1,7 +1,11 @@
 package com.core.enums;
-import java.io.ObjectInputStream.GetField;
 
-
+/**
+ * class to explain ENUM and enumaration concepts
+ * 
+ * @author srayabar
+ *
+ */
 public class EnumTest {
 	
 	public enum GuaranteesCode {
