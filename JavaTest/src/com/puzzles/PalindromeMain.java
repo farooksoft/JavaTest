@@ -28,7 +28,7 @@ public class PalindromeMain {
 		//System.out.println(checkStringPalindromeOrNot("madam"));
 	}
 
-	private static void findBiggestPalindrome() {
+	public static void findBiggestPalindrome() {
 		
 		String inputString = "ssdhsabccbakssdsd";
 		String bigOne = "";
@@ -52,7 +52,7 @@ public class PalindromeMain {
 	 * @param string
 	 * @return
 	 */
-	static boolean checkStringPalindromeOrNot(String string){
+	public static boolean checkStringPalindromeOrNot(String string){
 		int i = 0;
 		int j = string.length()-1;
 		while(j>i){

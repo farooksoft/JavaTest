@@ -1,12 +1,16 @@
 package com.core.threads;
 
-/* Program to demonstrate Producer/consumer Problem
- Author : Team -J
- Version : 1.0 */
+/** 
+ * Program to demonstrate Producer/consumer Problem
+ * 
+ */
 class ProducerConsumerProblemDemo {
+	
 	static public void main(String[] args) throws Exception {
+		
 		Thread producer = new Producer();
 		Thread consumer = new Consumer((Producer) producer);
+		
 		// producer.setPriority(Thread.MIN_PRIORITY);
 		producer.start();
 		consumer.start();
@@ -20,7 +24,7 @@ class Producer extends Thread {
 	public void run() {
 		for (int i = 0; i < 10; i++) {
 			data++;
-			System.out.println("Producer ");
+			System.out.println("Producer : " + data);
 		}
 	}
 
@@ -43,7 +47,7 @@ class Consumer extends Thread {
 			} catch (Exception e) {
 			}
 
-			System.out.println("Consumed " + pr.getData());
+			System.out.println("Consumed : " + pr.getData());
 		}
 	}
 }

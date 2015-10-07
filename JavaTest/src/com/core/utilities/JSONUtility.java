@@ -18,8 +18,7 @@ import org.json.JSONObject;
 import org.junit.Test;
 
 /**
- * Utility for generating JSON from Maps/Lists and converting JSON to a Map
- * <p>
+ * Utility for generating JSON from Maps/Lists and converting JSON to a Map<p>
  * https://gist.github.com/1198069
  */
 public class JSONUtility {
