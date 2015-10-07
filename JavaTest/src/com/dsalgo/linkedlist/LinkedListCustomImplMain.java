@@ -1,6 +1,6 @@
 package com.dsalgo.linkedlist;
 
-public class LinkedListScratchMain {
+public class LinkedListCustomImplMain {
 
 	public static void main(String[] args) {
 
