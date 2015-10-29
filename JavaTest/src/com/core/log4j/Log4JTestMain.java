@@ -9,8 +9,8 @@ public class Log4JTestMain {
 
 	public static void main(String[] args) {
 
-		PropertyConfigurator.configure("log4j.properties");
-
+		PropertyConfigurator.configure("src/log4j.properties");
+		
 		logger.info("Sample info message");
 		logger.debug("Sample debug message");
 		logger.warn("Sample warn message");
