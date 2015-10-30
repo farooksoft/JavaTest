@@ -8,7 +8,7 @@ public class LinkedListCustomImplMain {
 
 		custom.add(10);
 		custom.add(20);
-		custom.add(30);		
+		custom.add(30);
 		System.out.println(custom.toString());
 		
 		custom.remove(2);
@@ -17,8 +17,7 @@ public class LinkedListCustomImplMain {
 		custom.add(40,10);
 		System.out.println(custom.toString());
 		
-		System.out.println(custom.get(3));
-		
+		System.out.println(custom.get(3));		
 	}
 }
 

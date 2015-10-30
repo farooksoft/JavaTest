@@ -11,8 +11,7 @@ public class CreateDir {
 
 		if (!f.exists()) {
 			f.createNewFile();
-			System.out
-					.println("New file \"helloworld.txt\" has been created to the current directory");
+			System.out.println("New file \"helloworld.txt\" has been created to the current directory");
 		}
 	}
 
