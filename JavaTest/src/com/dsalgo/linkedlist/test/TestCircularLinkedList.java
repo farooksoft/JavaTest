@@ -6,7 +6,6 @@ import org.junit.Test;
 
 public class TestCircularLinkedList {
 	
-	
 	@Before
 	public void testSomethingBefore(){
 		System.out.println("testing something before...");
