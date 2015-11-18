@@ -1,18 +1,25 @@
 package com.core.threads;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Vector;
 
 /**
- * Has Producer class and Consumer class and a data Vector.Doesn't use any threads for the problem solution
+ * Program has Producer and Consumer classes and a data Vector.
  * 
  * @author srayabar
  *
  */
 public class ProducerConsumerMain {
 	
-	private static Vector<Object> data = new Vector<Object>();
-	 
+	//thread-safe; synchronized
+	private static Vector<String> data = new Vector<String>();
+	
+	//private static List<Object> data1 = Collections.synchronizedList(new ArrayList<Object>());
+	
+
     public static void main(String[] args) {
         new Producer().start();
         new Consumer().start();
@@ -37,7 +44,7 @@ public class ProducerConsumerMain {
                 	@SuppressWarnings("rawtypes")
                     Iterator it = data.iterator();
                     while (it.hasNext())
-                        System.out.println(it.next());
+                        System.out.println("Consumed.."+it.next());
                 }
                 
             }
@@ -59,7 +66,7 @@ public class ProducerConsumerMain {
                     e.printStackTrace();
                 }
                 System.out.println("adding");
-                data.add(new Object());
+                data.add("Produced");
                 if (data.size() > 1000)
                     data.remove(data.size() - 1);
             }
