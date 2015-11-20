@@ -25,7 +25,7 @@ public class BubbleSort {
 				if(inputArray[j] > inputArray[j+1]){
 					int d = inputArray[j+1];
 					inputArray[j+1] = inputArray[j];
-					inputArray[j] = d;					
+					inputArray[j] = d;
 				}
 			}
 		}
