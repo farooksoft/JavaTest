@@ -23,7 +23,7 @@ public class Test {
 		*/
 		
 		//System.out.println(builder.toString());
-		
+		/*
 		System.out.println(Double.parseDouble("15"));
 		
 		Calendar calendar = Calendar.getInstance();
@@ -54,7 +54,14 @@ public class Test {
 		//System.out.println((int) - (60 * Double.parseDouble(".150")));
 		
 		System.out.println(callSwitchMethod());
+		*/
 		
+		String temp = "EBIZPROD=mL6MYPwxGA7ZWcG13ze0MuRzHP; JSESSIONID=22E279D9DFFDB3EBA58D0763E81103AF; saml_token=_55f7ad02-74b9-4f70-ad59-48a1d9eced0e";
+		String[] splitArray = temp.split(" ");
+		
+		System.out.println(splitArray[2].split("=")[1]);
+		
+		new Test().callSwitchMethod();
 		
 	}
 	
