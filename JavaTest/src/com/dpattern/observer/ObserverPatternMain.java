@@ -13,12 +13,12 @@ public class ObserverPatternMain {
 	public static void main(String[] args) {
 		Subject subject = new Subject();
 		
+		subject.setState(0);
+		
 		new Test1Observer(subject);
 		new Test2Observer(subject);
 		new Test3Observer(subject);
 		
-		
-		subject.setState(0);
 		subject.setState(1);
 	}
 
