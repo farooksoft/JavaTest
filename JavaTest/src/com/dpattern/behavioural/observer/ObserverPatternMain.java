@@ -1,4 +1,4 @@
-package com.dpattern.observer;
+package com.dpattern.behavioural.observer;
 
 /**
  * It's a behaviour pattern

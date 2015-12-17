@@ -1,4 +1,4 @@
-package com.dpattern.observer;
+package com.dpattern.behavioural.observer;
 
 public class Test3Observer extends Observer{
 
