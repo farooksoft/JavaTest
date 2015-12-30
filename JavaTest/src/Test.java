@@ -55,13 +55,20 @@ public class Test {
 		
 		System.out.println(callSwitchMethod());
 		*/
-		
+/*		
 		String temp = "EBIZPROD=mL6MYPwxGA7ZWcG13ze0MuRzHP; JSESSIONID=22E279D9DFFDB3EBA58D0763E81103AF; saml_token=_55f7ad02-74b9-4f70-ad59-48a1d9eced0e";
 		String[] splitArray = temp.split(" ");
 		
 		System.out.println(splitArray[2].split("=")[1]);
 		
 		new Test().callSwitchMethod();
+		*/
+		
+
+		String abc = "sdasdsdsdsaaaww;";
+		abc = abc.substring(0, abc.length()-1);
+		System.out.println(abc);
+
 		
 	}
 	

@@ -20,6 +20,8 @@ public class ImmutabilityDemo {
 		
 		System.out.println("one1-->"+one);
 		System.out.println("two-->"+two);
+		
+		System.out.println("Integers sensitive to changes, hence they are mutable");
 	}
 
 	private void checkStringImmutability() {
@@ -32,6 +34,8 @@ public class ImmutabilityDemo {
 		
 		System.out.println("a 2-->"+a);
 		System.out.println("b  -->"+b);
+		
+		System.out.println("Strings are not sensitive to changes, hence they are immutable");
 		
 	}
 
