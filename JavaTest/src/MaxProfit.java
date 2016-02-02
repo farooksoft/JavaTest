@@ -12,9 +12,7 @@ public class MaxProfit {
 		
 		// 3, 5, [200, 400, 700]
 		//1300 / 5
-		System.out.println(1300/5);
-		
-		
+		System.out.println(10^2);
 		
 	}
 

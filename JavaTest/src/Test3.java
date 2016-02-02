@@ -68,7 +68,14 @@ public class Test3 {
 		String abc = "sdasdsdsdsaaaww;";
 		abc = abc.substring(0, abc.length()-1);
 		System.out.println(abc);
+		
+		int a = 1/2;
+		System.out.println(a);
 
+		
+		
+		String abcd = null;
+		System.out.println(abcd);
 		
 	}
 	
