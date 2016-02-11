@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 
@@ -5,27 +8,47 @@ public class Staircase {
 	
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
-		int _n;
-		_n = Integer.parseInt(scanner.nextLine().trim());
+		int[] sds = {2231221};
 		
-		
-		for(int i=1;i<=6;i++){
-			for(int j=6;i<j;j--){
-				System.out.print(" ");
-			}
-			for(int j=0;j<i;j++){
-				System.out.print("#");
-			}
-			System.out.println(" ");
-		}
-		
-		
-		int[] loopArray = {1, 2, 3,4,5};
-		long sum = 0;
-		for(int i=0; i<loopArray.length; i++){
-			sum = sum + loopArray[i];
-		}
-		
+		findFrequencyDistribution(sds);
+				
+	
 	}
+	
+	
+
+	   static String[] findFrequencyDistribution(int[] numbers) {
+	        
+	        String[] answerArray = new String[numbers.length];
+	        Map<Integer, String> map = new HashMap<Integer, String>();
+	        
+	        for (int i = 0; i < numbers.length; i++) {
+	            
+	            int count = 0;
+	            String occurences = "";
+	            for (int j = 0; j < numbers.length; j++) {
+	                if (numbers[i] == numbers[j]){
+	                    count++;
+	                    if(occurences == ""){
+	                        occurences = j + "";
+	                    }else{
+	                        occurences = occurences + ":" + j; 
+	                    }                    
+	                }
+	            }
+	            if( map.get(numbers[i]) == null){
+	                answerArray[i] = numbers[i] + " " + count + " "+occurences;
+	                
+	            }
+	            map.put(numbers[i], "found");
+	        }
+	        
+	        
+	        ArrayList<String> mylist = new ArrayList<String>();
+	        //String[] shdsd = (String[])mylist.toArray();
+	        
+	        
+	        return (String[]) mylist.toArray();
+	    }
+	   
 }
