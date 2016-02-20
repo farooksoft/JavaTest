@@ -1,7 +1,8 @@
 package com.puzzles;
 
-
 /**
+ * Print Fibinocci series example with somple loop
+ * 
  * 0 1 1 2 3 5 8 13 21 34 55 
  * 
  * @author srayabar
@@ -24,8 +25,7 @@ public class FibinocciSeriesPrint {
 			return 1;
 		}
 		
-		int temp1=1, temp2=1, fibinocci=0;
-		
+		int temp1=1, temp2=1, fibinocci=0;		
 		for(int i=3; i<=num; i++){
 			fibinocci = temp1+temp2;			
 			temp1 = temp2;
