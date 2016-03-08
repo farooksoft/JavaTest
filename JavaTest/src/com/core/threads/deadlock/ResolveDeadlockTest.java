@@ -3,15 +3,21 @@ package com.core.threads.deadlock;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * when two or more threads are waiting for each other to release lock and get stuck for infinite time, 
+ * situation is called deadlock . It will only happen in case of multitasking.
+ * 
+ * @author srayabar
+ *
+ */
 public class ResolveDeadlockTest {
 	
 	public static void main(String[] args) {
 		
-		
 		final List<String> namesList = new ArrayList<String>();
 		final List<String> subjectsList = new ArrayList<String>();
 		
-		Runnable readNames = new Runnable() {			
+		Runnable readNames = new Runnable() {
 			@Override
 			public void run() {				
 				//synchronized is a way to acquire lock on Object

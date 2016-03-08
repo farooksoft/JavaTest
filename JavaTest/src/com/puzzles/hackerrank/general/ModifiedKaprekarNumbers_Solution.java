@@ -1,4 +1,4 @@
-package com.hackerrank.test1;
+package com.puzzles.hackerrank.general;
 
 import java.util.Scanner;
 
