@@ -30,13 +30,11 @@ public class ModifiedKaprekarNumbers_Solution {
 	private static String calculateSomething(long i) {
 		long a;
 		long b;
-		boolean hasIt = false;
 		a = (i * i);
 		b = a;
 		
 		int length = findLength(i);
 		
-		int dividend = 1;
 		for(int j=1; j<=length; j++){
 			
 			String xyz = (b+"").substring((b+"").length()-j, (b+"").length());

@@ -11,20 +11,19 @@ public class PrimeNumber {
 		boolean prime = true;
 
 		for (int j = 2; j <= number; j++) {
-
-			int limit = (int) Math.sqrt(j);
-
+			
+			int limit = j/2;
 			for (int i = 2; i <= limit; i++) {
 				if (j % i == 0) {
 					prime = false;
 					break;
 				}
 			}
-
+			
 			if (prime)
-				System.out.println(j + " is a prime number");
+				System.out.println(j);
 			else
-				System.out.println(j + " is not a prime number");
+				//System.out.println(j + " is not a prime number");
 			prime = true;
 		}
 	}

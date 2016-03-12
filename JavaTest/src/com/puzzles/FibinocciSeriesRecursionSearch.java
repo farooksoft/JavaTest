@@ -3,13 +3,17 @@ package com.puzzles;
 import java.util.Scanner;
 
 /**
- * Find Fibinocci series and find nth number using Recursion
+ * Find Fibinocci series and find nth number using Recursion 
+ * 
+ * Actiance puzzle
+ * 
  * ex : 0 1 1 2 3 5 8 13 21.........n
  * 
  * @author srinath.rayabarapu 
  */
 public class FibinocciSeriesRecursionSearch {
 
+	/*
 	public static int findFibinocciSeriesElement(int index) {
 		
 		if(index == 1 ){
@@ -20,25 +24,23 @@ public class FibinocciSeriesRecursionSearch {
 		}
 		return (findFibinocciSeriesElement(index-1)+findFibinocciSeriesElement(index-2));
 	}
+	*/
 	
 	public static void main(String[] args) {
-		/*Scanner reader = new Scanner(System.in);
-		int iNumber = reader.nextInt();*/
 
-		//System.out.println(findFibinocciSeriesElement(100));
+		int n = 15;
 		
-		FibinocciSeriesRecursion seriesRecursion = new FibinocciSeriesRecursion(10);
+		FibinocciSeriesRecursion seriesRecursion = new FibinocciSeriesRecursion(n);
 		
 		Thread thread = new Thread(seriesRecursion);
 		thread.start();
 		try {
-			thread.join(); // waits current thread till spanned thread completes execution
+			thread.join(); // waits till the thread completes execution
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		System.out.println("hi");
 		
-		System.out.println(seriesRecursion.getNumber());		
+		System.out.println( n + " element in the Fibinocci series : " + seriesRecursion.getNumber());
 	}
 
 }

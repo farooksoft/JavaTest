@@ -1,7 +1,7 @@
 package com.puzzles;
 
 /**
- * Print Fibinocci series example with somple loop
+ * Print Fibinocci series example with sample loop
  * 
  * 0 1 1 2 3 5 8 13 21 34 55 
  * 

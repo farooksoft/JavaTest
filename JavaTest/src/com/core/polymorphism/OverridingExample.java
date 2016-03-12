@@ -1,29 +1,64 @@
 package com.core.polymorphism;
 
 /**
- * Overriding demo on class A and B
+ * Overriding happens across classes
  * <p>
- * Method signature should not be change (params,return types etc)
+ * Method signature should not change (params,return types etc)
  */
 public class OverridingExample {
 	public static void main(String[] args) {
 		A a = new B();
 		a.callMe();
+		a.m1();
+		
+		B b = new B();
+		b.callMe();
+		b.m1();
 	}
 }
 
 class A {
-	void callMe() {
+	
+	static void m1(){
+		System.out.println("m1");
+	}
+	
+	Object callMe() {
 		System.out.println("From class A");
 		// return 1;
+		return null;
+	}
+	
+	Object callMe(int a) {
+		System.out.println("From class A");
+		// return 1;
+		return null;
+	}
+	Object callMe(int a, int b) {
+		System.out.println("From class A");
+		// return 1;
+		return null;
 	}
 }
 
 class B extends A {
 
+	static void m1(){
+		System.out.println("m1 - 1");
+	}
+	
+	/*
 	@Override
 	void callMe() {
 		System.out.println("From class B");
 		super.callMe();
+	}
+	*/
+	
+	@Override
+	String callMe(){
+		
+		System.out.println("From class B");
+		return null;
 	}
 }
