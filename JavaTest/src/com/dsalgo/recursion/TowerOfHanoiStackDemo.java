@@ -1,8 +1,9 @@
-package com.core.recursion;
+package com.dsalgo.recursion;
 
 import java.util.Stack;
 
 public class TowerOfHanoiStackDemo {
+	
 	public static void main(String[] args) {
 		TowerOfHanoiStackDemo stackDemo = new TowerOfHanoiStackDemo();
 		
@@ -31,6 +32,17 @@ public class TowerOfHanoiStackDemo {
 		}
 	}
 
+	/**
+	 * For n disks,
+	 * 1. Move n-1 disks from a to b using c
+	 * 2. Move a disk from a to c
+	 * 3. Move n-1 disks from b to c using a 
+	 * 
+	 * @param n
+	 * @param a
+	 * @param b
+	 * @param c
+	 */
 	public void toH(int n, Stack<Integer> a, Stack<Integer> b, Stack<Integer> c){
 		
 		if(n>0){

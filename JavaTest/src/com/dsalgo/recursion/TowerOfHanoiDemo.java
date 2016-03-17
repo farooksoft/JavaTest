@@ -1,4 +1,4 @@
-package com.core.recursion;
+package com.dsalgo.recursion;
 
 /**
  * Logic is :

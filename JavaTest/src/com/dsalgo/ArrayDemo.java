@@ -6,8 +6,16 @@ import java.util.List;
 public class ArrayDemo {
 	public static void main(String[] args) {
 //		testArrays();
-		testAditya();
-
+		//testAditya();
+		
+		Object[] objArray = new Object[10];
+		
+		objArray = new String[11]; // can do this in Arrays
+		objArray[10] = new String();
+		
+		List<Object> objList = new ArrayList<Object>();
+		//objArray = new ArrayList<String>(); //cann't do this in List 
+		
 	}
 
 	private static void testAditya() {

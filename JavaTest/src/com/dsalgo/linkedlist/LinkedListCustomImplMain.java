@@ -4,20 +4,21 @@ public class LinkedListCustomImplMain {
 
 	public static void main(String[] args) {
 
-		LinkedListCustom custom = new LinkedListCustom();
+		CustomLinkedList custom = new CustomLinkedList();
 
 		custom.add(10);
 		custom.add(20);
 		custom.add(30);
+		custom.add(40, 2);
 		System.out.println(custom.toString());
 		
 		custom.remove(2);
 		System.out.println(custom.toString());
 		
-		custom.add(40,10);
+		/*custom.add(40,10);
 		System.out.println(custom.toString());
-		
-		System.out.println(custom.get(3));		
+		*/
+		System.out.println(custom.get(3));
 	}
 }
 
@@ -27,12 +28,12 @@ public class LinkedListCustomImplMain {
  * @author srayabar
  *
  */
-class LinkedListCustom {
+class CustomLinkedList {
 
 	private Node head;
 	private int listCount;
 
-	public LinkedListCustom() {
+	public CustomLinkedList() {
 		this.head = new Node(null);
 		this.listCount = 0;
 	}
@@ -45,9 +46,9 @@ class LinkedListCustom {
 	public void add(Object data) {
 
 		Node temNode = new Node(data);
-		Node currentHead = this.head;
+		Node currentHead = this.head; //head has all the nodes linking
 
-		while (currentHead.getNext() != null) {
+		while (currentHead.getNext() != null) { //goto last node and insert new node
 			currentHead = currentHead.getNext();
 		}
 
@@ -77,23 +78,34 @@ class LinkedListCustom {
 
 	}
 
+	/**
+	 * get a node by its index
+	 * 
+	 * @param index
+	 * @return
+	 */
 	public Object get(int index) {
 
 		if (index <= 0) {// 0 or -int case
 			return null;
 		}
 
-		Node currentNode = this.head.getNext();
+		Node currentNode = this.head.getNext(); //head itself is not a first node
 		for (int i = 1; i < index; i++) {
 			if (currentNode.getNext() == null) {
 				return null;
 			}
-
 			currentNode = currentNode.getNext(); // more than 2 case
 		}
 		return currentNode.getData(); // default : 1 case
 	}
 
+	/**
+	 * removes a node by its index
+	 * 
+	 * @param index
+	 * @return
+	 */
 	public boolean remove(int index) {
 
 		// 0 or -1 case
@@ -106,7 +118,6 @@ class LinkedListCustom {
 			if (currentNode.getNext() == null) {
 				return false;
 			}
-
 			currentNode = currentNode.getNext();
 		}
 
@@ -184,43 +195,6 @@ class Node {
 	 */
 	public void setData(Object data) {
 		this.data = data;
-	}
-	
-	/* (non-Javadoc)
-	 * @see java.lang.Object#hashCode()
-	 */
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((data == null) ? 0 : data.hashCode());
-		result = prime * result + ((next == null) ? 0 : next.hashCode());
-		return result;
-	}
-
-	/* (non-Javadoc)
-	 * @see java.lang.Object#equals(java.lang.Object)
-	 */
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Node other = (Node) obj;
-		if (data == null) {
-			if (other.data != null)
-				return false;
-		} else if (!data.equals(other.data))
-			return false;
-		if (next == null) {
-			if (other.next != null)
-				return false;
-		} else if (!next.equals(other.next))
-			return false;
-		return true;
 	}
 
 }

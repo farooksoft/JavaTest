@@ -50,12 +50,11 @@ public class CircularLinkedList {
             listNode.next = actualElement.next;
             actualElement = listNode;
             return true;
-        }
-        else {
-            actualElement = head.next;
-            index = 0;
-            return deleteFirst();
-        }
+        }        
+        actualElement = head.next;
+        index = 0;
+        return deleteFirst();
+        
     }
 
     public boolean goToNextElement() {

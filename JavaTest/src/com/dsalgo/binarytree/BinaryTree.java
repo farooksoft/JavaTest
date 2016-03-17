@@ -3,17 +3,28 @@ package com.dsalgo.binarytree;
 import java.util.Stack;
 
 /*
- * Simple Binary Tree with 
+ * Simple Binary Tree with
+ * 
+ *  				40
+ *  		20				60
+ *  	10		30		50		70
+ *  
  * 1. Pre Order traversal
  	Visit the node.
 	Traverse the left subtree in PreOrder.
 	Traverse the right subtree in PreOrder.
  * 2. Post Order traversal
- * 
- * 
+	Traverse the left subtree in PostOrder.
+	Traverse the right subtree in PostOrder.
+	Visit the node.
+ * 3. In Order traversal
+	Traverse the left subtree in InOrder.
+	Visit the node.
+	Traverse the right subtree in InOrder.
  */
 public class BinaryTree {
 
+	// inner static class - all variable are static on object
 	public static class TreeNode {
 		int data;
 		TreeNode left;
@@ -29,10 +40,33 @@ public class BinaryTree {
 		BinaryTree bTree = new BinaryTree();
 		TreeNode tNode = createBinaryTree();
 		
+		System.out.println("----- Pre Order -----");
 		System.out.println("Recursive approach");
 		bTree.preOrderRecursive(tNode);
-		System.out.println("Iterative approach");
+		
+		System.out.println("\nIterative approach");
 		bTree.preOrderIterative(tNode);
+		
+		System.out.println("\n\n----- Post Order -----");
+		System.out.println("Recursive approach");
+		bTree.postOrderRecursive(tNode);
+		
+		
+		System.out.println("\n\n----- In Order -----");
+		System.out.println("Recursive approach");
+		bTree.inOrderRecursive(tNode);
+		
+		
+	}
+
+	private void inOrderRecursive(TreeNode tNode) {
+		
+		if(tNode != null){
+			inOrderRecursive(tNode.left);
+			print(tNode);
+			inOrderRecursive(tNode.right);
+		}
+		
 	}
 
 	//Need to do manual - uses external Stack
@@ -51,10 +85,9 @@ public class BinaryTree {
 		Stack<TreeNode> stack = new Stack<TreeNode>();
 		stack.push(tNode);
 		
-		while(!stack.empty()){
-			
+		while(!stack.empty()){			
 			TreeNode pop = stack.pop();			
-			System.out.println(pop.data);
+			print(pop);			
 			if(pop.right != null)
 				stack.push(pop.right);			
 			if(pop.left != null)
@@ -72,12 +105,21 @@ public class BinaryTree {
 		}
 		
 	}
+	
+	private void postOrderRecursive(TreeNode tNode){		
+		if(tNode != null){
+			postOrderRecursive(tNode.left);
+			postOrderRecursive(tNode.right);
+			print(tNode);			
+		}
+	}
+	
 
 	private void print(TreeNode tNode) {
-		System.out.println(tNode.data);
+		System.out.print(tNode.data +" ");
 	}
 
-	//TODO - creating a manual tree - need to create a balanced btree
+	//TODO - creating a manual tree - need to create a balanced btree(AVL)
 	private static TreeNode createBinaryTree() {
 
 		TreeNode rootNode = new TreeNode(40);
