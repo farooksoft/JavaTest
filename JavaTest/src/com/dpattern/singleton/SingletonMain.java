@@ -20,6 +20,12 @@ public class SingletonMain {
 	}
 }
 
+/**
+ * intend to provide a single global point of access
+ *  
+ * @author srayabar
+ *
+ */
 class Singleton {
 	
 	//private static Singleton singleton = new Singleton(); // eager approach - not suggested
