@@ -1,4 +1,4 @@
-package com.dpattern.singleton;
+package com.dpattern.singleton.ex1;
 
 import javax.management.RuntimeErrorException;
 
@@ -21,7 +21,9 @@ public class SingletonMain {
 }
 
 /**
- * intend to provide a single global point of access
+ * intend to have one and only one instance of any class- very common solution
+ * 
+ * Look for ex2 package for different approaches
  *  
  * @author srayabar
  *
