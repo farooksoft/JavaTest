@@ -2,7 +2,7 @@ package com.dpattern.structural.decorator;
 
 public class RedShapeDecorator extends ShapeDecorator{
 	
-	public RedShapeDecorator(Shape decoratedShape) {
+	public RedShapeDecorator(IShape decoratedShape) {
 		super(decoratedShape);
 	}
 	
@@ -12,7 +12,7 @@ public class RedShapeDecorator extends ShapeDecorator{
 		setRedBorder(this.decoratedShape);
 	}
 
-	private void setRedBorder(Shape decoratedShape) {
+	private void setRedBorder(IShape decoratedShape) {
 		System.out.println("Drawing Red border");
 	}
 }

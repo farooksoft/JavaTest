@@ -1,4 +1,4 @@
-package com.dpattern.singleton.ex1;
+package com.dpattern.creational.singleton.ex1;
 
 import javax.management.RuntimeErrorException;
 

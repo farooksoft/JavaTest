@@ -8,7 +8,6 @@ public class Subject {
 	private int state;
 	private List<Observer> observersList = new ArrayList<Observer>();
 	
-	
 	public int getState() {
 		return this.state;
 	}
@@ -26,7 +25,5 @@ public class Subject {
 		for(Observer observer : this.observersList){
 			observer.update();
 		}
-	}
-
-	
+	}	
 }

@@ -1,4 +1,4 @@
-package com.dpattern.singleton.ex2;
+package com.dpattern.creational.singleton.ex2;
 
 public class EagerInitializationDemo {
 	

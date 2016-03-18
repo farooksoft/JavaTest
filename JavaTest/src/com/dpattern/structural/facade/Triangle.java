@@ -1,8 +1,8 @@
 package com.dpattern.structural.facade;
 
-import com.dpattern.structural.decorator.Shape;
+import com.dpattern.structural.decorator.IShape;
 
-public class Triangle implements Shape {
+public class Triangle implements IShape {
 
 	@Override
 	public void draw() {

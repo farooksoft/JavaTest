@@ -6,14 +6,13 @@ package com.dpattern.behavioural.observer;
  * http://www.tutorialspoint.com/design_pattern/observer_pattern.htm
  * 
  * @author srayabar
- *
  */
 public class ObserverPatternMain {
 	
 	public static void main(String[] args) {
 		Subject subject = new Subject();
 		
-		subject.setState(0);
+		subject.setState(0); //this doesn't have any effect as subject is not attached to a Observer
 		
 		new Test1Observer(subject);
 		new Test2Observer(subject);
@@ -21,5 +20,4 @@ public class ObserverPatternMain {
 		
 		subject.setState(1);
 	}
-
 }
