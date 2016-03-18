@@ -7,13 +7,10 @@ public class BuilderPatternDemo {
 		MealBuilder builder = new MealBuilder();
 		Meal vegBurger = builder.prepareVegBurger();
 		vegBurger.showItems();
-		System.out.println(vegBurger.getCost()+"\n");
-		
+		System.out.println(vegBurger.getCost()+"\n");		
 		
 		Meal chickenBurger = builder.prepareChickenBurger();
 		chickenBurger.showItems();
-		System.out.println(chickenBurger.getCost());
-		
+		System.out.println(chickenBurger.getCost());		
 	}
-	
 }

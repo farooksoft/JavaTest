@@ -5,5 +5,4 @@ public interface IShapeMakerFacade {
 	public void drawCircle();
 	public void drawTriangle();
 	public void drawRectangle();
-
 }
