@@ -1,4 +1,4 @@
-package com.dpattern.proxy;
+package com.dpattern.structural.proxy;
 
 public class RealInternet implements IInternet {
 

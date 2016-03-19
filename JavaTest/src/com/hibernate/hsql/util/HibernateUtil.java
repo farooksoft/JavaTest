@@ -10,20 +10,25 @@ public class HibernateUtil {
 	
 	private static final Logger LOGGER = Logger.getLogger("HibenrateTutorial");
 	
-	private static SessionFactory sessionFactory = buildSessionFactory();
-
+	private static volatile SessionFactory sessionFactory = buildSessionFactory();
+	
 	private static SessionFactory buildSessionFactory() {
 		
 		if(sessionFactory == null){
-			LOGGER.debug("No sessionfactory exists, hence creating new");
-			Configuration configuration = new Configuration().configure(HibernateUtil.class.getResource("/hibernate.cfg.xml"));
-			StandardServiceRegistryBuilder serviceRegistryBuilder = new StandardServiceRegistryBuilder();
-            serviceRegistryBuilder.applySettings(configuration.getProperties());
-            ServiceRegistry serviceRegistry = serviceRegistryBuilder.build();
-            sessionFactory = configuration.buildSessionFactory(serviceRegistry);
-            LOGGER.debug("Created session factory");
+			//multi threading case
+			synchronized (HibernateUtil.class) {
+				//double checking
+				if(sessionFactory == null){
+					LOGGER.debug("No sessionfactory exists, hence creating new");
+					Configuration configuration = new Configuration().configure(HibernateUtil.class.getResource("/hibernate.cfg.xml"));
+					StandardServiceRegistryBuilder serviceRegistryBuilder = new StandardServiceRegistryBuilder();
+		            serviceRegistryBuilder.applySettings(configuration.getProperties());
+		            ServiceRegistry serviceRegistry = serviceRegistryBuilder.build();
+		            sessionFactory = configuration.buildSessionFactory(serviceRegistry);
+		            LOGGER.debug("Created session factory");
+				}
+			}
 		}
-		
 		return sessionFactory;
 	}
 	

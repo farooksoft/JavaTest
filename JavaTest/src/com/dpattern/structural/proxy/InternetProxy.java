@@ -1,4 +1,4 @@
-package com.dpattern.proxy;
+package com.dpattern.structural.proxy;
 
 import java.util.ArrayList;
 import java.util.List;

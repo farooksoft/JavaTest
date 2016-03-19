@@ -88,8 +88,4 @@ public class EmployeeEntity implements Serializable {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
-	
-	
-
 }

@@ -1,4 +1,4 @@
-package com.dpattern.proxy;
+package com.dpattern.structural.proxy;
 
 public class ProxyDesignPatternDemo {
 	public static void main(String[] args) {
