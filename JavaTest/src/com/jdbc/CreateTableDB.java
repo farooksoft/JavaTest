@@ -2,7 +2,6 @@ package com.jdbc;
 
 /* Eg., 13			 thin Driver 		*/
 import java.sql.*;
-import oracle.jdbc.driver.*;
 
 public class CreateTableDB {
 	Connection con;
@@ -10,7 +9,7 @@ public class CreateTableDB {
 
 	public CreateTableDB() {
 		try {
-			DriverManager.registerDriver(new OracleDriver());
+			//DriverManager.registerDriver(new OracleDriver());
 			con = DriverManager.getConnection(
 					"jdbc:oracle:thin:@127.0.0.1:1521:ORCL", "scott", "tiger");
 			st = con.createStatement();

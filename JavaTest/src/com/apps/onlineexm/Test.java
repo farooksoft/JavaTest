@@ -18,7 +18,7 @@ public class Test {
 			ClassNotFoundException, IOException {
 
 		// Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-		DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
+		//DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
 		Connection con;
 		con = DriverManager.getConnection(
 				"jdbc:oracle:thin:@localhost:1521:testdb", "user1", "oracle");
