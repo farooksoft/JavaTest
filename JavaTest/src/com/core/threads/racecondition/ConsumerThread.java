@@ -18,5 +18,4 @@ public class ConsumerThread implements Runnable{
 		SharedResource instance = SharedResource.getInstance();
 		System.out.println(instance.toString());
 	}
-	
 }

@@ -35,15 +35,12 @@ public class ExecutorServiceCallableFutureExample {
 		} catch (ExecutionException e) {
 			e.printStackTrace();
 		}
-		executor.shutdown();
-		
+		executor.shutdown();		
 	}
-
 }
 
 class FactorialCalculator implements Callable<Integer>
-{
- 
+{ 
     private Integer number;
  
     public FactorialCalculator(Integer number) {

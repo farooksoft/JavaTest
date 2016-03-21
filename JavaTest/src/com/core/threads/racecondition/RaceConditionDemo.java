@@ -3,6 +3,14 @@ package com.core.threads.racecondition;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * class to demo race condition in multi threading
+ * 
+ * Avoiding race condition:
+ * 
+ * @author srayabar
+ *
+ */
 public class RaceConditionDemo {
 	
 	public static void main(String[] args) throws InterruptedException {

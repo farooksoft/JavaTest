@@ -8,13 +8,12 @@ public class FixedThreadPoolExecutorsExample {
 	public static void main(String[] args) {
 		
 		ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(4);
-		Task task;
+		TaskThread task;
 		for(int i=0; i<=15; i++){
-			task = new Task("Task" + i);
+			task = new TaskThread("Task" + i);
 			System.out.println("New task added : " + task.getName());
 			executor.execute(task);			
 		}
 		executor.shutdown();
 	}
-	
 }

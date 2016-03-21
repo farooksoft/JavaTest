@@ -1,3 +1,4 @@
+package com.aaa;
 
 public class StaticClass {
 

@@ -18,5 +18,4 @@ public class SharedResource {
 	public String toString() {
 		return i+"";
 	}
-	
 }

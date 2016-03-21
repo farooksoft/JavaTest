@@ -2,11 +2,11 @@ package com.core.threads.executors;
 
 import java.util.concurrent.TimeUnit;
 
-public class Task implements Runnable{
+public class TaskThread implements Runnable{
 	
 	private String name;
 	
-	public Task(String name) {
+	public TaskThread(String name) {
 		this.name = name;
 	}
 	

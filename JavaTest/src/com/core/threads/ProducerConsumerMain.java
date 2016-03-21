@@ -1,9 +1,6 @@
 package com.core.threads;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Vector;
 
 /**
@@ -19,7 +16,6 @@ public class ProducerConsumerMain {
 	
 	//private static List<Object> data1 = Collections.synchronizedList(new ArrayList<Object>());
 	
-
     public static void main(String[] args) {
         new Producer().start();
         new Consumer().start();

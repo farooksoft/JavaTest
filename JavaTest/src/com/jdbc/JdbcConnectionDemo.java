@@ -6,15 +6,19 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.Statement;
 
+/**
+ * simple jdbc class for oracle database
+ * @author srayabar
+ *
+ */
 public class JdbcConnectionDemo {
+	
 	public static void main(String[] args) throws Exception {
+		
 		Class.forName("oracle.jdbc.OracleDriver");
-		Connection connection = DriverManager.getConnection(
-				"jdbc:oracle:thin:@localhost:1521/testdb", "user1", "oracle");
+		Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/testdb", "user1", "oracle");
 		Statement statement = connection.createStatement();
-		ResultSet resultSet = statement
-				.executeQuery("select * from ex_empdata");
-
+		ResultSet resultSet = statement.executeQuery("select * from ex_empdata");
 		ResultSetMetaData metaData = resultSet.getMetaData();
 		int coloumn = metaData.getColumnCount();
 

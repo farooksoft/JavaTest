@@ -8,13 +8,13 @@ public class EvenOddPrintThreadMain {
 		Thread t2 = new Thread(new LogicThread("thread2", 10));
 		
 		t1.start();
-		
+		/*
 		try {
 			t1.join(); //mandates sequential flow
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+		*/
 		System.out.println("-----------");
 		t2.start();
 	}
@@ -39,6 +39,7 @@ class LogicThread implements Runnable{
 				if(j%2 == 0){
 					System.out.println( this.tName +" - "+ j + " ");
 				}
+				
 			}else if(this.tName.equals("thread2")){
 				int j = this.count++;
 				if(j%2 == 1){

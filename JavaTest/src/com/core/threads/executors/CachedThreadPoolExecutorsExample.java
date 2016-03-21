@@ -8,9 +8,9 @@ public class CachedThreadPoolExecutorsExample {
 	public static void main(String[] args) {
 		
 		ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newCachedThreadPool();
-		Task task;
+		TaskThread task;
 		for(int i=0; i<=5; i++){
-			task = new Task("Task" + i);
+			task = new TaskThread("Task" + i);
 			System.out.println("New task added : " + task.getName());
 			executor.execute(task);			
 		}
