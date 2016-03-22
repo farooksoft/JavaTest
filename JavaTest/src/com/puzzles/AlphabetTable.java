@@ -1,6 +1,7 @@
 package com.puzzles;
 
-/* 9.	Write an application that reads several lines of text from the keyboard and prints a table indicating the number of occurrences of each letter of the alphabet in the text. For example, the phrase
+/* 9.	Write an application that reads several lines of text from the keyboard and prints a table indicating the 
+ * number of occurrences of each letter of the alphabet in the text. For example, the phrase
 
  To be, or not to be: that is the question:
 
@@ -17,8 +18,8 @@ class Alphabets {
 	// alphas[] is a array varaiable which consists of alphabetics from A to Z
 
 	char alphas[] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
-			'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x',
-			'y', 'z' };
+					'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x',
+					'y', 'z' };
 
 	// nos[] is an string variable which is used to initialise the numbers that
 	// has to be occured during output.
@@ -54,7 +55,6 @@ class Alphabets {
 		{
 
 			// checks for values between 0 and 9 both inclusive
-
 			if (counts[i] < 10) {
 				for (int j = 0; j < 10; j++) {
 					if (counts[i] == j) {
@@ -80,17 +80,15 @@ class Alphabets {
 			for (int m = 10; m < 90; m = m + 10) {
 				if (counts[i] > 0 && counts[i] % 10 == 0) {
 					quot = counts[i] / 10;
-					System.out
-							.println(nos2[quot - 1] + "\t" + alphas[i] + "'s");
+					System.out.println(nos2[quot - 1] + "\t" + alphas[i] + "'s");
 					break;
 				}
 			}
 		}
-
 	}
 }
 
-class AlphabetTable {
+public class AlphabetTable {
 	public static void main(String[] args) {
 		// a1 is the object of Alphabets class which is used to call the
 		// Alphabets class methods.
