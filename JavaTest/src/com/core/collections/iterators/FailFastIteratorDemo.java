@@ -21,7 +21,7 @@ public class FailFastIteratorDemo {
 		Iterator<String> iterator = stringList.iterator();
 		while(iterator.hasNext()){
 			stringList.add("abc4");
-			iterator.next(); //iterator detects change in base list and throw ConcurrentModificationException
-		}
+			//iterator.next(); //iterator detects change in base list and throw ConcurrentModificationException
+		}		
 	}
 }

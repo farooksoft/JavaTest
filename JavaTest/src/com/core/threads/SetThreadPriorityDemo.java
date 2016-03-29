@@ -16,4 +16,5 @@ class SetThreadPriorityDemo {
 			System.out.println("Main " + i);
 		System.out.println("Exiting Main");
 	}
+	
 }
