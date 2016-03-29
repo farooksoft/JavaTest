@@ -65,8 +65,6 @@ public class BinaryTreeTraversalsDemo {
 		System.out.println("\n\n----- In Order -----");
 		System.out.println("Recursive approach");
 		bTree.inOrderRecursive(tNode);
-		
-		
 	}
 
 	private void inOrderRecursive(TreeNode tNode) {
@@ -76,7 +74,6 @@ public class BinaryTreeTraversalsDemo {
 			print(tNode);
 			inOrderRecursive(tNode.right);
 		}
-		
 	}
 
 	//Need to do manual - uses external Stack
@@ -97,9 +94,11 @@ public class BinaryTreeTraversalsDemo {
 		
 		while(!stack.empty()){			
 			TreeNode pop = stack.pop();			
-			print(pop);			
+			print(pop);
+			
+			//push right first so that while popping left comes early
 			if(pop.right != null)
-				stack.push(pop.right);			
+				stack.push(pop.right);
 			if(pop.left != null)
 				stack.push(pop.left);
 		}
@@ -112,8 +111,7 @@ public class BinaryTreeTraversalsDemo {
 			print(tNode);
 			preOrderRecursive(tNode.left);
 			preOrderRecursive(tNode.right);
-		}
-		
+		}		
 	}
 	
 	private void postOrderRecursive(TreeNode tNode){		
@@ -152,5 +150,4 @@ public class BinaryTreeTraversalsDemo {
 
 		return rootNode;
 	}
-
 }
