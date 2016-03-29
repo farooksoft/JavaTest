@@ -24,10 +24,12 @@ public class SleepAndWaitThreadDemo {
 		
 		System.out.println("Started Main");
 		TempThread s = new TempThread();
-		Thread t = new Thread(s, "t");
 		Thread t1 = new Thread(s, "t1");
-		t.start();
+		Thread t2 = new Thread(s, "t2");
 		t1.start();
+		//if called again - throws IllegalThreadStateException
+		//t1.start();
+		t2.start();
 		System.out.println("Exiting Main");
 	}
 }
@@ -40,10 +42,9 @@ class TempThread implements Runnable {
 		
 		synchronized (someList) {
 			try {
-				if(Thread.currentThread().getName().equals("t"))
-					
+				if(Thread.currentThread().getName().equals("t1"))					
 					//releases lock for other threads
-					someList.wait(); //should be called from sync block - means should hold a lock before calling
+					someList.wait(); //should be called from synchronized block - means should hold a lock before calling
 				
 					//hold lock for all the threads - pauses the process
 					//Thread.sleep(10000);
@@ -52,7 +53,6 @@ class TempThread implements Runnable {
 				e.printStackTrace();
 			}
 		}
-		
 		System.out.println("thread " + Thread.currentThread().getName());		
 	}
 }

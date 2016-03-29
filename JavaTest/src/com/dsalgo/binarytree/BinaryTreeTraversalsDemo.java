@@ -2,27 +2,37 @@ package com.dsalgo.binarytree;
 
 import java.util.Stack;
 
-/*
+/**
  * Simple Binary Tree with
- * 
- *  				40
- *  		20				60
- *  	10		30		50		70
- *  
+  
+   				40
+   		20				60
+   	10		30		50		70
+   
  * 1. Pre Order traversal
  	Visit the node.
 	Traverse the left subtree in PreOrder.
 	Traverse the right subtree in PreOrder.
+	
+	40 20 10 30 60 50 70 
+	
  * 2. Post Order traversal
 	Traverse the left subtree in PostOrder.
 	Traverse the right subtree in PostOrder.
 	Visit the node.
+	
+	10 30 20 50 70 60 40 
+	
  * 3. In Order traversal
 	Traverse the left subtree in InOrder.
 	Visit the node.
 	Traverse the right subtree in InOrder.
+	
+	10 20 30 40 50 60 70 
+	
+ * @author srayabar
  */
-public class BinaryTree {
+public class BinaryTreeTraversalsDemo {
 
 	// inner static class - all variable are static on object
 	public static class TreeNode {
@@ -37,7 +47,7 @@ public class BinaryTree {
 
 	public static void main(String[] args) {
 
-		BinaryTree bTree = new BinaryTree();
+		BinaryTreeTraversalsDemo bTree = new BinaryTreeTraversalsDemo();
 		TreeNode tNode = createBinaryTree();
 		
 		System.out.println("----- Pre Order -----");
