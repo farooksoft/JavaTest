@@ -1,19 +1,18 @@
 package com.puzzles;
 
-import java.util.Scanner;
-
 /**
- * Find Fibinocci series and find nth number using Recursion 
+ * Class to find Fibinocci series and find nth number using Recursion with a thread 
  * 
  * Actiance puzzle
  * 
- * ex : 0 1 1 2 3 5 8 13 21.........n
+ * ex : 1 1 2 3 5 8 13 21.........n
  * 
  * @author srinath.rayabarapu 
  */
-public class FibinocciSeriesRecursionSearch {
+public class FibinocciSeriesThreadSearchDemo {
 
-	/*
+	/* default fibinocci series -
+	
 	public static int findFibinocciSeriesElement(int index) {
 		
 		if(index == 1 ){
@@ -28,23 +27,19 @@ public class FibinocciSeriesRecursionSearch {
 	
 	public static void main(String[] args) {
 
-		int n = 15;
-		
-		FibinocciSeriesRecursion seriesRecursion = new FibinocciSeriesRecursion(n);
-		
+		int n = 3;		
+		FibinocciSeriesRecursion seriesRecursion = new FibinocciSeriesRecursion(n);		
 		Thread thread = new Thread(seriesRecursion);
 		thread.start();
+		
 		try {
 			thread.join(); // waits till the thread completes execution
 		} catch (InterruptedException e) {
 			e.printStackTrace();
-		}
-		
+		}		
 		System.out.println( n + " element in the Fibinocci series : " + seriesRecursion.getNumber());
 	}
-
 }
-
 
 class FibinocciSeriesRecursion implements Runnable{
 	int number;
@@ -53,16 +48,14 @@ class FibinocciSeriesRecursion implements Runnable{
 	public FibinocciSeriesRecursion(int number) {
 		this.number = number;
 	}
+	
 	@Override
 	public void run() {
 		setNumber(calculateFibinocc(this.number));
 	}
 	
 	public int calculateFibinocc(int num){
-		if(num == 1){
-			return 0;
-		}
-		if(num == 2){
+		if(num == 1 || num == 2){
 			return 1;
 		}
 		return (calculateFibinocc(num-1) + calculateFibinocc(num-2));
