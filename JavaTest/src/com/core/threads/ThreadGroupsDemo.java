@@ -1,8 +1,8 @@
 package com.core.threads;
 
-/* show why we have to use thread groups
- Author : Team -J
- Version : 1.0 */
+/**
+ * show why we have to use thread groups
+ */
 public class ThreadGroupsDemo {
 	static public void main(String[] args) throws Exception {
 		ThreadGroup tg = new ThreadGroup("Reservation Group");

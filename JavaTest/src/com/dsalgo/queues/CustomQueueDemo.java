@@ -41,18 +41,18 @@ class CustomQueue<T>{
 	
 	public CustomQueue(int size) {
 		//create an object array and cast it to generic type T
-		queueArray = (T[])new Object[size];
+		this.queueArray = (T[])new Object[size];
 		this.capacity = size;
 	}
 	
 	//if full, capacity is equal to current size
 	public boolean isFull(){
-		return capacity == currentSize;
+		return this.capacity == this.currentSize;
 	}
 	
 	//if empty, currentsize is 0
 	public boolean isEmpty(){
-		return currentSize == 0;
+		return this.currentSize == 0;
 	}
 	
 	public void enqueue(T t){
@@ -60,16 +60,16 @@ class CustomQueue<T>{
 			throw new RuntimeException("Queue is Full");
 		}
 		//increment rear
-		rear++;
+		this.rear++;
 		//check if rear is equal to queue capacity then set it to 0
-		if(rear == capacity-1){
-			rear = 0;
+		if(this.rear == this.capacity-1){
+			this.rear = 0;
 		}
 		//enqueue element to rear index		
-		queueArray[rear] = t;
+		this.queueArray[this.rear] = t;
 		
 		//update currentsize accordingly
-		currentSize ++;
+		this.currentSize ++;
 		System.out.println("Enqueued " + t);
 	}
 	
@@ -78,15 +78,15 @@ class CustomQueue<T>{
 			throw new RuntimeException("Queue is Empty");
 		}
 		//increment front, as it was 0 initially
-		front ++;
+		this.front ++;
 		
-		if(front == capacity-1){
-			front = 0;
+		if(this.front == this.capacity-1){
+			this.front = 0;
 		}
 		//decrement currentsize
-		currentSize --;
+		this.currentSize --;
 		
 		//return front index element from queue array
-		return queueArray[front-1];
+		return this.queueArray[this.front-1];
 	}
 }
