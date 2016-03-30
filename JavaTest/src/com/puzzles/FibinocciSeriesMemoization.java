@@ -3,6 +3,12 @@ package com.puzzles;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * program which caches fibinocci values - improves performance
+ * 
+ * @author srayabar
+ *
+ */
 public class FibinocciSeriesMemoization {
 
 	static Map<Integer, Integer> cache = new HashMap<Integer, Integer>();

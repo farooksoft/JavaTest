@@ -26,8 +26,7 @@ public class QuickSort {
 		
 		doQuickSort(inputArray, 0, inputArray.length-1);
 		
-		System.out.println("After Sort : " + Arrays.toString(inputArray));
-		
+		System.out.println("After Sort : " + Arrays.toString(inputArray));		
 	}
 
 	/**
@@ -80,5 +79,4 @@ public class QuickSort {
 		inputArray[i] = inputArray[j];
 		inputArray[j] = temp;
 	}
-
 }

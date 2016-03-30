@@ -1,5 +1,10 @@
 package com.dsalgo.linkedlist;
 
+/**
+ * custom circular linkedlist implementation1
+ * 
+ * @author srayabar
+ */
 public class CircularLinkedList {
 	
 	private ListNode head = null;
