@@ -1,6 +1,6 @@
 package com.puzzles.hackerrank.general;
 
-public class MatrixCircular {
+public class MatrixCircularTraverseDemo {
 
 	public static int matrixTraverse(int arr[][], int row, int column) {
 
@@ -53,7 +53,6 @@ public class MatrixCircular {
 					  };
 
 		System.out.println("Your 2D Array : ");
-
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[0].length; j++) {
 				System.out.print("\t" + arr[i][j]);
@@ -62,9 +61,6 @@ public class MatrixCircular {
 		}
 
 		System.out.print("Traverse Circular : \n");
-
 		matrixTraverse(arr, arr.length, arr[0].length);
-
 	}
-
 }
