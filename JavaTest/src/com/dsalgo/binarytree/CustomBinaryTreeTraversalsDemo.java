@@ -32,47 +32,94 @@ import java.util.Stack;
 	
  * @author srayabar
  */
-public class BinaryTreeTraversalsDemo {
+public class CustomBinaryTreeTraversalsDemo {
+	
+	static TreeNode root;
+	
+	private void addNode(int data, String name){
+		
+		TreeNode newNode = new TreeNode(data, name);
+		
+		if(root == null){
+			
+			root = newNode;			
+		} else {
+			
+			TreeNode focusNode = root;
+			TreeNode parent;
+			
+			while(true){
+				parent = focusNode;
+				
+				if(data < focusNode.data){					
+					focusNode = focusNode.leftChild;
+					
+					if(focusNode == null){
+						parent.leftChild = newNode;
+						return;
+					}
+				} else {
+					focusNode = focusNode.rightChild;
+					if(focusNode == null){
+						parent.rightChild = newNode;
+						return;
+					}
+				}
+			}
+		}
+	}
 
 	// inner static class - all variable are static on object
 	public static class TreeNode {
 		int data;
-		TreeNode left;
-		TreeNode right;
+		String name;		
+		TreeNode leftChild;
+		TreeNode rightChild;
 
-		public TreeNode(int data) {
+		public TreeNode(int data, String name) {
 			this.data = data;
+			this.name = name;
+		}
+		@Override
+		public String toString() {
+			return this.name + " has data " + this.data;
 		}
 	}
 
 	public static void main(String[] args) {
 
-		BinaryTreeTraversalsDemo bTree = new BinaryTreeTraversalsDemo();
-		TreeNode tNode = createBinaryTree();
+		CustomBinaryTreeTraversalsDemo bTree = new CustomBinaryTreeTraversalsDemo();		
+		bTree.addNode(10, "one");
+		bTree.addNode(20, "two");
+		bTree.addNode(30, "three");
+		bTree.addNode(40, "four");
+		bTree.addNode(50, "five");
+		bTree.addNode(60, "six");
+		bTree.addNode(70, "seven");
 		
 		System.out.println("----- Pre Order -----");
 		System.out.println("Recursive approach");
-		bTree.preOrderRecursive(tNode);
+		bTree.preOrderRecursive(bTree.root);
 		
 		System.out.println("\nIterative approach");
-		bTree.preOrderIterative(tNode);
+		bTree.preOrderIterative(bTree.root);
 		
 		System.out.println("\n\n----- Post Order -----");
 		System.out.println("Recursive approach");
-		bTree.postOrderRecursive(tNode);
+		bTree.postOrderRecursive(bTree.root);
 		
 		
 		System.out.println("\n\n----- In Order -----");
 		System.out.println("Recursive approach");
-		bTree.inOrderRecursive(tNode);
+		bTree.inOrderRecursive(bTree.root);
 	}
 
 	private void inOrderRecursive(TreeNode tNode) {
 		
 		if(tNode != null){
-			inOrderRecursive(tNode.left);
+			inOrderRecursive(tNode.leftChild);
 			print(tNode);
-			inOrderRecursive(tNode.right);
+			inOrderRecursive(tNode.rightChild);
 		}
 	}
 
@@ -97,10 +144,10 @@ public class BinaryTreeTraversalsDemo {
 			print(pop);
 			
 			//push right first so that while popping left comes early
-			if(pop.right != null)
-				stack.push(pop.right);
-			if(pop.left != null)
-				stack.push(pop.left);
+			if(pop.rightChild != null)
+				stack.push(pop.rightChild);
+			if(pop.leftChild != null)
+				stack.push(pop.leftChild);
 		}
 	}
 
@@ -109,15 +156,15 @@ public class BinaryTreeTraversalsDemo {
 		
 		if(tNode != null){
 			print(tNode);
-			preOrderRecursive(tNode.left);
-			preOrderRecursive(tNode.right);
+			preOrderRecursive(tNode.leftChild);
+			preOrderRecursive(tNode.rightChild);
 		}		
 	}
 	
 	private void postOrderRecursive(TreeNode tNode){		
 		if(tNode != null){
-			postOrderRecursive(tNode.left);
-			postOrderRecursive(tNode.right);
+			postOrderRecursive(tNode.leftChild);
+			postOrderRecursive(tNode.rightChild);
 			print(tNode);			
 		}
 	}
@@ -125,29 +172,5 @@ public class BinaryTreeTraversalsDemo {
 
 	private void print(TreeNode tNode) {
 		System.out.print(tNode.data +" ");
-	}
-
-	//TODO - creating a manual tree - need to create a balanced btree(AVL)
-	private static TreeNode createBinaryTree() {
-
-		TreeNode rootNode = new TreeNode(40);
-
-		TreeNode node20 = new TreeNode(20);
-		TreeNode node10 = new TreeNode(10);
-		TreeNode node30 = new TreeNode(30);
-		TreeNode node60 = new TreeNode(60);
-		TreeNode node50 = new TreeNode(50);
-		TreeNode node70 = new TreeNode(70);
-
-		rootNode.left = node20;
-		rootNode.right = node60;
-
-		node20.left = node10;
-		node20.right = node30;
-
-		node60.left = node50;
-		node60.right = node70;
-
-		return rootNode;
 	}
 }
