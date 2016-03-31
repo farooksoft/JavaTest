@@ -5,7 +5,8 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class TheTimeinWords_Solution {
-	static Map<Integer, String> minutesMap = null; 
+	
+	static Map<Integer, String> minutesMap = null;
 	static {
 		minutesMap = new HashMap<Integer, String>();
         minutesMap.put(1, "one minute ");
