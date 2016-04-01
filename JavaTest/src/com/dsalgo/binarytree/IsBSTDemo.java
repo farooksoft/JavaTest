@@ -4,8 +4,10 @@ package com.dsalgo.binarytree;
  * 
  * Youtube link - https://youtu.be/MILxfAbIhrE
  * <br>
+ * 
  * Given a binary tree, return true if it is binary search tree else return false.
  * <br>
+ * 
  * Solution - 
  * Keep min, max for every recursion. Initial min and max is very small and very larger
  * number. Check if root.data is in this range. When you go left pass min and root.data and 
@@ -25,12 +27,12 @@ package com.dsalgo.binarytree;
 public class IsBSTDemo {
 	
 	//method to trigger check
-	private boolean isBST(Node root){
+	private boolean isBST(TreeNode root){
 		return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
 	}
 
 	//recursive function which checks for all the nodes
-	private boolean isBST(Node root, int minValue, int maxValue) {
+	private boolean isBST(TreeNode root, int minValue, int maxValue) {
 		//if root is null, it's a BST
 		if(root == null){
 			return true;
@@ -44,7 +46,7 @@ public class IsBSTDemo {
 	}
 	
 	//TODO - 
-	private boolean isBSTNonRecursive(Node root){
+	private boolean isBSTNonRecursive(TreeNode root){
 		return false;
 	}
 	
@@ -52,4 +54,20 @@ public class IsBSTDemo {
 		
 	}
 	
+}
+
+class TreeNode {
+	int data;
+	String name;		
+	TreeNode leftChild;
+	TreeNode rightChild;
+
+	public TreeNode(int data, String name) {
+		this.data = data;
+		this.name = name;
+	}
+	@Override
+	public String toString() {
+		return this.name + " has data " + this.data;
+	}
 }

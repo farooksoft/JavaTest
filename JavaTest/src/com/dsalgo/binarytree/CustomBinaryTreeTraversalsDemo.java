@@ -40,8 +40,9 @@ public class CustomBinaryTreeTraversalsDemo {
 		
 		TreeNode newNode = new TreeNode(data, name);		
 		if(root == null){			
-			root = newNode;			
-		} else {			
+			root = newNode;
+		}
+		else {			
 			TreeNode focusNode = root;
 			TreeNode parent;
 			while(true){

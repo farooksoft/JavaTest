@@ -1,4 +1,4 @@
-package com.dsalgo.queues;
+package com.dsalgo.stacksNqueues;
 
 /**
  * custom queue implementation - 
@@ -16,7 +16,14 @@ public class CustomQueueDemo {
 		custQueue.enqueue("a");
 		custQueue.enqueue("b");
 		custQueue.enqueue("c");
-		custQueue.enqueue("d");		
+		custQueue.enqueue("d");
+		custQueue.enqueue("e");
+		custQueue.enqueue("f");
+		System.out.println("Dequeued " + custQueue.dequeue());
+		System.out.println("Dequeued " + custQueue.dequeue());
+		System.out.println("Dequeued " + custQueue.dequeue());
+		System.out.println("Dequeued " + custQueue.dequeue());
+		System.out.println("Dequeued " + custQueue.dequeue());
 		System.out.println("Dequeued " + custQueue.dequeue());
 	}
 }
@@ -57,15 +64,13 @@ class CustomQueue<T>{
 	
 	public void enqueue(T t){
 		if(isFull()){
-			throw new RuntimeException("Queue is Full");
+			System.out.println("Hey! Queue is Full");
+			return;
 		}
-		//increment rear
+		//increment rear as it started from -1
 		this.rear++;
-		//check if rear is equal to queue capacity then set it to 0
-		if(this.rear == this.capacity-1){
-			this.rear = 0;
-		}
-		//enqueue element to rear index		
+		
+		//enqueue element to rear index
 		this.queueArray[this.rear] = t;
 		
 		//update currentsize accordingly
@@ -75,14 +80,12 @@ class CustomQueue<T>{
 	
 	public T dequeue(){
 		if(isEmpty()){
-			throw new RuntimeException("Queue is Empty");
+			System.out.println("Hey! Queue is Empty");
+			return null;
 		}
-		//increment front, as it was 0 initially
+		//increment front here but do -1 below
 		this.front ++;
 		
-		if(this.front == this.capacity-1){
-			this.front = 0;
-		}
 		//decrement currentsize
 		this.currentSize --;
 		
