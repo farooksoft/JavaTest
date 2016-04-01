@@ -5,6 +5,8 @@ package com.dsalgo.search;
  * 
  * find number of times a circular sorted array rotated
  * 
+ * Using binary search tree - O(log n) TC
+ * 
  * @author srayabar
  *
  */
@@ -25,6 +27,8 @@ public class SortedArrayRotations {
 			}
 			int mid = (start + end)/2;
 			System.out.println("mid-"+mid);
+			
+			//magic - way to find prev and next indices
 			int prev = (mid+len-1) % len;
 			int next = (mid+1) % len;			
 			System.out.println("prev-"+prev+",next-"+next);

@@ -1,4 +1,4 @@
-package com.dsalgo;
+package com.dsalgo.arrays;
 
 import java.util.ArrayList;
 import java.util.List;

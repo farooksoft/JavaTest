@@ -13,72 +13,71 @@ public class CircularLinkedList {
     private int index = 0;
 
     public boolean isEmpty() {
-        return (numberOfElements == 0);
+        return (this.numberOfElements == 0);
     }
 
     public int getNumberOfElements() {
-        return numberOfElements;
+        return this.numberOfElements;
     }
 
     public void insertFirst(Object data) {
         if (!(isEmpty())) {
-            index++;
+            this.index++;
         }
-        ListNode listNode = new ListNode(data, head);
-        head = listNode;
-        numberOfElements++;
+        ListNode listNode = new ListNode(data, this.head);
+        this.head = listNode;
+        this.numberOfElements++;
     }
 
     public void insertAfterActual(Object data) {
-        ListNode listNode = new ListNode(data, actualElement.next);
-        actualElement.next = listNode;
-        numberOfElements++;
+        ListNode listNode = new ListNode(data, this.actualElement.next);
+        this.actualElement.next = listNode;
+        this.numberOfElements++;
     }
 
     public boolean deleteFirst() {
         if (isEmpty())
             return false;
-        if (index > 0)
-            index--;
-        head = head.next;
-        numberOfElements--;
+        if (this.index > 0)
+            this.index--;
+        this.head = this.head.next;
+        this.numberOfElements--;
         return true;
     }
 
     public boolean deleteActualElement() {
-        if (index > 0) {
-            numberOfElements--;
-            index--;
-            ListNode listNode = head;
-            while (listNode.next.equals(actualElement) == false)
+        if (this.index > 0) {
+            this.numberOfElements--;
+            this.index--;
+            ListNode listNode = this.head;
+            while (listNode.next.equals(this.actualElement) == false)
                 listNode = listNode.next;
-            listNode.next = actualElement.next;
-            actualElement = listNode;
+            listNode.next = this.actualElement.next;
+            this.actualElement = listNode;
             return true;
         }        
-        actualElement = head.next;
-        index = 0;
-        return deleteFirst();
-        
+        this.actualElement = this.head.next;
+        this.index = 0;
+        return deleteFirst();        
     }
 
     public boolean goToNextElement() {
         if (isEmpty())
             return false;
-        index = (index + 1) % numberOfElements;
-        if (index == 0)
-            actualElement = head;
+        this.index = (this.index + 1) % this.numberOfElements;
+        if (this.index == 0)
+            this.actualElement = this.head;
         else
-            actualElement = actualElement.next;
+            this.actualElement = this.actualElement.next;
         return true;
     }
 
     public Object getActualElementData() {
-        return actualElement.data;
+        return this.actualElement.data;
     }
 
     public void setActualElementData(Object data) {
-        actualElement.data = data;
+        this.actualElement.data = data;
     }
 
 }
