@@ -1,8 +1,5 @@
 package com.core.threads.racecondition;
 
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
-
 /**
  * class to demo race condition in multi threading
  * 
@@ -34,7 +31,5 @@ public class RaceConditionDemo {
 		//executor.submit(consumerThread1);		
 		//executor.submit(consumerThread2);		
 		//executor.shutdown();
-		
 	}
-
 }

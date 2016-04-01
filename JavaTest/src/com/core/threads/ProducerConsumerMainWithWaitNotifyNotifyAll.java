@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 	1) Producer thread produce a new resource in every 1 second and put it in ‘taskQueue’.
+	1) Producer thread produce a new resource in every 1 second and put it in ‘taskQueue’.
 	2) Consumer thread takes 1 seconds to process consumed resource from ‘taskQueue’.
 	3) Max capacity of taskQueue is 5 i.e. maximum 5 resources can exist inside ‘taskQueue’ at any given time.
 	4) Both threads run infinitely.
-
+	
+	Note: wait, notify and notifyAll - should be in a synchronized block. Else we may get IllegalMonitorStateException
+	
  * @author srayabar
- *
  */
 public class ProducerConsumerMainWithWaitNotifyNotifyAll {
 	
@@ -53,13 +54,12 @@ class Producer1 implements Runnable{
 				System.out.println("Queue is full "+ Thread.currentThread().getName()+" is waiting, size is : " + this.taskQueue.size());
 				this.taskQueue.wait();
 			}
-			Thread.sleep(2000); //1 second sleep
+			Thread.sleep(2000); //2 second sleep
 			this.taskQueue.add(i);
 			System.out.println("Produced - " + i);
-			this.taskQueue.notifyAll();
+			this.taskQueue.notifyAll(); //this will awakens all threads which are waiting to Consume
 		}
 	}
-	
 }
 
 class Consumer1 implements Runnable{
@@ -86,11 +86,10 @@ class Consumer1 implements Runnable{
 				System.out.println("Queue is empty " + Thread.currentThread().getName() + " is waiting, size is : " + this.taskQueue.size());
 				this.taskQueue.wait();
 			}
-			Thread.sleep(500); //1 second sleep
+			Thread.sleep(500); //0.5 second sleep
 			Integer removed = this.taskQueue.remove(0);
 			System.out.println("Consumed - " + removed);
-			this.taskQueue.notifyAll();
+			this.taskQueue.notifyAll(); //this will awakens all threads which are waiting to Produce
 		}
 	}
-	
 }

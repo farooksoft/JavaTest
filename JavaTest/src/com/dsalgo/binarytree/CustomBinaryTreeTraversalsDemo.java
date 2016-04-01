@@ -38,28 +38,26 @@ public class CustomBinaryTreeTraversalsDemo {
 	
 	private void addNode(int data, String name){
 		
-		TreeNode newNode = new TreeNode(data, name);
-		
-		if(root == null){
-			
+		TreeNode newNode = new TreeNode(data, name);		
+		if(root == null){			
 			root = newNode;			
-		} else {
-			
+		} else {			
 			TreeNode focusNode = root;
 			TreeNode parent;
-			
 			while(true){
 				parent = focusNode;
-				
-				if(data < focusNode.data){					
+				//if the data is less than focusNode then go to it's left child
+				if(data < focusNode.data){
 					focusNode = focusNode.leftChild;
-					
+					//if null then we are at the leaf child - insert new node here
 					if(focusNode == null){
 						parent.leftChild = newNode;
 						return;
 					}
 				} else {
+					//then go to it's right child
 					focusNode = focusNode.rightChild;
+					//if null - insert new node here
 					if(focusNode == null){
 						parent.rightChild = newNode;
 						return;
