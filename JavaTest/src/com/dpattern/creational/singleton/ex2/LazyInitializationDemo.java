@@ -5,16 +5,15 @@ public class LazyInitializationDemo {
 }
 
 /**
- * By far - correct Singleton pattern approach
+ * Correct Method 2 : By far - correct Singleton pattern approach
  * 
  * http://howtodoinjava.com/design-patterns/creational/singleton-design-pattern-in-java/#eager_initialization
  * 
  * @author srayabar
- *
  */
 class LazySingleton{
 	//volatile - will make sure that the variable is available for others only after a thread writes the value full in memory
-	//this will avoid probable value corruption in multi threading environment
+	//this will avoid probable value corruption in multithreading environment
 	private static volatile LazySingleton lazySingleton = null;
 	
 	//required to block new instances creation
