@@ -2,11 +2,9 @@ package com.dsalgo.binarytree;
 
 /**
  * 
- * Youtube link - https://youtu.be/MILxfAbIhrE
- * <br>
+ * Youtube link - https://youtu.be/MILxfAbIhrE<br>
  * 
- * Given a binary tree, return true if it is binary search tree else return false.
- * <br>
+ * Given a binary tree, return true if it is binary search tree else return false.<br>
  * 
  * Solution - 
  * Keep min, max for every recursion. Initial min and max is very small and very larger
@@ -27,12 +25,12 @@ package com.dsalgo.binarytree;
 public class IsBSTDemo {
 	
 	//method to trigger check
-	private boolean isBST(TreeNode root){
+	public static boolean isBST(TreeNode root){
 		return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
 	}
 
 	//recursive function which checks for all the nodes
-	private boolean isBST(TreeNode root, int minValue, int maxValue) {
+	private static boolean isBST(TreeNode root, int minValue, int maxValue) {
 		//if root is null, it's a BST
 		if(root == null){
 			return true;
@@ -50,15 +48,11 @@ public class IsBSTDemo {
 		return false;
 	}
 	
-	public static void main(String[] args) {
-		
-	}
-	
 }
 
 class TreeNode {
 	int data;
-	String name;		
+	String name;
 	TreeNode leftChild;
 	TreeNode rightChild;
 
