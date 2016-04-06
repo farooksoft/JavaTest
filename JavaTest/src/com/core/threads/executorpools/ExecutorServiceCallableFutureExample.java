@@ -1,4 +1,4 @@
-package com.core.threads.executors;
+package com.core.threads.executorpools;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +28,7 @@ public class ExecutorServiceCallableFutureExample {
 		
 		try {
 			for(Future<Integer> future : futuresList){
-				System.out.println("task value :" + future.get() + ", is completed : " + future.isDone());				
+				System.out.println("task value :" + future.get() + ", is completed : " + future.isDone());
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();

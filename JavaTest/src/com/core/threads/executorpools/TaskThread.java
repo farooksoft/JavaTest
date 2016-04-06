@@ -1,4 +1,4 @@
-package com.core.threads.executors;
+package com.core.threads.executorpools;
 
 import java.util.concurrent.TimeUnit;
 
@@ -24,7 +24,5 @@ public class TaskThread implements Runnable{
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
 	}
-	
 }
