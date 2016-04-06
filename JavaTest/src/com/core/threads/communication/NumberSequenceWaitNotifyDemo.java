@@ -1,4 +1,4 @@
-package com.core.threads;
+package com.core.threads.communication;
 
 /**
  * program to inter thread communication for printing event and odd numbers each thread 
@@ -32,6 +32,7 @@ class Thread1 implements Runnable{
 				System.out.println("Thread-1 "+counter);
 				try {
 					Thread.sleep(1000);
+					//first notify and wait
 					lock.notifyAll();
 					lock.wait();
 				} catch (InterruptedException e) {
@@ -60,6 +61,7 @@ class Thread2 implements Runnable{
 				System.out.println("Thread-2 "+counter);
 				try {
 					Thread.sleep(1000);
+					//first notify and wait
 					lock.notifyAll();
 					lock.wait();
 				} catch (InterruptedException e) {

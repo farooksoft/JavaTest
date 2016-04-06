@@ -1,4 +1,4 @@
-package com.core.threads;
+package com.core.threads.communication;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.core.threads;
+package com.core.threads.communication;
 
 import java.util.Iterator;
 import java.util.Vector;
