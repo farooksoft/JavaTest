@@ -3,6 +3,12 @@ package com.dsalgo.binarytree;
 /**
  * program to create a balanced binary search tree from a sorted array
  * 
+ * logic:
+ * get middle element - create it as root
+ * get left sub array middle element and assign it to root left child
+ * get right sub array middle element and assign it to root right child
+ * do these steps recursively
+ * 
  * @author srayabar
  */
 public class CustomBalancedBinarySearchTreeDemo {
