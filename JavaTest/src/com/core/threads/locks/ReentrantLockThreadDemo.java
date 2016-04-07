@@ -4,11 +4,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * If a thread already holds the lock on a monitor object, it has access to all blocks synchronized on the same monitor object. This is called reentrance. 
- * The thread can reenter any block of code for which it already holds the lock.
+ * If a thread already holds the lock on a monitor object, it has access to all blocks synchronized on the same monitor object. 
+ * This is called reentrance. The thread can reenter any block of code for which it already holds the lock.
  * 
  * @author srayabar
- *
  */
 public class ReentrantLockThreadDemo {
 	
@@ -39,9 +38,5 @@ class ReentrantTestThread implements Runnable{
 		}finally{
 			lock.unlock(); //always put unlock in finally block			
 		}
-		
-		
-		
-	}
-	
+	}	
 }
