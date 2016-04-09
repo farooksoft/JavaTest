@@ -8,7 +8,6 @@ import java.util.List;
  * situation is called deadlock . It will only happen in case of multitasking.
  * 
  * @author srayabar
- *
  */
 public class ResolveDeadlockTest {
 	
@@ -30,7 +29,7 @@ public class ResolveDeadlockTest {
 					synchronized (subjectsList) {
 						System.out.println("In readNames");
 					}
-				}				
+				}
 			}
 		};
 		

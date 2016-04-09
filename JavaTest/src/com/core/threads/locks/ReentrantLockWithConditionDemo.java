@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * program to demo reentrant lock and condition for thread synchronization
+ * program to demo reentrant lock and condition for thread synchronization - alternative to wait and notify
  * 
  * @author srayabar
  */
@@ -22,7 +22,7 @@ public class ReentrantLockWithConditionDemo {
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-			}		
+			}
 		});
 		
 		Thread t2 = new Thread(new Runnable(){
@@ -51,38 +51,44 @@ class Runner {
 	//can lock more than once - need unlock with same number of times
 	private ReentrantLock lock = new ReentrantLock();
 	//get a condition from lock
-	private Condition condi = lock.newCondition();
+	private Condition condi = this.lock.newCondition();
 	
 	//sometimes below two thread methods can interleave counter, pushing it to unknown results - we need locks to avoid this
 	public void increment(){
 		for(int i=0; i<1000; i++){
-			counter ++;
+			this.counter ++;
 		}
 	}
 	
 	public void firstThread() throws InterruptedException{
 		//when locks are used - no need of synchronized methods/blocks
-		lock.lock();
-		condi.await();
+		this.lock.lock();
+		
+		//as good as Object wait method
+		this.condi.await();		
+		System.out.println("wait is over");
 		try{
 			increment();
 		}finally{ //good practice
-			lock.unlock();
+			this.lock.unlock();
 		}
 	}
 	
 	public void secondThread(){
 		//when locks are used - no need of synchronized methods/blocks
-		lock.lock();
+		this.lock.lock();
+		
+		//as good as Object notify method
+		this.condi.signal();
+		System.out.println("signalled");
 		try{
 			increment();
 		}finally{ //good practice
-			lock.unlock();
+			this.lock.unlock();
 		}
 	}
 	
 	public void finished(){
-		System.out.println("finished - "+counter);
-	}
-	
+		System.out.println("finished - "+this.counter);
+	}	
 }
