@@ -1,4 +1,4 @@
-package com.core.arrays;
+package com.core.arrays.matrix;
 
 public class TwoDMatrix {
 	
