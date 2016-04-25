@@ -3,7 +3,6 @@ package com.dsalgo.sort;
 import java.util.Arrays;
 
 /**
- * 
  * If the array contains only one element or zero elements then the array is sorted. If the array contains more then one element then:
 	Select an element as a pivot element, generally from middle but not necessary.
 	
@@ -14,9 +13,8 @@ import java.util.Arrays;
 	With Single Pivot
  * 
  * @author srayabar
- *
  */
-public class QuickSort {
+public class QuickSortDemo {
 	
 	public static void main(String[] args) {
 		
@@ -50,7 +48,7 @@ public class QuickSort {
 		
 		int i = low, j = high;
 		
-		while(i<=j){			
+		while(i<=j){
 			while(inputArray[i] < pivot){
 				i++;
 			}
