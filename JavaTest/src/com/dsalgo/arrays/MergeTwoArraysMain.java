@@ -1,5 +1,10 @@
 package com.dsalgo.arrays;
 
+/**
+ * AppDynamic
+ * 
+ * @author srayabar
+ */
 public class MergeTwoArraysMain {
 
 	public static void main(String[] args) {
