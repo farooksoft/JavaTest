@@ -12,9 +12,9 @@ import java.util.Arrays;
 public class MergeSortDemo {
 	
 	public static void main(String[] args) {		
-		int[] array = new int[]{2, 4, 11, 9, 0, 7};		
+		int[] array = new int[]{2, 4, 11, 9, 0, 7};
 		mergeSort(array);
-		System.out.println(Arrays.toString(array));		
+		System.out.println(Arrays.toString(array));
 	}
 
 	private static int[] mergeSort(int[] array) {
@@ -58,8 +58,10 @@ public class MergeSortDemo {
 			}
 			iMerged++;
 		}
-		
+		System.out.println("first->" + Arrays.toString(first));
 		System.arraycopy(first, iFirst, array, iMerged, first.length-iFirst);
+		
+		System.out.println("second->" + Arrays.toString(second));
 		System.arraycopy(second, iSecond, array, iMerged, second.length-iSecond);
 	}
 }
