@@ -1,4 +1,4 @@
-package com.puzzles;
+package com.puzzles.fibinocci;
 
 import java.util.HashMap;
 import java.util.Map;

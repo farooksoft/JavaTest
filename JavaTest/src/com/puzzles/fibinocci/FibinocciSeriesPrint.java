@@ -1,4 +1,4 @@
-package com.puzzles;
+package com.puzzles.fibinocci;
 
 /**
  * Print Fibinocci series example with sample loop

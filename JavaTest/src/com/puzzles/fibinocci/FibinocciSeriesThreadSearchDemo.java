@@ -1,20 +1,16 @@
-package com.puzzles;
+package com.puzzles.fibinocci;
 
 /**
- * Class to find Fibinocci series and find nth number using Recursion with a thread 
- * 
+ * In fibinocci series find nth number using recursion with a thread
  * Actiance puzzle
- * 
  * ex : 1 1 2 3 5 8 13 21.........n
  * 
  * @author srinath.rayabarapu 
  */
 public class FibinocciSeriesThreadSearchDemo {
 
-	/* default fibinocci series -
-	
+	/*//default fibinocci series -
 	public static int findFibinocciSeriesElement(int index) {
-		
 		if(index == 1 ){
 			return 0;
 		}
@@ -26,7 +22,6 @@ public class FibinocciSeriesThreadSearchDemo {
 	*/
 	
 	public static void main(String[] args) {
-
 		int n = 3;		
 		FibinocciSeriesRecursion seriesRecursion = new FibinocciSeriesRecursion(n);		
 		Thread thread = new Thread(seriesRecursion);
@@ -36,7 +31,7 @@ public class FibinocciSeriesThreadSearchDemo {
 			thread.join(); // waits till the thread completes execution
 		} catch (InterruptedException e) {
 			e.printStackTrace();
-		}		
+		}
 		System.out.println( n + " element in the Fibinocci series : " + seriesRecursion.getNumber());
 	}
 }
