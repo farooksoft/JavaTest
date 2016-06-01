@@ -1,7 +1,6 @@
 package com.dsalgo.binarytree;
 
 /**
- * 
  * Youtube link - https://youtu.be/MILxfAbIhrE<br>
  * 
  * Given a binary tree, return true if it is binary search tree else return false.<br>

@@ -1,7 +1,7 @@
 package com.dsalgo.binarytree;
 
 /**
- * program to create a balanced binary search tree from a sorted array
+ * program to create a balanced binary search tree from a sorted array<br>
  * 
  * logic:
  * get middle element - create it as root
@@ -13,7 +13,7 @@ package com.dsalgo.binarytree;
  */
 public class CustomBalancedBinarySearchTreeDemo {
 	
-	static int[] array = {1,2,3,4,5,6,7,8,9, 100};
+	static int[] array = {1,2,3,4,5,6,7,8,9,100};
 	
 	public static void main(String[] args) {
 		TreeNode binarySearchTreeNode = createBalancedBinarySearchTree(array, 0, array.length-1);

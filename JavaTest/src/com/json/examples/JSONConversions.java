@@ -13,10 +13,8 @@ public class JSONConversions {
 	public static void main(String[] args) {
 		
 		JSONConversions conversions = new JSONConversions();
-		System.out.println("JSON from Map : "+JSONUtility.jsonFromMap(conversions.getRandomDataMap()));
-		
+		System.out.println("JSON from Map : "+JSONUtility.jsonFromMap(conversions.getRandomDataMap()));		
 		System.out.println("Map from JSON : "+JSONUtility.mapFromJson(conversions.getRandomDataJSON()));
-
 	}
 	
 	/**

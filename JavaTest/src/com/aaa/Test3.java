@@ -5,6 +5,9 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Calendar;
+import java.util.Set;
+
+import org.hsqldb.lib.HashSet;
 
 
 public class Test3 {
@@ -67,7 +70,7 @@ public class Test3 {
 		*/
 		
 
-		String abc = "sdasdsdsdsaaaww;";
+/*		String abc = "sdasdsdsdsaaaww;";
 		abc = abc.substring(0, abc.length()-1);
 		System.out.println(abc);
 		
@@ -77,11 +80,16 @@ public class Test3 {
 		
 		
 		String abcd = null;
-		System.out.println(abcd);
+		System.out.println(abcd);*/
 		
+		Set<Integer> set = new java.util.HashSet<Integer>();
+		set.add(1);
+		set.add(1);
+		
+		System.out.println(" ");
 	}
 	
-	
+	/*
 	private static String callSwitchMethod() {
 		
 		switch ("abc") {
@@ -126,6 +134,6 @@ public class Test3 {
 	    
 	    br.close();
 	    fr.close();
-	}
+	}*/
 
 }

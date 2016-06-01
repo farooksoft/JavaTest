@@ -45,8 +45,7 @@ public class RegExDemo {
 	/**
 	 * Validate password with regular expression
 	 * 
-	 * @param password
-	 *            password for validation
+	 * @param password password for validation
 	 * @return true valid password, false invalid password
 	 */
 	public boolean validate(final String password) {
