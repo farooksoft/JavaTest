@@ -1,8 +1,7 @@
 package com.puzzles;
 
-/* This program evaluates the quadratic equation and displays the solutions i.e. the root values 
+/** This program evaluates the quadratic equation and displays the solutions i.e. the root values 
  */
-
 import java.io.*;
 
 class Quadratic {

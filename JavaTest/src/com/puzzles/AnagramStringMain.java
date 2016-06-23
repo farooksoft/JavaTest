@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * program to find max number of anagrams in a given list
- * 
- * anagram - abcd and dcab : same length and should have all the chars in each string
+ * program to find max number of anagrams in a given list of strings
+ * Anagram - abcd and dcab : same length and should have all the chars in each string
  * 
  * @author srayabar
  */
@@ -37,6 +36,7 @@ public class AnagramStringMain {
 			//need count for self too - so j=i
 			for (int j = i; j < stringsList.size(); j++) {
 				if (isAnagram(stringsList.get(i), stringsList.get(j))) {
+					//System.out.println(stringsList.get(j));
 					counter++;
 				}
 			}
