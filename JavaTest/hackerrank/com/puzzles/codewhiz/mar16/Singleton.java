@@ -1,4 +1,4 @@
-package com.puzzles.hackerrank.codewhiz.mar16;
+package com.puzzles.codewhiz.mar16;
 
 public class Singleton {
 	

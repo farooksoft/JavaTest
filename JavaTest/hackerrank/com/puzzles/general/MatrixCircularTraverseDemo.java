@@ -1,4 +1,4 @@
-package com.puzzles.hackerrank.general;
+package com.puzzles.general;
 
 public class MatrixCircularTraverseDemo {
 

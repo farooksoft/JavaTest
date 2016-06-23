@@ -1,4 +1,4 @@
-package com.puzzles.hackerrank.general;
+package com.puzzles.general;
 
 /**
 	To rotate a ring, we need to do following.

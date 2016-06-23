@@ -1,4 +1,4 @@
-package com.puzzles.hackerrank.amazon;
+package com.puzzles.amazon;
 
 import java.util.Scanner;
 

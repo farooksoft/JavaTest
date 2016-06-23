@@ -1,4 +1,4 @@
-package com.puzzles.hackerrank.general;
+package com.puzzles.general;
 
 /**
  * program to rotate a matrix anti-clock wise direction
