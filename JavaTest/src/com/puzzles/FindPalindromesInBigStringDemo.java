@@ -21,7 +21,7 @@ package com.puzzles;
  * @author srayabar
  *
  */
-public class PalindromesInBigStringDemo {
+public class FindPalindromesInBigStringDemo {
 
 	public static void main(String[] args) {
 		findBiggestPalindrome();

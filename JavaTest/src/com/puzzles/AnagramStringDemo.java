@@ -9,7 +9,7 @@ import java.util.List;
  * 
  * @author srayabar
  */
-public class AnagramStringMain {
+public class AnagramStringDemo {
 
 	public static void main(String[] args) {
 

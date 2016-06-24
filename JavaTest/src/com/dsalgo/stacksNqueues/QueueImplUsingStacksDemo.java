@@ -5,8 +5,6 @@ import java.util.Stack;
 /**
  * program to implement queue using two stacks
  * 
- * TODO - check whether 
- * 
  * @author srayabar
  */
 public class QueueImplUsingStacksDemo {
@@ -25,7 +23,9 @@ public class QueueImplUsingStacksDemo {
 	}
 }
 
-//generic queue
+/*
+ * generic queue class
+ */
 class QueueUsingStacks<E>{
 	
 	private Stack<E> inbound = new Stack<E>();
