@@ -21,5 +21,4 @@ public class Uneven {
 			System.out.println();
 		}
 	}
-
 }
