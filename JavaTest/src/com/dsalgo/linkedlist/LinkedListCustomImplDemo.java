@@ -1,6 +1,12 @@
 package com.dsalgo.linkedlist;
 
-public class LinkedListCustomImplMain {
+/**
+ * Custom implemnetation class for Linkedlist. Also has methods related to cyclic nature
+ * 
+ * @author srayabar
+ *
+ */
+public class LinkedListCustomImplDemo {
 
 	public static void main(String[] args) {
 
@@ -9,16 +15,20 @@ public class LinkedListCustomImplMain {
 		custom.add(10);
 		custom.add(20);
 		custom.add(30);
+		
+		//checking basic list func
+		/*
 		custom.add(40, 2);
 		System.out.println(custom.toString());
 		
 		custom.remove(2);
 		System.out.println(custom.toString());
 		
-		/*custom.add(40,10);
-		System.out.println(custom.toString());
-		*/
 		System.out.println(custom.get(3));
+		*/
+		
+		custom.add(10);
+		System.out.println(custom.cyclic());
 	}
 }
 
@@ -131,6 +141,22 @@ class CustomLinkedList {
 		return this.listCount;
 	}
 
+	public boolean cyclic(){
+		Node fast = this.head, slow = this.head;
+		
+		//caution - infinite loop
+		while(slow.next != null){
+			slow = slow.next;
+			fast = fast.next.next;
+			
+			if(slow == fast){
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
 	@Override
 	public String toString() {
 
@@ -143,7 +169,6 @@ class CustomLinkedList {
 
 		return outpust;
 	}
-
 }
 
 /**

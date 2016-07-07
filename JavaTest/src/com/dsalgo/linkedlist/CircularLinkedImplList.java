@@ -5,7 +5,7 @@ package com.dsalgo.linkedlist;
  * 
  * @author srayabar
  */
-public class CircularLinkedList {
+public class CircularLinkedImplList {
 	
 	private ListNode head = null;
     private int numberOfElements = 0;
