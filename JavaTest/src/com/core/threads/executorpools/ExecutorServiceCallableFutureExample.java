@@ -10,6 +10,12 @@ import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * a fixed threadpool class to demonstrate finding factorial number of a given number using Future class
+ * 
+ * @author srayabar
+ *
+ */
 public class ExecutorServiceCallableFutureExample {
 	
 	public static void main(String[] args) {
@@ -35,12 +41,15 @@ public class ExecutorServiceCallableFutureExample {
 		} catch (ExecutionException e) {
 			e.printStackTrace();
 		}
-		executor.shutdown();		
+		executor.shutdown();
 	}
 }
 
+/**
+ * Callable class to calculate factorial of a number
+ */
 class FactorialCalculator implements Callable<Integer>
-{ 
+{
     private Integer number;
  
     public FactorialCalculator(Integer number) {

@@ -2,6 +2,12 @@ package com.core.threads.executorpools;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * a simple runnable class which when called prints it's name and sleeps for finite time
+ * 
+ * @author srayabar
+ *
+ */
 public class TaskThread implements Runnable{
 	
 	private String name;
