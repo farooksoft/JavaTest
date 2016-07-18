@@ -1,7 +1,13 @@
-package com.proj.mockito;
+package com.mockito.ex1;
 
 import java.util.List;
 
+/**
+ * Portfolio class to set Stocks and has a method to calculate it's value
+ * 
+ * @author srayabar
+ *
+ */
 public class Portfolio {
 	private StockService stockService;
 	private List<Stock> stocks;

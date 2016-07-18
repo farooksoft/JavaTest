@@ -1,4 +1,4 @@
-package com.proj.mockito;
+package com.mockito.ex1;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -6,13 +6,19 @@ import static org.mockito.Mockito.when;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PortfolioTester {
+/**
+ * demo portfolio class to implement mockito capabilities 
+ * 
+ * @author srayabar
+ *
+ */
+public class PortfolioDemo {
 
 	Portfolio portfolio;
 	StockService stockService;
 
 	public static void main(String[] args) {
-		PortfolioTester tester = new PortfolioTester();
+		PortfolioDemo tester = new PortfolioDemo();
 		tester.setup();
 		System.out.println(tester.testMarketValue() ? "Pass" : "Fail");
 	}

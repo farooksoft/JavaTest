@@ -1,4 +1,4 @@
-package com.proj.mockito;
+package com.mockito.ex1;
 
 /**
  * stock class
