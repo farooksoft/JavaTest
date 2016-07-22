@@ -3,8 +3,14 @@ package com.dsalgo.sort;
 import java.util.Arrays;
 
 /**
- * Merge sort demo<p>
+ * Impl1 - Merge sort uses Divide and conquer strategy to sort the elements<p>
  * 
+ * Idea: 
+ * given an array of integers -
+ * create two arrays out of it and continue this process until all the elements are pulled out
+ * then merge all the single elements back<p>
+ * 
+ * Merge sort is not an inline algorithm, hence it requires an input array of extra space<p>
  * http://howtodoinjava.com/algorithm/merge-sort-java-example/<p>
  * 
  * @author srayabar

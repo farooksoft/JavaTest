@@ -1,4 +1,4 @@
-package com.mockito.ex2;
+package com.dsalgo.sort;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
@@ -13,7 +13,7 @@ public class TestRunner {
 
 	public static void main(String[] args) {
 		
-		Result result = JUnitCore.runClasses(MathApplicationTester.class);
+		Result result = JUnitCore.runClasses(TestSuite.class);
 		for (Failure failure : result.getFailures()) {
 			System.out.println(failure.toString());
 		}

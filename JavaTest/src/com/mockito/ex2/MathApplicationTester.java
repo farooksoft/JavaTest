@@ -1,6 +1,7 @@
 package com.mockito.ex2;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -20,7 +21,11 @@ public class MathApplicationTester {
 	// @Mock annotation is used to create the mock object to be injected
 	@Mock
 	CalculatorService calcService;
-
+	
+	@Before
+	public void setUp(){
+	}
+	
 	@Test
 	public void testAdd() {
 		// add the behavior of calc service to add two numbers
