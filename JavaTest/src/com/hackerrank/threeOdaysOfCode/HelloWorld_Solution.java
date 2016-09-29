@@ -24,8 +24,5 @@ public class HelloWorld_Solution {
 		// Close the scanner object, because we've finished reading
 		// all of the input from stdin needed for this challenge.
 		scan.close();
-		
-		
-		System.out.println(inputString);
 	}
 }
