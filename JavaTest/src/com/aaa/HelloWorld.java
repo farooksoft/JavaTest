@@ -1,62 +1,29 @@
 package com.aaa;
 
-import java.util.Date;
-
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class HelloWorld {
+	public static void main(String[] args){
 	
-	public static void main(String[] args) {
-		//Thread thread = new Thread(new Thread1());
-		//thread.start();
-		try{
-        	Thread.currentThread().sleep(30000);
-        }catch(InterruptedException inex) {
-        	System.out.println(inex);
-//        	continue;
-        }
-	}
-	
+		
+		int rows = 3;
+		int cols = 2;
+		int occur = 2;
+		int eleme = 1;
+		
+		int arr[][] = { 
+				{1, 2, 3},
+				{1, 3, 6},
+				{22, 1, 33}
+		};
+		
+		for(int i=0; i<arr.length; i++){
+			for(int j=0; j<arr[i].length; j++){
+				
+			}
+		}
+		
+		
+		
+    }
 }
-
-class Thread1 implements Runnable{
-
-	@Override
-	public void run() {
-//		System.out.println("Initialized at.." + new Date().toString());
-		
-		//while(true){
-		
-			try{
-	        	Thread.sleep(30000);
-	        }catch(InterruptedException inex) {
-	        	System.out.println(inex);
-//	        	continue;
-	        }
-//			System.out.println("Running.." + new Date().toString());
-			
-			//Thread thread = new Thread(new Thread2());
-			//thread.start();
-		
-		
-		}
-
-	 class Thread2 implements Runnable{
-		int i = 0;
-		public Thread2() {
-			// TODO Auto-generated constructor stub
-		}
-		@Override
-		public void run() {
-			System.out.println("Thread2 : Sleeping for 15 sec : " + i);
-			try{
-	        	Thread.sleep(30000);
-	        }catch(InterruptedException inex) {
-	        	System.out.println(inex);        	
-	        }
-			System.out.println("Done..");
-			i++;
-		}
-	}
-}
-
