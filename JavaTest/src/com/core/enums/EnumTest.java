@@ -36,7 +36,7 @@ public class EnumTest {
 	}
 
 	public GuaranteesCode getCode() {
-        return code;
+        return GuaranteesCode.valueOf("HOSPITAL");
      }
 	
 	public static void main(String[] args) {

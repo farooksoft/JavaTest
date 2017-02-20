@@ -1,19 +1,11 @@
 package com.aaa;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.Locale;
-import java.util.TimeZone;
-
 public class HelloWorld {
 	public static void main(String[] args){
 		
 		//'date':'dd/MM/yyyy','time':'h:mm a'
 		
-		Calendar instance = GregorianCalendar.getInstance();
+		/*Calendar instance = GregorianCalendar.getInstance();
 		instance.setTimeInMillis(1482175804 * 1000L);
 		
 		System.out.println(instance.getTime().toString());
@@ -50,7 +42,68 @@ public class HelloWorld {
 		
 		printMe("abc");
 		
-    }
+		
+		System.out.println(null instanceof String);
+		
+		
+		Optional<String> ofNullable = Optional.ofNullable(null);
+		
+		System.out.println("ofNullable.isPresent : " + ofNullable.isPresent());
+		
+		
+		Test da = new Test("jkl");
+		Test a = new Test("abc");
+		Test b = new Test("def");
+		Test e = new Test("xyz");
+		Test c = new Test("ghi");
+		
+		List<Test> testList = new ArrayList<>();
+		testList.add(e);
+		testList.add(da);
+		testList.add(a);
+		testList.add(b);
+		testList.add(c);
+		
+		List<Test> collect = testList.parallelStream().sorted(new Comparator<Test>() {
+			@Override
+			public int compare(Test o1, Test o2) {
+				// TODO Auto-generated method stub
+				return o1.getA().compareTo(o2.getA());
+			}
+		}).collect(Collectors.toList());
+		
+		
+		for(Test abc : collect){
+			System.out.println(abc.getA());
+		}*/
+		
+		//Map<String, String> linkMap = new LinkedHashMap<String, String>();
+		/*
+		Map<String, String> linkMap = new HashMap<String, String>();
+		linkMap.put("1", "a");
+		linkMap.put("2", "a");
+		linkMap.put("3", "a");
+		linkMap.put("4", "a");
+		linkMap.put("5", "a");
+		linkMap.put("6", "a");
+		linkMap.put("7", "a");
+		
+		for(String abc : linkMap.keySet()){
+			System.out.println(abc);
+		}
+		
+		System.out.println(HelloWorld.class.getName());
+		System.out.println(HelloWorld.class.getSimpleName());
+		System.out.println(HelloWorld.class.getCanonicalName());
+		*/
+		
+		String abc = null;
+		if(abc == null || abc.length() == 0){
+			System.out.println("abc is null");
+		}
+		
+		
+    } //main ends
 	
 	static void printMe(String... string){
 		for(String s : string){
@@ -58,5 +111,26 @@ public class HelloWorld {
 		}
 	}
 	
+}
+
+class Test{
+	String a;
+	public Test(String b) {
+		this.a = b;
+	}
+
+	/**
+	 * @return the a
+	 */
+	public String getA() {
+		return a;
+	}
+
+	/**
+	 * @param a the a to set
+	 */
+	public void setA(String a) {
+		this.a = a;
+	}
 	
 }
