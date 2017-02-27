@@ -5,4 +5,3 @@ before_install:
   cd JavaTest
 script:  
   mvn install -q -DskipTests=true
-  mvn test
