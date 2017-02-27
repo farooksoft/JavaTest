@@ -1,6 +1,8 @@
 package com.dpattern.creational.factory.ex2;
 
 /**
+ * ** static factory class implementation **
+ * 
  * 1. Have an Interface with base methods <br>
  * 2. Let two classes implement them <br>
  * 3. Have a factory class which has a static method to return concrete classes depending on input parameter<br>
