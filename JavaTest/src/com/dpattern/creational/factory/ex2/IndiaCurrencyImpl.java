@@ -1,6 +1,6 @@
 package com.dpattern.creational.factory.ex2;
 
-public class IndiaCurrency implements Currency {
+public class IndiaCurrencyImpl implements ICurrency {
 
 	@Override
 	public String getCurrency() {		
