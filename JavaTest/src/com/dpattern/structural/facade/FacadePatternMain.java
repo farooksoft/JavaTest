@@ -6,7 +6,7 @@ package com.dpattern.structural.facade;
  *    
  * @author srayabar
  */
-public class FacadePatternDemo {
+public class FacadePatternMain {
 
 	public static void main(String[] args) {
 		
