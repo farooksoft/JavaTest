@@ -1,25 +1,42 @@
 package com.core.threads;
 
+import java.util.Date;
+
 /**
  * test program for all adhoc thread concepts testing
  * 
  * @author srayabar
  */
-public class TestThreadDemo extends Thread{
+public class TestThreadDemo{
 
-	@Override
-	public void run() {
-		System.out.println("hey.. I'm running..");
-	}
-	
 	public static void main(String[] args) {
 		System.out.println("main method started");
-		TestThreadDemo demo = new TestThreadDemo();
-		//starts thread run method
-		demo.start();
 		
-		//starts main thread run method
-		demo.run();
-		System.out.println("main method ended");
+		int count = 5;		
+		while(count > 0){
+			
+			if(!TestThread.isStarted){
+				new TestThread().start();
+				try {
+					Thread.sleep(1000L * 2);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+				count --;
+			}
+			
+		}
+		
+		System.out.println("main method completed");
+	}
+}
+
+class TestThread extends Thread {
+	static boolean isStarted = false;
+	
+	@Override
+	public void run() {
+		isStarted = true;
+		System.out.println("From TestThread - " + new Date().toString());
 	}
 }

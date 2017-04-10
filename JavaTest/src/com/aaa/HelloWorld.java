@@ -1,5 +1,7 @@
 package com.aaa;
 
+import java.io.UnsupportedEncodingException;
+
 public class HelloWorld {
 	public static void main(String[] args){
 		
@@ -102,6 +104,20 @@ public class HelloWorld {
 			System.out.println("abc is null");
 		}
 		
+		StringBuffer sbuffer = new StringBuffer();
+		sbuffer.append("abcdef");
+		sbuffer.append("汉语/漢語");
+		System.out.println(sbuffer.toString());		
+		
+		try {
+			System.out.println(new String(sbuffer.toString().getBytes("UTF-8")));
+		} catch (UnsupportedEncodingException e) {
+			System.out.println(new String(sbuffer.toString().getBytes()));
+		}
+		
+		
+		StringBuilder stringBuilder = new StringBuilder();
+		System.out.println(stringBuilder.toString().length());
 		
     } //main ends
 	
