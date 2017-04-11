@@ -1,4 +1,4 @@
-package com.java8;
+package com.java8.inaction;
 
 import java.util.function.IntPredicate;
 import java.util.stream.IntStream;
