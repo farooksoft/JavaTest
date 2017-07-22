@@ -1,6 +1,9 @@
 package com.aaa;
 
+import java.io.File;
 import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class HelloWorld {
 	public static void main(String[] args){
@@ -97,7 +100,7 @@ public class HelloWorld {
 		System.out.println(HelloWorld.class.getName());
 		System.out.println(HelloWorld.class.getSimpleName());
 		System.out.println(HelloWorld.class.getCanonicalName());
-		*/
+		
 		
 		String abc = null;
 		if(abc == null || abc.length() == 0){
@@ -118,6 +121,32 @@ public class HelloWorld {
 		
 		StringBuilder stringBuilder = new StringBuilder();
 		System.out.println(stringBuilder.toString().length());
+			
+		Map<String, String> map = new HashMap<>();
+		map.put("abc", "abc");
+		map.put("abc1", "abc1");
+		map.put("abc2", "abc2");
+		
+		System.out.println(map.values());
+		
+		String abc = "1_2_3 ";
+		String[] split = null;//abc.split("_");
+		for(String str : split){
+			System.out.println(str);
+		}
+		
+		*/
+		
+		File file = new File("Properties.properties");
+		System.out.println(file.getAbsolutePath());
+		
+		new HelloWorld().printMe("");
+		
+		Map<String, Long> map = new HashMap<>();		
+		long abc = map.get("a");
+		System.out.println(abc);
+		
+		
 		
     } //main ends
 	
@@ -126,6 +155,16 @@ public class HelloWorld {
 			System.out.println(s);
 		}
 	}
+	
+	void inc(int i){
+		i++;
+	}
+	
+	private HelloWorld() {
+		System.out.println("frm private");
+	}
+	
+	
 	
 }
 
