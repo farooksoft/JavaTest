@@ -3,6 +3,11 @@ package com.core.java8.lambda;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * @author srayabar
+ *
+ */
 public class StreamsForEach {
 	
 	public static void main(String[] args) {
@@ -37,3 +42,8 @@ public class StreamsForEach {
 	}
 
 }
+
+
+
+
+

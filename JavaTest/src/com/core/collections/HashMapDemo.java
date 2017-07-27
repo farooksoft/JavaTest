@@ -8,7 +8,8 @@ public class HashMapDemo {
 
 	public static void main(String[] args) {
 
-		Map<String, String> map = new HashMap<String, String>();
+		//decide size depends on the logic
+		Map<String, String> map = new HashMap<String, String>(0);
 
 		map.put("1", "one");
 		map.put("2", "Second");
